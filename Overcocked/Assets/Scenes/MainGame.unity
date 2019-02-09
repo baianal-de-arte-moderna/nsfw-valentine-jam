@@ -446,6 +446,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1605717360 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3353118917017279654, guid: 828f4365c8df34ec5a860a64cccf640a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3353118916249330552}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1949082897 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3353118917686942956, guid: 828f4365c8df34ec5a860a64cccf640a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3353118916249330552}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1949082902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1949082897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9a083b071f8e5545a4c51e29fc57605, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3353118916249330552
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -471,20 +495,35 @@ PrefabInstance:
     - target: {fileID: 3353118916951884618, guid: 828f4365c8df34ec5a860a64cccf640a,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 65
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 3353118916951884618, guid: 828f4365c8df34ec5a860a64cccf640a,
         type: 3}
       propertyPath: m_Text
-      value: 01234567890123456789012345678901234567890 I don't know what else to write
-        aoeusnth aoeus ntaoheus aoeu sstnaohe usntahoseunthaso teuhsaontheusnthaosa
-        oesunthaosnt ehusnatohesuthasontehustnhasontehusantoheusnthaosentuhsnathstno
+      value: "With a hard grip, he grabs my hand and I feel like he is really
+        welcoming me, and not doing this as an obligation of some kind."
       objectReference: {fileID: 0}
     - target: {fileID: 3353118916951884618, guid: 828f4365c8df34ec5a860a64cccf640a,
         type: 3}
       propertyPath: m_FontData.m_MaxSize
       value: 68
       objectReference: {fileID: 0}
+    - target: {fileID: 3353118916951884618, guid: 828f4365c8df34ec5a860a64cccf640a,
+        type: 3}
+      propertyPath: m_FontData.m_VerticalOverflow
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3353118916951884618, guid: 828f4365c8df34ec5a860a64cccf640a,
+        type: 3}
+      propertyPath: m_FontData.m_LineSpacing
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 3353118916951884618, guid: 828f4365c8df34ec5a860a64cccf640a,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 35554fd3c4c7c537fa8c6b09fad7d404,
+        type: 3}
     - target: {fileID: 3353118917686942957, guid: 828f4365c8df34ec5a860a64cccf640a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -593,13 +632,13 @@ PrefabInstance:
     - target: {fileID: 7497606734593737158, guid: 828f4365c8df34ec5a860a64cccf640a,
         type: 3}
       propertyPath: _textSpeed
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7497606734593737158, guid: 828f4365c8df34ec5a860a64cccf640a,
         type: 3}
       propertyPath: _initialMessage
-      value: Fucking food is great! I can't wait to stick my penis in a big bowl of
-        fried chicken!
+      value: "With a hard grip, he grabs my hand and I feel like he is really
+        welcoming me, and not doing this as an obligation of some kind."
       objectReference: {fileID: 0}
     - target: {fileID: 7497606734593737158, guid: 828f4365c8df34ec5a860a64cccf640a,
         type: 3}
@@ -630,6 +669,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3353118916199127599, guid: 828f4365c8df34ec5a860a64cccf640a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3353118916199127599, guid: 828f4365c8df34ec5a860a64cccf640a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 3353118917017279655, guid: 828f4365c8df34ec5a860a64cccf640a,
         type: 3}
@@ -720,6 +769,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3353118916951884617, guid: 828f4365c8df34ec5a860a64cccf640a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3353118916951884617, guid: 828f4365c8df34ec5a860a64cccf640a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -60
+      objectReference: {fileID: 0}
+    - target: {fileID: 3353118916951884617, guid: 828f4365c8df34ec5a860a64cccf640a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3353118916951884617, guid: 828f4365c8df34ec5a860a64cccf640a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3353118916951884617, guid: 828f4365c8df34ec5a860a64cccf640a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3353118917017279640, guid: 828f4365c8df34ec5a860a64cccf640a,
+        type: 3}
+      propertyPath: m_FillCenter
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3353118918275639050, guid: 828f4365c8df34ec5a860a64cccf640a,
+        type: 3}
+      propertyPath: m_FillCenter
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3353118916199127584, guid: 828f4365c8df34ec5a860a64cccf640a,
         type: 3}
