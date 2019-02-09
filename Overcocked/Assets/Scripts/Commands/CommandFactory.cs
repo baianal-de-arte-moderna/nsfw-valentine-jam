@@ -4,6 +4,8 @@
   {
     switch (commandData.command)
     {
+      case "background":
+        return new BackgroundCommand(commandData.parameters);
       case "choice":
         return new ChoiceCommand(commandData.parameters);
       case "message":
