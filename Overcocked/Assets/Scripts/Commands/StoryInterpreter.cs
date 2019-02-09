@@ -29,6 +29,11 @@ public class StoryInterpreter : MonoBehaviour
     return storyData.commandData.Select(CommandFactory.CreateCommand).ToList();
   }
 
+  public void PushStory(string storyName)
+  {
+    commands.InsertRange(0, LoadStoryCommands(storyName));
+  }
+
   private void ExecuteCommand()
   {
     if (commands.Count > 0)
@@ -36,7 +41,7 @@ public class StoryInterpreter : MonoBehaviour
       Command command = commands[0];
       commands.RemoveAt(0);
       command.OnCommandExecuted += ExecuteCommand;
-      command.Execute(canvas);
+      command.Execute(this, canvas);
     }
   }
 }

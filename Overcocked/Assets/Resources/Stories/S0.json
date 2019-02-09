@@ -3,29 +3,31 @@
     {
       "command": "message",
       "parameters": {
-        "name": "Rokuko",
-        "messageText": "Message 1"
+        "messageText": "Since I was 13 I already knew what I wanted to be when I grew up: A chef."
       }
     },
     {
       "command": "message",
       "parameters": {
-        "name": "Rokuko",
-        "messageText": "Message 2"
+        "messageText": "As I got older, I found that dream hard to achieve, but I never gave up."
       }
     },
     {
       "command": "message",
       "parameters": {
-        "name": "Rokuko",
-        "messageText": "Message 3"
+        "messageText": "After some years of dedication, I've got accepted at one of the most prestigious culinary institutes in Japan: The Blue Cordon."
       }
     },
     {
       "command": "message",
       "parameters": {
-        "name": "Rokuko",
-        "messageText": "Message 4"
+        "messageText": "This is the story of how that school changed me forever."
+      }
+    },
+    {
+      "command": "push_story",
+      "parameters": {
+        "storyName": "S1"
       }
     }
   ]

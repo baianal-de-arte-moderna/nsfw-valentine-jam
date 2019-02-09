@@ -1,0 +1,30 @@
+{
+  "commandData": [
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "When I arrived, a bulky dude was waiting at the gates."
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "name": "Bulky Dude",
+        "messageText": "\"Hey! You must be the new guy!\""
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "name": "Keisuke",
+        "messageText": "\"I am Urayame Keisuke! You can call me Kei-kun.\""
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "He extends his hand to me, as if he knew me forever."
+      }
+    }
+  ]
+}
