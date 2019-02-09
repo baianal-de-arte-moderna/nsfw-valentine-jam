@@ -1,0 +1,53 @@
+{
+  "commandData": [
+    {
+      "command": "message",
+      "parameters": {
+        "name": "PLAYER_NAME",
+        "messageText": "I just nod my head and pretend I didn't see his hand."
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "name": "Keisuke",
+        "messageText": "\"Okay... So... You are?\""
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "name": "PLAYER_NAME",
+        "messageText": "\"I am PLAYER_NAME. How did you know I'm new around here?\""
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "name": "Keisuke",
+        "messageText": "\"Oh, well. I know everyone around here. And I think everyone knows me!\""
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "name": "PLAYER_NAME",
+        "messageText": "\"Cool.\""
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "name": "PLAYER_NAME",
+        "messageText": "I'm not really impressed, he is just a jock."
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "name": "PLAYER_NAME",
+        "messageText": "\"So, where should we start?\""
+      }
+    }
+  ]
+}

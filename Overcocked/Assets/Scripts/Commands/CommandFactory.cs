@@ -4,6 +4,8 @@
   {
     switch (commandData.command)
     {
+      case "choice":
+        return new ChoiceCommand(commandData.parameters);
       case "message":
         return new MessageCommand(commandData.parameters);
       case "push_story":
