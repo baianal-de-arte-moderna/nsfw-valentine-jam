@@ -6,6 +6,9 @@ using UnityEngine.UI;
 
 public class MessagePrompt : MonoBehaviour
 {
+  public delegate void MessageFinishedAction();
+  public static event MessageFinishedAction OnMessageFinished;
+
   public class Message {
     public string Name;
     public string MessageText;
@@ -67,9 +70,13 @@ public class MessagePrompt : MonoBehaviour
 
   // Update is called once per frame
   void Update() {
+    if (_cursor >= _currentMessage.MessageText.Length
+        && OnMessageFinished != null) {
+      OnMessageFinished();
+      OnMessageFinished = null;
+    }
   }
 
-  // Update is called once per frame
   void FixedUpdate()
   {
     if (_currentMessage != null
