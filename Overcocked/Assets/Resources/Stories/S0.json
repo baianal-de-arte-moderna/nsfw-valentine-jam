@@ -1,6 +1,12 @@
 {
   "commandData": [
     {
+      "command": "background",
+      "parameters": {
+        "imageName": "school_gates"
+      }
+    },
+    {
       "command": "message",
       "parameters": {
         "messageText": "Since I was 13 I already knew what I wanted to be when I grew up: A chef."
