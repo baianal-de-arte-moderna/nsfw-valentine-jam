@@ -524,7 +524,7 @@ PrefabInstance:
     - target: {fileID: 7497606734593737158, guid: 828f4365c8df34ec5a860a64cccf640a,
         type: 3}
       propertyPath: _textSpeed
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7497606734593737158, guid: 828f4365c8df34ec5a860a64cccf640a,
         type: 3}

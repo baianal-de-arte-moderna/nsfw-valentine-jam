@@ -26,14 +26,18 @@ public class MessagePrompt : MonoBehaviour
   }
 
   public void FastForward() {
-    _textComponent.text = _message;
-    _cursor = _message.Length;
+    if (_cursor < _message.Length) {
+      _textComponent.text = _message;
+      _cursor = _message.Length;
+    }
   }
 
   // Start is called before the first frame update
   void Start()
   {
-    Message = this._initialMessage;
+    if (this._initialMessage != null) {
+      Message = this._initialMessage;
+    }
   }
 
   // Update is called once per frame
