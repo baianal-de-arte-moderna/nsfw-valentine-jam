@@ -1,0 +1,24 @@
+{
+  "commandData": [
+    {
+      "command": "message",
+      "parameters": {
+        "name": "Keisuke",
+        "messageText": "\"Oh... Okay... I wasn't expecting that. Normally, people don't go with my flow.\""
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "name": "Keisuke",
+        "messageText": "\"Anyway, let's go in, there is a lot for you to see!\""
+      }
+    },
+    {
+      "command": "push_story",
+      "parameters": {
+        "storyName": "S1-24"
+      }
+    }
+  ]
+}
