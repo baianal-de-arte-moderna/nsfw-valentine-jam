@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class MessageCommand : Command
 {
-  private MessagePrompt.Message message;
+  private readonly MessagePrompt.Message message;
 
-  public MessageCommand(List<string> parameters)
+  public MessageCommand(Dictionary<string, string> parameters)
   {
     message = new MessagePrompt.Message
     {
-      Name = parameters[0],
-      MessageText = parameters[1]
+      Name = parameters.ContainsKey("name") ? parameters["name"] : "",
+      MessageText = parameters["messageText"]
     };
   }
 
-  public override void Execute(Canvas canvas)
+  public override void Execute(StoryInterpreter storyInterpreter, Canvas canvas)
   {
     MessagePrompt messagePrompt = canvas.GetComponentInChildren<MessagePrompt>();
     messagePrompt.CurrentMessage = message;

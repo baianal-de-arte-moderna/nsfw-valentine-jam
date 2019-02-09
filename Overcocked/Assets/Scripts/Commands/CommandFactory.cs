@@ -6,6 +6,8 @@
     {
       case "message":
         return new MessageCommand(commandData.parameters);
+      case "push_story":
+        return new PushStoryCommand(commandData.parameters);
     }
 
     return new InvalidCommand(commandData);

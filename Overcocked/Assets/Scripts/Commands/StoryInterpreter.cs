@@ -1,4 +1,5 @@
 ﻿// vim: set ts=2 sts=2 sw=2 expandtab:
+using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -24,8 +25,13 @@ public class StoryInterpreter : MonoBehaviour
 
   private List<Command> LoadStoryCommands(TextAsset story)
   {
-    StoryData storyData = JsonUtility.FromJson<StoryData>(story.text);
+    StoryData storyData = JsonConvert.DeserializeObject<StoryData>(story.text);
     return storyData.commandData.Select(CommandFactory.CreateCommand).ToList();
+  }
+
+  public void PushStory(string storyName)
+  {
+    commands.InsertRange(0, LoadStoryCommands(storyName));
   }
 
   private void ExecuteCommand()
@@ -35,7 +41,7 @@ public class StoryInterpreter : MonoBehaviour
       Command command = commands[0];
       commands.RemoveAt(0);
       command.OnCommandExecuted += ExecuteCommand;
-      command.Execute(canvas);
+      command.Execute(this, canvas);
     }
   }
 }
