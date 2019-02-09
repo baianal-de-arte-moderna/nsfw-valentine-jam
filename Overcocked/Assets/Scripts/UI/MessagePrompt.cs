@@ -51,7 +51,7 @@ public class MessagePrompt : MonoBehaviour
     }
   }
 
-  public void FastForward()
+  public void OnClick()
   {
     if (_cursor < _currentMessage.MessageText.Length)
     {
