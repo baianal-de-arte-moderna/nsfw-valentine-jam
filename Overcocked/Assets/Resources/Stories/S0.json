@@ -4,14 +4,14 @@
       "command": "message",
       "parameters": [
         "Rokuko",
-        "This is a text"
+        "Message 1"
       ]
     },
     {
       "command": "message",
       "parameters": [
         "Rokuko",
-        "This is another text"
+        "Message 2"
       ]
     },
     {
@@ -19,6 +19,20 @@
       "parameters": [
         "Invalid parameter 0",
         "Invalid parameter 1"
+      ]
+    },
+    {
+      "command": "message",
+      "parameters": [
+        "Rokuko",
+        "Message 3"
+      ]
+    },
+    {
+      "command": "message",
+      "parameters": [
+        "Rokuko",
+        "Message 4"
       ]
     }
   ]

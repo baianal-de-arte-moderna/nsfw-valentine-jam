@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class MessageCommand : Command
@@ -18,6 +19,12 @@ public class MessageCommand : Command
   {
     MessagePrompt messagePrompt = canvas.GetComponentInChildren<MessagePrompt>();
     messagePrompt.CurrentMessage = message;
-    messagePrompt.OnMessageFinished += NotifyCommandExecuted;
+    messagePrompt.OnMessageFinished += OnMessageFinished;
+  }
+
+  private void OnMessageFinished(MessagePrompt messagePrompt)
+  {
+    messagePrompt.OnMessageFinished -= OnMessageFinished;
+    NotifyCommandExecuted();
   }
 }
