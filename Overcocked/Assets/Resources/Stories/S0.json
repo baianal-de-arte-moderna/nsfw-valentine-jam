@@ -1,0 +1,25 @@
+{
+  "commandData": [
+    {
+      "command": "message",
+      "parameters": [
+        "Rokuko",
+        "This is a text"
+      ]
+    },
+    {
+      "command": "message",
+      "parameters": [
+        "Rokuko",
+        "This is another text"
+      ]
+    },
+    {
+      "command": "invalid command",
+      "parameters": [
+        "Invalid parameter 0",
+        "Invalid parameter 1"
+      ]
+    }
+  ]
+}
