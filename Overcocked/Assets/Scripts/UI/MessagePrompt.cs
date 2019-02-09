@@ -72,8 +72,8 @@ public class MessagePrompt : MonoBehaviour
   // Update is called once per frame
   void FixedUpdate()
   {
-    if (_currentMessage != null 
-        && _cursor < _currentMessage.MessageText.Length 
+    if (_currentMessage != null
+        && _cursor < _currentMessage.MessageText.Length
         && (_frameCount++ % _textSpeed) == 0) {
       char nextChar = _currentMessage.MessageText.ToCharArray()[_cursor];
       do {
