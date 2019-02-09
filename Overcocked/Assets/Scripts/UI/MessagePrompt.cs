@@ -35,6 +35,9 @@ public class MessagePrompt : MonoBehaviour
       _currentMessage = value;
       if (value != null)
       {
+        if (this.gameObject != null) {
+          this.gameObject.SetActive(true);
+        }
         if (value.Name != "")
         {
           _namePanelContainer.SetActive(true);
@@ -43,6 +46,10 @@ public class MessagePrompt : MonoBehaviour
         else
         {
           _namePanelContainer.SetActive(false);
+        }
+      } else {
+        if (this.gameObject != null) {
+          this.gameObject.SetActive(false);
         }
       }
       _messageTextComponent.text = "";
@@ -53,7 +60,8 @@ public class MessagePrompt : MonoBehaviour
 
   public void OnClick()
   {
-    if (_cursor < _currentMessage.MessageText.Length)
+    if (_currentMessage != null &&
+        _cursor < _currentMessage.MessageText.Length)
     {
       _messageTextComponent.text = _currentMessage.MessageText;
       _cursor = _currentMessage.MessageText.Length;
