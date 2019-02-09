@@ -1,12 +1,10 @@
 ﻿// vim: set ts=2 sts=2 sw=2 expandtab:
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class MessagePrompt : MonoBehaviour
 {
-  public delegate void MessageFinishedAction();
+  public delegate void MessageFinishedAction(MessagePrompt messagePrompt);
   public event MessageFinishedAction OnMessageFinished;
 
   public class Message
@@ -60,16 +58,9 @@ public class MessagePrompt : MonoBehaviour
       _messageTextComponent.text = _currentMessage.MessageText;
       _cursor = _currentMessage.MessageText.Length;
     }
-  }
-
-  // Update is called once per frame
-  void Update()
-  {
-    if (_cursor >= _currentMessage.MessageText.Length
-        && OnMessageFinished != null)
+    else
     {
-      OnMessageFinished();
-      OnMessageFinished = null;
+      OnMessageFinished?.Invoke(this);
     }
   }
 
