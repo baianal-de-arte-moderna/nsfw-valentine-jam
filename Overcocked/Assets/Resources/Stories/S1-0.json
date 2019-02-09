@@ -1,0 +1,42 @@
+{
+  "commandData": [
+    {
+      "command": "message",
+      "parameters": {
+        "name": "PLAYER_NAME",
+        "messageText": "With a hard grip, he grabs my hand and I feel like he is really welcoming me, and not doing this as an obligation of some kind."
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "name": "PLAYER_NAME",
+        "messageText": "\"I am PLAYER_NAME. How did you know I'm new around here?\""
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "name": "Keisuke",
+        "messageText": "\"Oh, well. I know everyone around here. And I think everyone knows me!\""
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "name": "Keisuke",
+        "messageText": "\"I am your designated tour guide. Maybe you should call me Keisuke-senpai haha\""
+      }
+    },
+    {
+      "command": "choice",
+      "parameters": {
+        "panelText": "How do I react?",
+        "button0Text": "\"Oh, we'll see about that. So, where should we start?\"",
+        "button0StoryName": "S1-0",
+        "button1Text": "\"Okay, Keisuke-senpai. What will you show me first?\"",
+        "button1StoryName": "S1-1"
+      }
+    }
+  ]
+}
