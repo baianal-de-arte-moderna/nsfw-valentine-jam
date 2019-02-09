@@ -25,6 +25,16 @@
       "parameters": {
         "messageText": "He extends his hand to me, as if he knew me forever."
       }
+    },
+    {
+      "command": "choice",
+      "parameters": {
+        "panelText": "How do I react?",
+        "button0Text": "Shake his hand",
+        "button0StoryName": "S1-0",
+        "button1Text": "Don't shake his hand",
+        "button1StoryName": "S1-1"
+      }
     }
   ]
 }
