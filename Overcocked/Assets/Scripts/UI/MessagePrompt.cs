@@ -25,6 +25,11 @@ public class MessagePrompt : MonoBehaviour
     }
   }
 
+  public void FastForward() {
+    _textComponent.text = _message;
+    _cursor = _message.Length;
+  }
+
   // Start is called before the first frame update
   void Start()
   {
@@ -43,7 +48,7 @@ public class MessagePrompt : MonoBehaviour
       do {
         _textComponent.text += nextChar;
         _cursor++;
-      } while ((_cursor < _message.Length) && 
+      } while ((_cursor < _message.Length) &&
           (nextChar = _message.ToCharArray()[_cursor]) == ' ');
     }
   }
