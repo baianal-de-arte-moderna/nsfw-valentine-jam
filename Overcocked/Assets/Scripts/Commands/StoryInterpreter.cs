@@ -19,7 +19,7 @@ public class StoryInterpreter : MonoBehaviour
 
   private List<Command> LoadStoryCommands(string storyName)
   {
-    TextAsset story = Resources.Load($"Stories/{storyName}") as TextAsset;
+    TextAsset story = Resources.Load<TextAsset>($"Stories/{storyName}");
     return LoadStoryCommands(story);
   }
 
