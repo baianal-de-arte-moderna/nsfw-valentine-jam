@@ -6,29 +6,49 @@ using UnityEngine.UI;
 
 public class MessagePrompt : MonoBehaviour
 {
+  public class Message {
+    public string Name;
+    public string MessageText;
+  };
+
   public string _initialMessage;
-  public Text _textComponent;
+  public string _initialName;
+
+  public GameObject _namePanelContainer;
+  public Text _nameTextComponent;
+  public GameObject _messagePanelContainer;
+  public Text _messageTextComponent;
+
   public int _textSpeed;
 
-  private string _message;
   private int _frameCount;
   private int _cursor;
-  public string Message {
+
+  private Message _currentMessage;
+  public Message CurrentMessage {
     get {
-      return _message;
+      return _currentMessage;
     }
     set {
-      _message = value;
-      _textComponent.text = "";
+      _currentMessage = value;
+      if(value != null) {
+        if (value.Name != "") {
+          _namePanelContainer.SetActive(true);
+          _nameTextComponent.text = value.Name;
+        } else {
+          _namePanelContainer.SetActive(false);
+        }
+      }
+      _messageTextComponent.text = "";
       _frameCount = 0;
       _cursor = 0;
     }
   }
 
   public void FastForward() {
-    if (_cursor < _message.Length) {
-      _textComponent.text = _message;
-      _cursor = _message.Length;
+    if (_cursor < _currentMessage.MessageText.Length) {
+      _messageTextComponent.text = _currentMessage.MessageText;
+      _cursor = _currentMessage.MessageText.Length;
     }
   }
 
@@ -36,7 +56,12 @@ public class MessagePrompt : MonoBehaviour
   void Start()
   {
     if (this._initialMessage != null) {
-      Message = this._initialMessage;
+      Message msg = new Message();
+      msg.Name = this._initialName;
+      msg.MessageText = this._initialMessage;
+      CurrentMessage = msg;
+    } else {
+      CurrentMessage = null;
     }
   }
 
@@ -47,13 +72,15 @@ public class MessagePrompt : MonoBehaviour
   // Update is called once per frame
   void FixedUpdate()
   {
-    if (_cursor < _message.Length && (_frameCount++ % _textSpeed) == 0) {
-      char nextChar = _message.ToCharArray()[_cursor];
+    if (_currentMessage != null 
+        && _cursor < _currentMessage.MessageText.Length 
+        && (_frameCount++ % _textSpeed) == 0) {
+      char nextChar = _currentMessage.MessageText.ToCharArray()[_cursor];
       do {
-        _textComponent.text += nextChar;
+        _messageTextComponent.text += nextChar;
         _cursor++;
-      } while ((_cursor < _message.Length) &&
-          (nextChar = _message.ToCharArray()[_cursor]) == ' ');
+      } while ((_cursor < _currentMessage.MessageText.Length) &&
+          (nextChar = _currentMessage.MessageText.ToCharArray()[_cursor]) == ' ');
     }
   }
 }
