@@ -9,7 +9,7 @@ public class InvalidCommand : Command
     this.commandData = commandData;
   }
 
-  public override void Execute(Canvas canvas)
+  public override void Execute(StoryInterpreter storyInterpreter, Canvas canvas)
   {
     Debug.LogError($"Invalid command: {commandData.command}, parameters {commandData.parameters}");
     NotifyCommandExecuted();

@@ -5,5 +5,5 @@ using System.Collections.Generic;
 public class CommandData
 {
   public string command;
-  public List<string> parameters;
+  public Dictionary<string, string> parameters;
 }
