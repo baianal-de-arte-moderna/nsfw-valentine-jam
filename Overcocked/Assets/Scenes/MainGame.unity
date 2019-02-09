@@ -232,7 +232,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 691238022}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fc7142daa27d4c7f94fee72d387b840, type: 3}
+  m_Script: {fileID: 11500000, guid: ac8c5ee4956da4519848681fd44d6836, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 892688571}
@@ -446,12 +446,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1605717360 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3353118917017279654, guid: 828f4365c8df34ec5a860a64cccf640a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3353118916249330552}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1949082897 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3353118917686942956, guid: 828f4365c8df34ec5a860a64cccf640a,
@@ -467,7 +461,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1949082897}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9a083b071f8e5545a4c51e29fc57605, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a9632d0430e14b7684f8a7caf4a1048, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &3353118916249330552
@@ -500,8 +494,8 @@ PrefabInstance:
     - target: {fileID: 3353118916951884618, guid: 828f4365c8df34ec5a860a64cccf640a,
         type: 3}
       propertyPath: m_Text
-      value: "With a hard grip, he grabs my hand and I feel like he is really
-        welcoming me, and not doing this as an obligation of some kind."
+      value: With a hard grip, he grabs my hand and I feel like he is really welcoming
+        me, and not doing this as an obligation of some kind.
       objectReference: {fileID: 0}
     - target: {fileID: 3353118916951884618, guid: 828f4365c8df34ec5a860a64cccf640a,
         type: 3}
@@ -524,6 +518,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 12800000, guid: 35554fd3c4c7c537fa8c6b09fad7d404,
         type: 3}
+    - target: {fileID: 3353118916199127584, guid: 828f4365c8df34ec5a860a64cccf640a,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 3353118916199127584, guid: 828f4365c8df34ec5a860a64cccf640a,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3353118916199127584, guid: 828f4365c8df34ec5a860a64cccf640a,
+        type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3353118917686942957, guid: 828f4365c8df34ec5a860a64cccf640a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -637,8 +646,8 @@ PrefabInstance:
     - target: {fileID: 7497606734593737158, guid: 828f4365c8df34ec5a860a64cccf640a,
         type: 3}
       propertyPath: _initialMessage
-      value: "With a hard grip, he grabs my hand and I feel like he is really
-        welcoming me, and not doing this as an obligation of some kind."
+      value: With a hard grip, he grabs my hand and I feel like he is really welcoming
+        me, and not doing this as an obligation of some kind.
       objectReference: {fileID: 0}
     - target: {fileID: 7497606734593737158, guid: 828f4365c8df34ec5a860a64cccf640a,
         type: 3}
@@ -803,21 +812,6 @@ PrefabInstance:
     - target: {fileID: 3353118918275639050, guid: 828f4365c8df34ec5a860a64cccf640a,
         type: 3}
       propertyPath: m_FillCenter
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3353118916199127584, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 3353118916199127584, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3353118916199127584, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: m_FontData.m_BestFit
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
