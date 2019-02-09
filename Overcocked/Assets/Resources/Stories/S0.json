@@ -2,38 +2,31 @@
   "commandData": [
     {
       "command": "message",
-      "parameters": [
-        "Rokuko",
-        "Message 1"
-      ]
+      "parameters": {
+        "name": "Rokuko",
+        "messageText": "Message 1"
+      }
     },
     {
       "command": "message",
-      "parameters": [
-        "Rokuko",
-        "Message 2"
-      ]
-    },
-    {
-      "command": "invalid command",
-      "parameters": [
-        "Invalid parameter 0",
-        "Invalid parameter 1"
-      ]
+      "parameters": {
+        "name": "Rokuko",
+        "messageText": "Message 2"
+      }
     },
     {
       "command": "message",
-      "parameters": [
-        "Rokuko",
-        "Message 3"
-      ]
+      "parameters": {
+        "name": "Rokuko",
+        "messageText": "Message 3"
+      }
     },
     {
       "command": "message",
-      "parameters": [
-        "Rokuko",
-        "Message 4"
-      ]
+      "parameters": {
+        "name": "Rokuko",
+        "messageText": "Message 4"
+      }
     }
   ]
 }

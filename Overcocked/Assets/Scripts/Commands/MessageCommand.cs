@@ -6,12 +6,12 @@ public class MessageCommand : Command
 {
   private MessagePrompt.Message message;
 
-  public MessageCommand(List<string> parameters)
+  public MessageCommand(Dictionary<string, string> parameters)
   {
     message = new MessagePrompt.Message
     {
-      Name = parameters[0],
-      MessageText = parameters[1]
+      Name = parameters["name"],
+      MessageText = parameters["messageText"]
     };
   }
 
