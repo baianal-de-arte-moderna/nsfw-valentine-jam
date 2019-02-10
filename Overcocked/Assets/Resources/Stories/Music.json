@@ -25,13 +25,13 @@
     {
       "command": "music",
       "parameters": {
-        "snapshotName": "Franch"
+        "snapshotName": "French"
       }
     },
     {
       "command": "message",
       "parameters": {
-        "messageText": "Franch"
+        "messageText": "French"
       }
     },
     {
