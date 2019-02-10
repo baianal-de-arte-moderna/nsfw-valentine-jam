@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class ChoiceCommand : Command
 {
-  private readonly string panelText;
   private readonly string button0Text;
   private readonly string button0StoryName;
   private readonly string button1Text;
@@ -15,7 +14,6 @@ public class ChoiceCommand : Command
 
   public ChoiceCommand(Dictionary<string, string> parameters)
   {
-    panelText = parameters["panelText"];
     button0Text = parameters["button0Text"];
     button0StoryName = parameters["button0StoryName"];
     button1Text = parameters["button1Text"];
@@ -28,7 +26,6 @@ public class ChoiceCommand : Command
     ChoicePrompt choicePrompt = canvas.GetComponentInChildren<ChoicePrompt>();
 
     choicePrompt.panel.SetActive(true);
-    choicePrompt.panelText.text = panelText;
 
     button0PressedAction = () =>
     {

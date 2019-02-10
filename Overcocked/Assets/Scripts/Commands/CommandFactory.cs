@@ -10,6 +10,8 @@ public static class CommandFactory
         return new CharactersCommand(commandData.parameters);
       case "choice":
         return new ChoiceCommand(commandData.parameters);
+      case "ending":
+        return new EndingCommand();
       case "hide_prompt":
         return new HideMessagePromptCommand();
       case "message":

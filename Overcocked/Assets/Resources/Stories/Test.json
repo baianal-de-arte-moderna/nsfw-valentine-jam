@@ -19,6 +19,9 @@
       }
     },
     {
+      "command": "ending"
+    },
+    {
       "command": "characters",
       "parameters": {
         "En": "Idle",
