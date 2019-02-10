@@ -22,15 +22,22 @@ public class CharacterStage : MonoBehaviour
 
   public void AddCharacter(string characterName, string characterState)
   {
-    CharacterScript character = Instantiate(Resources.Load<CharacterScript>("Characters/" + characterName));
-
-    characterList.Add(character);
-
-    if (Enum.TryParse(characterState, out CharacterScript.CharacterState state))
+    CharacterScript characterScript = Resources.Load<CharacterScript>("Characters/" + characterName);
+    if (characterScript != null)
     {
-      character.Emote(state);
+      CharacterScript character = Instantiate(characterScript);
+      characterList.Add(character);
+
+      if (Enum.TryParse(characterState, out CharacterScript.CharacterState state))
+      {
+        character.Emote(state);
+      }
+      RearrangeCharacters();
     }
-    RearrangeCharacters();
+    else
+    {
+      Debug.LogError($"Couldn't load character prefab: {characterName}, {characterState}");
+    }
   }
 
   private void RearrangeCharacters()
