@@ -47,6 +47,10 @@ public class StoryInterpreter : MonoBehaviour
 
   void Start()
   {
+    OnClickHandler onClickHandler = GetComponent<OnClickHandler>();
+    MessagePrompt messagePrompt = canvas.GetComponentInChildren<MessagePrompt>();
+    onClickHandler.OnMouseClicked += messagePrompt.OnClick;
+
     commands = LoadStoryCommands(initialStory);
     ExecuteCommand();
   }

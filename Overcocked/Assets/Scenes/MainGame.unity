@@ -201,18 +201,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &706764850 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3353118916951884618, guid: 828f4365c8df34ec5a860a64cccf640a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3353118916249330552}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &892688568
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,16 +437,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneStage
       objectReference: {fileID: 0}
-    - target: {fileID: 1990351540009917213, guid: 88859e2309399fc6d8ff5f52a156c798,
-        type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4696397084777193491, guid: 88859e2309399fc6d8ff5f52a156c798,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 3740078318109165201, guid: 88859e2309399fc6d8ff5f52a156c798,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -516,6 +494,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8163742720913956237, guid: 88859e2309399fc6d8ff5f52a156c798,
         type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 892688571}
+    - target: {fileID: 8163742720913956237, guid: 88859e2309399fc6d8ff5f52a156c798,
+        type: 3}
       propertyPath: background
       value: 
       objectReference: {fileID: 1467141546}
@@ -526,24 +509,9 @@ PrefabInstance:
       objectReference: {fileID: 2092594025}
     - target: {fileID: 8163742720913956237, guid: 88859e2309399fc6d8ff5f52a156c798,
         type: 3}
-      propertyPath: canvas
-      value: 
-      objectReference: {fileID: 892688571}
-    - target: {fileID: 8163742720913956237, guid: 88859e2309399fc6d8ff5f52a156c798,
-        type: 3}
       propertyPath: musicPlayer
       value: 
       objectReference: {fileID: 1929074832}
-    - target: {fileID: 149775831080989896, guid: 88859e2309399fc6d8ff5f52a156c798,
-        type: 3}
-      propertyPath: m_SortingLayerID
-      value: 364511173
-      objectReference: {fileID: 0}
-    - target: {fileID: 149775831080989896, guid: 88859e2309399fc6d8ff5f52a156c798,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88859e2309399fc6d8ff5f52a156c798, type: 3}
 --- !u!212 &1467141546 stripped
@@ -803,17 +771,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7497606734593737158, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: _initialMessage
-      value: With a hard grip, he grabs my hand and I feel like he is really welcoming
-        me, and not doing this as an obligation of some kind.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497606734593737158, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: _textComponent
-      value: 
-      objectReference: {fileID: 706764850}
     - target: {fileID: 3353118916199127599, guid: 828f4365c8df34ec5a860a64cccf640a,
         type: 3}
       propertyPath: m_AnchoredPosition.y

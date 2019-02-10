@@ -58,12 +58,6 @@ public class MessagePrompt : MonoBehaviour
     }
   }
 
-  private void Start()
-  {
-    OnClickHandler onClickHandler = GetComponent<OnClickHandler>();
-    onClickHandler.OnMouseClicked += OnClick;
-  }
-
   public void OnClick()
   {
     if (_currentMessage != null &&
