@@ -285,11 +285,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1e602d05ac4c599ea67f148e1a24f89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _namePanelContainer: {fileID: 3353118918275639048}
-  _nameTextComponent: {fileID: 3353118916199127584}
-  _messagePanelContainer: {fileID: 3353118917017279654}
-  _messageTextComponent: {fileID: 3353118916951884618}
-  _textSpeed: 1
+  historyPrompt: {fileID: 0}
+  messagePanelContainer: {fileID: 3353118917017279654}
+  messageTextComponent: {fileID: 3353118916951884618}
+  namePanelContainer: {fileID: 3353118918275639048}
+  nameTextComponent: {fileID: 3353118916199127584}
+  textSpeed: 1
 --- !u!1 &3353118918275639048
 GameObject:
   m_ObjectHideFlags: 0
