@@ -3,13 +3,13 @@
     {
       "command": "background",
       "parameters": {
-        "imageName": "school_gates"
+        "imageName": "blackscreen"
       }
     },
     {
       "command": "music",
       "parameters": {
-        "snapshotName": "routine"
+        "snapshotName": "theme"
       }
     },
     {
@@ -34,15 +34,6 @@
       "command": "message",
       "parameters": {
         "messageText": "This is the story of how that school changed me forever."
-      }
-    },
-    {
-      "command": "characters",
-      "parameters": {
-        "Rokuko": "Idle",
-        "Orika": "Idle",
-        "Izumi": "Idle",
-        "Keisuke": "Idle"
       }
     },
     {

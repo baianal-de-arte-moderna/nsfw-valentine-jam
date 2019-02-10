@@ -3,15 +3,19 @@
     {
       "command": "message",
       "parameters": {
-        "name": "PLAYER_NAME",
         "messageText": "With a hard grip, he grabs my hand and I feel like he is really welcoming me, and not doing this as an obligation of some kind."
       }
     },
     {
       "command": "message",
       "parameters": {
-        "name": "PLAYER_NAME",
-        "messageText": "\"I am PLAYER_NAME. How did you know I'm new around here?\""
+        "messageText": "\"I am Hameru Tabe. How did you know I'm new around here?\""
+      }
+    },
+    {
+      "command": "characters",
+      "parameters": {
+        "Keisuke": "Showing Off"
       }
     },
     {
@@ -33,9 +37,9 @@
       "parameters": {
         "panelText": "How do I react?",
         "button0Text": "\"Oh, we'll see about that. So, where should we start?\"",
-        "button0StoryName": "S1-20",
+        "button0StoryName": "S1-4",
         "button1Text": "\"Okay, Keisuke-senpai. What will you show me first?\"",
-        "button1StoryName": "S1-22"
+        "button1StoryName": "S1-5"
       }
     }
   ]

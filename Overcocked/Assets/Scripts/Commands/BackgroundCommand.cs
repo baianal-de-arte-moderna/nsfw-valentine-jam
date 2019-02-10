@@ -14,7 +14,12 @@ public class BackgroundCommand : Command
   public override void Execute(StoryInterpreter storyInterpreter)
   {
     SpriteRenderer background = storyInterpreter.GetBackground();
+
     Sprite newBackground = Resources.Load<Sprite>($"Sprites/Backgrounds/{imageName}");
+    if (newBackground == null)
+    {
+      newBackground = Resources.Load<Sprite>("Sprites/Backgrounds/blackscreen");
+    }
 
     float vRatio = Screen.height / newBackground.rect.height;
     float hRatio = Screen.width / newBackground.rect.width;

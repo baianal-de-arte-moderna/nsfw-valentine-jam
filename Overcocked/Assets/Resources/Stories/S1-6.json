@@ -1,17 +1,32 @@
 {
   "commandData": [
     {
+      "command": "background",
+      "parameters": {
+        "imageName": "corridor"
+      }
+    },
+    {
+      "command": "characters",
+      "parameters": {}
+    },
+    {
       "command": "message",
       "parameters": {
-        "name": "PLAYER_NAME",
         "messageText": "We start walking through corridors and more corridors."
       }
     },
     {
       "command": "message",
       "parameters": {
-        "name": "PLAYER_NAME",
+        "name": "Hameru Tabe",
         "messageText": "\"This school feels like a maze.\""
+      }
+    },
+    {
+      "command": "characters",
+      "parameters": {
+        "Keisuke": "Happy"
       }
     },
     {
@@ -22,97 +37,102 @@
       }
     },
     {
+      "command": "background",
+      "parameters": {
+        "imageName": "kitchen"
+      }
+    },
+    {
+      "command": "characters",
+      "parameters": {}
+    },
+    {
       "command": "message",
       "parameters": {
-        "name": "PLAYER_NAME",
         "messageText": "From the corridor that we are now, I can see a beautiful kitchen with long isles, each with a counter top stove."
       }
     },
     {
       "command": "message",
       "parameters": {
-        "name": "PLAYER_NAME",
         "messageText": "Everything is so clean and shiny, so different than where I used to cook at home."
       }
     },
     {
       "command": "message",
       "parameters": {
-        "name": "PLAYER_NAME",
         "messageText": "All the appliances and cooking utensils are like new, and I wonder how often they change everything there."
       }
     },
     {
       "command": "message",
       "parameters": {
-        "name": "PLAYER_NAME",
         "messageText": "Sudenly, I realize Keisuke is not around anymore."
       }
     },
     {
       "command": "message",
       "parameters": {
-        "name": "PLAYER_NAME",
         "messageText": "I think he was so focused on showing everything at the school that he didn't notice I stopped to admire this beautiful kitchen."
       }
     },
     {
       "command": "message",
       "parameters": {
-        "name": "PLAYER_NAME",
         "messageText": "I decide to enter the kitchen to see everything from a closer distance."
       }
     },
     {
       "command": "message",
       "parameters": {
-        "name": "PLAYER_NAME",
         "messageText": "As I enter, I smell Italian food. I look around and on one of the corners of the kitchen, I see a..."
       }
     },
     {
       "command": "message",
       "parameters": {
-        "name": "PLAYER_NAME",
+        "name": "Hameru Tabe",
         "messageText": "\"Oh my... what is that?\""
       }
     },
     {
       "command": "message",
       "parameters": {
-        "name": "PLAYER_NAME",
         "messageText": "The most beautiful Lasagna I've ever seen. No. It's the most beautiful dish I've ever seen."
       }
     },
     {
       "command": "message",
       "parameters": {
-        "name": "PLAYER_NAME",
         "messageText": "I never though a italian dish could look so beautiful."
       }
     },
     {
       "command": "message",
       "parameters": {
-        "name": "PLAYER_NAME",
         "messageText": "I feel a weird sensation in my pants. It's been a while since I felt aroused about anything."
       }
     },
     {
       "command": "message",
       "parameters": {
-        "name": "PLAYER_NAME",
         "messageText": "I start to wonder..."
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "Should I... ?"
       }
     },
     {
       "command": "choice",
       "parameters": {
-        "panelText": "Should I... ?",
+        "panelText": "How do I react?",
         "button0Text": "I will stick my dick into it.",
-        "button0StoryName": "S1-46",
+        "button0StoryName": "S1-8",
         "button1Text": "I will resist this weird urge.",
-        "button1StoryName": "S1-42"
+        "button1StoryName": "S1-7"
       }
     }
   ]

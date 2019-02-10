@@ -35,8 +35,8 @@ public class MessagePrompt : MonoBehaviour
       _currentMessage = value;
       if (value != null)
       {
-        if (this.gameObject != null) {
-          this.gameObject.SetActive(true);
+        if (gameObject != null) {
+          gameObject.SetActive(true);
         }
         if (value.Name != "")
         {
@@ -48,8 +48,8 @@ public class MessagePrompt : MonoBehaviour
           _namePanelContainer.SetActive(false);
         }
       } else {
-        if (this.gameObject != null) {
-          this.gameObject.SetActive(false);
+        if (gameObject != null) {
+          gameObject.SetActive(false);
         }
       }
       _messageTextComponent.text = "";
@@ -78,13 +78,13 @@ public class MessagePrompt : MonoBehaviour
         && _cursor < _currentMessage.MessageText.Length
         && (_frameCount++ % _textSpeed) == 0)
     {
-      char nextChar = _currentMessage.MessageText.ToCharArray()[_cursor];
+      char nextChar = _currentMessage.MessageText[_cursor];
       do
       {
         _messageTextComponent.text += nextChar;
         _cursor++;
       } while ((_cursor < _currentMessage.MessageText.Length) &&
-          (nextChar = _currentMessage.MessageText.ToCharArray()[_cursor]) == ' ');
+          (nextChar = _currentMessage.MessageText[_cursor]) == ' ');
     }
   }
 }
