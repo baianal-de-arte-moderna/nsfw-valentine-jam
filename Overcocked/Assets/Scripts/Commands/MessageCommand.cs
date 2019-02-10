@@ -1,4 +1,4 @@
-﻿using System;
+﻿// vim: set ts=2 sts=2 sw=2 expandtab:
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,8 +15,9 @@ public class MessageCommand : Command
     };
   }
 
-  public override void Execute(StoryInterpreter storyInterpreter, Canvas canvas)
+  public override void Execute(StoryInterpreter storyInterpreter)
   {
+    Canvas canvas = storyInterpreter.GetCanvas();
     MessagePrompt messagePrompt = canvas.GetComponentInChildren<MessagePrompt>(true);
     messagePrompt.CurrentMessage = message;
     messagePrompt.OnMessageFinished += OnMessageFinished;

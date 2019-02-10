@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-using UnityEngine;
+﻿// vim: set ts=2 sts=2 sw=2 expandtab:
+using System.Collections.Generic;
 
 public class SetVariableCommand : Command
 {
@@ -12,7 +12,7 @@ public class SetVariableCommand : Command
     value = parameters["value"];
   }
 
-  public override void Execute(StoryInterpreter storyInterpreter, Canvas canvas)
+  public override void Execute(StoryInterpreter storyInterpreter)
   {
     storyInterpreter.SetVariable(key, value);
     NotifyCommandExecuted();
