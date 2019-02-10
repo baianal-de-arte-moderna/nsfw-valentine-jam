@@ -4,12 +4,7 @@ using UnityEngine;
 
 public class CharacterStage : MonoBehaviour
 {
-  private List<CharacterScript> characterList;
-
-  void Start()
-  {
-    characterList = new List<CharacterScript>();
-  }
+  private List<CharacterScript> characterList = new List<CharacterScript>();
 
   public void Clear()
   {
