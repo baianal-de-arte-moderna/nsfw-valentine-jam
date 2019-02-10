@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6880362237941398024}
   - component: {fileID: 6530350557503998150}
-  - component: {fileID: 8182229283815005955}
+  - component: {fileID: 5017801590354562747}
   m_Layer: 9
-  m_Name: Keisuke
+  m_Name: Jacques
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -69,7 +69,7 @@ SpriteRenderer:
   m_SortingLayerID: 95687285
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 6c3ef305558d44445a2ce1b5efe59385, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 622c52be766714a9cb9547ccc3365631, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8182229283815005955
+--- !u!114 &5017801590354562747
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,4 +92,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11ff0b824bd052d7e84096e375dab929, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _characterName: Keisuke
+  _characterName: Rokuko

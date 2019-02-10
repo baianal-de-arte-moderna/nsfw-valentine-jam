@@ -1,15 +1,27 @@
 {
   "commandData": [
     {
-      "command": "message",
+      "command": "background",
       "parameters": {
-        "messageText": "When I arrived, a bulky dude was waiting at the gates."
+        "imageName": "schoolgate"
       }
     },
     {
       "command": "message",
       "parameters": {
-        "name": "Bulky Dude",
+        "messageText": "When I arrived, a Beefy Dude was waiting at the gates."
+      }
+    },
+    {
+      "command": "characters",
+      "parameters": {
+        "Keisuke": "Happy"
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "name": "Beefy Dude",
         "messageText": "\"Hey! You must be the new guy!\""
       }
     },
@@ -31,7 +43,7 @@
       "parameters": {
         "panelText": "How do I react?",
         "button0Text": "Shake his hand",
-        "button0StoryName": "S1-14",
+        "button0StoryName": "S1-3",
         "button1Text": "Don't shake his hand",
         "button1StoryName": "S1-7"
       }
