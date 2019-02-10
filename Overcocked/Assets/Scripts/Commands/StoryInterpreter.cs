@@ -22,6 +22,9 @@ public class StoryInterpreter : MonoBehaviour
   [SerializeField]
   private MusicPlayer musicPlayer;
 
+  [SerializeField]
+  private OnClickHandler onClickHandler;
+
   public SpriteRenderer GetBackground()
   {
     return background;
@@ -37,6 +40,11 @@ public class StoryInterpreter : MonoBehaviour
     return musicPlayer;
   }
 
+  public OnClickHandler GetOnClickHandler()
+  {
+    return onClickHandler;
+  }
+
   public CharacterStage GetStage()
   {
     return characterStage;
@@ -47,6 +55,9 @@ public class StoryInterpreter : MonoBehaviour
 
   void Start()
   {
+    MessagePrompt messagePrompt = canvas.GetComponentInChildren<MessagePrompt>();
+    onClickHandler.OnMouseClicked += messagePrompt.OnClick;
+
     commands = LoadStoryCommands(initialStory);
     ExecuteCommand();
   }

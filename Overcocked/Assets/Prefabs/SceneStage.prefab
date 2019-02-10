@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3740078318109165201}
   - component: {fileID: 8163742720913956237}
+  - component: {fileID: 3793647817757831892}
   m_Layer: 0
   m_Name: SceneStage
   m_TagString: Untagged
@@ -49,6 +50,19 @@ MonoBehaviour:
   initialStory: {fileID: 4900000, guid: 3915967f0317d4e8c8c68cd136163c3b, type: 3}
   background: {fileID: 0}
   characterStage: {fileID: 0}
+  musicPlayer: {fileID: 0}
+--- !u!114 &3793647817757831892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356295480684262027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7414e058eb84740cb84add95350d584a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1990351540009917213
 GameObject:
   m_ObjectHideFlags: 0

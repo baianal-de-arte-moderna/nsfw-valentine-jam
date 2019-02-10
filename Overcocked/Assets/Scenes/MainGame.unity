@@ -118,18 +118,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 906763843}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &157587186 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3353118918275639048, guid: 828f4365c8df34ec5a860a64cccf640a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3353118916249330552}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &483452027 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3353118917017279654, guid: 828f4365c8df34ec5a860a64cccf640a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3353118916249330552}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,18 +201,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &706764850 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3353118916951884618, guid: 828f4365c8df34ec5a860a64cccf640a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3353118916249330552}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &892688568
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,18 +425,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0aafcbf0102344f86a12f3feee7a2b5c, type: 3}
---- !u!114 &1274778086 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3353118916199127584, guid: 828f4365c8df34ec5a860a64cccf640a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3353118916249330552}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1467141544
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -472,16 +436,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SceneStage
-      objectReference: {fileID: 0}
-    - target: {fileID: 1990351540009917213, guid: 88859e2309399fc6d8ff5f52a156c798,
-        type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4696397084777193491, guid: 88859e2309399fc6d8ff5f52a156c798,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3740078318109165201, guid: 88859e2309399fc6d8ff5f52a156c798,
         type: 3}
@@ -540,6 +494,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8163742720913956237, guid: 88859e2309399fc6d8ff5f52a156c798,
         type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 892688571}
+    - target: {fileID: 8163742720913956237, guid: 88859e2309399fc6d8ff5f52a156c798,
+        type: 3}
       propertyPath: background
       value: 
       objectReference: {fileID: 1467141546}
@@ -550,24 +509,14 @@ PrefabInstance:
       objectReference: {fileID: 2092594025}
     - target: {fileID: 8163742720913956237, guid: 88859e2309399fc6d8ff5f52a156c798,
         type: 3}
-      propertyPath: canvas
-      value: 
-      objectReference: {fileID: 892688571}
-    - target: {fileID: 8163742720913956237, guid: 88859e2309399fc6d8ff5f52a156c798,
-        type: 3}
       propertyPath: musicPlayer
       value: 
       objectReference: {fileID: 1929074832}
-    - target: {fileID: 149775831080989896, guid: 88859e2309399fc6d8ff5f52a156c798,
+    - target: {fileID: 8163742720913956237, guid: 88859e2309399fc6d8ff5f52a156c798,
         type: 3}
-      propertyPath: m_SortingLayerID
-      value: 364511173
-      objectReference: {fileID: 0}
-    - target: {fileID: 149775831080989896, guid: 88859e2309399fc6d8ff5f52a156c798,
-        type: 3}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
+      propertyPath: onClickHandler
+      value: 
+      objectReference: {fileID: 1856334805}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88859e2309399fc6d8ff5f52a156c798, type: 3}
 --- !u!212 &1467141546 stripped
@@ -648,6 +597,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1856334805 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3793647817757831892, guid: 88859e2309399fc6d8ff5f52a156c798,
+    type: 3}
+  m_PrefabInstance: {fileID: 1467141544}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7414e058eb84740cb84add95350d584a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1929074830
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,24 +659,6 @@ MonoBehaviour:
   routineSnapshot: {fileID: 245939444565763444, guid: faa35e0c7349a4d1395da45b6dd6ad0b,
     type: 2}
   themeSnapshot: {fileID: 24500006, guid: faa35e0c7349a4d1395da45b6dd6ad0b, type: 2}
---- !u!1 &1949082897 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3353118917686942956, guid: 828f4365c8df34ec5a860a64cccf640a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3353118916249330552}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1949082902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1949082897}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a9632d0430e14b7684f8a7caf4a1048, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2092594025 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 170767543749163720, guid: 88859e2309399fc6d8ff5f52a156c798,
@@ -739,63 +682,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MessagePrompt
-      objectReference: {fileID: 0}
-    - target: {fileID: 3353118916951884618, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3353118916951884618, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: m_FontData.m_BestFit
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3353118916951884618, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 44
-      objectReference: {fileID: 0}
-    - target: {fileID: 3353118916951884618, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: m_Text
-      value: With a hard grip, he grabs my hand and I feel like he is really welcoming
-        me, and not doing this as an obligation of some kind.
-      objectReference: {fileID: 0}
-    - target: {fileID: 3353118916951884618, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: m_FontData.m_MaxSize
-      value: 68
-      objectReference: {fileID: 0}
-    - target: {fileID: 3353118916951884618, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: m_FontData.m_VerticalOverflow
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3353118916951884618, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: m_FontData.m_LineSpacing
-      value: 1.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 3353118916951884618, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 35554fd3c4c7c537fa8c6b09fad7d404,
-        type: 3}
-    - target: {fileID: 3353118916199127584, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 3353118916199127584, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3353118916199127584, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: m_FontData.m_BestFit
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3353118917686942957, guid: 828f4365c8df34ec5a860a64cccf640a,
         type: 3}
@@ -902,42 +788,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7497606734593737158, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: _textSpeed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497606734593737158, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: _initialMessage
-      value: With a hard grip, he grabs my hand and I feel like he is really welcoming
-        me, and not doing this as an obligation of some kind.
-      objectReference: {fileID: 0}
-    - target: {fileID: 7497606734593737158, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: _textComponent
-      value: 
-      objectReference: {fileID: 706764850}
-    - target: {fileID: 7497606734593737158, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: _namePanelContainer
-      value: 
-      objectReference: {fileID: 157587186}
-    - target: {fileID: 7497606734593737158, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: _nameTextComponent
-      value: 
-      objectReference: {fileID: 1274778086}
-    - target: {fileID: 7497606734593737158, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: _messagePanelContainer
-      value: 
-      objectReference: {fileID: 483452027}
-    - target: {fileID: 7497606734593737158, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: _messageTextComponent
-      value: 
-      objectReference: {fileID: 706764850}
     - target: {fileID: 3353118916199127599, guid: 828f4365c8df34ec5a860a64cccf640a,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1067,21 +917,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: -30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3353118917017279640, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: m_FillCenter
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3353118917017279640, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3353118918275639050, guid: 828f4365c8df34ec5a860a64cccf640a,
-        type: 3}
-      propertyPath: m_FillCenter
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 828f4365c8df34ec5a860a64cccf640a, type: 3}
