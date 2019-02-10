@@ -10,6 +10,8 @@
         return new ChoiceCommand(commandData.parameters);
       case "message":
         return new MessageCommand(commandData.parameters);
+      case "music":
+        return new MusicCommand(commandData.parameters);
       case "push_story":
         return new PushStoryCommand(commandData.parameters);
       case "hide_prompt":

@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-using UnityEngine;
+﻿// vim: set ts=2 sts=2 sw=2 expandtab:
+using System.Collections.Generic;
 
 public class PushStoryCommand : Command
 {
@@ -10,7 +10,7 @@ public class PushStoryCommand : Command
     storyName = parameters["storyName"];
   }
 
-  public override void Execute(StoryInterpreter storyInterpreter, Canvas canvas)
+  public override void Execute(StoryInterpreter storyInterpreter)
   {
     storyInterpreter.PushStory(storyName);
     NotifyCommandExecuted();
