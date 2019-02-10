@@ -19,11 +19,27 @@ public class StoryInterpreter : MonoBehaviour
   [SerializeField]
   private CharacterStage characterStage;
 
-  public SpriteRenderer GetBackground() {
-    return this.background;
+  [SerializeField]
+  private MusicPlayer musicPlayer;
+
+  public SpriteRenderer GetBackground()
+  {
+    return background;
   }
-  public CharacterStage GetStage() {
-    return this.characterStage;
+
+  public Canvas GetCanvas()
+  {
+    return canvas;
+  }
+
+  public MusicPlayer GetMusicPlayer()
+  {
+    return musicPlayer;
+  }
+
+  public CharacterStage GetStage()
+  {
+    return characterStage;
   }
 
   private List<Command> commands;
@@ -74,7 +90,7 @@ public class StoryInterpreter : MonoBehaviour
       Command command = commands[0];
       commands.RemoveAt(0);
       command.OnCommandExecuted += ExecuteCommand;
-      command.Execute(this, canvas);
+      command.Execute(this);
     }
   }
 }

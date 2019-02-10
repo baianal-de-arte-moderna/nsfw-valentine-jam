@@ -7,14 +7,17 @@ public class CharactersCommand : Command
 {
   private Dictionary<string, string> characters;
 
-  public CharactersCommand(Dictionary<string, string> characters) {
+  public CharactersCommand(Dictionary<string, string> characters)
+  {
     this.characters = characters;
   }
 
-  public override void Execute(StoryInterpreter storyInterpreter, Canvas canvas) {
+  public override void Execute(StoryInterpreter storyInterpreter)
+  {
     CharacterStage stage = storyInterpreter.GetStage();
     stage.Clear();
-    foreach (var character in characters) {
+    foreach (var character in characters)
+    {
       stage.AddCharacter(character.Key, character.Value);
     }
     NotifyCommandExecuted();

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿// vim: set ts=2 sts=2 sw=2 expandtab:
+using System.Collections.Generic;
 using UnityEngine;
 
 public class BackgroundCommand : Command
@@ -10,13 +11,13 @@ public class BackgroundCommand : Command
     imageName = parameters["imageName"];
   }
 
-  public override void Execute(StoryInterpreter storyInterpreter, Canvas canvas)
+  public override void Execute(StoryInterpreter storyInterpreter)
   {
     SpriteRenderer background = storyInterpreter.GetBackground();
     Sprite newBackground = Resources.Load<Sprite>($"Sprites/Backgrounds/{imageName}");
 
-    float vRatio = (float)Screen.height / newBackground.rect.height;
-    float hRatio = (float)Screen.width  / newBackground.rect.width;
+    float vRatio = Screen.height / newBackground.rect.height;
+    float hRatio = Screen.width / newBackground.rect.width;
 
     Transform bgTransform = background.GetComponent<Transform>();
     bgTransform.localScale = new Vector3(hRatio, vRatio, 1);
