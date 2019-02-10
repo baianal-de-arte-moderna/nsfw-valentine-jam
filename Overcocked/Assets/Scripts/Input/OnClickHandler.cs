@@ -3,11 +3,14 @@ using UnityEngine;
 
 public class OnClickHandler : MonoBehaviour
 {
+  public delegate void MouckClickAction();
+  public event MouckClickAction OnMouseClicked;
+
   void Update()
   {
     if (Input.GetMouseButtonDown(0))
     {
-      GetComponent<OnClickListener>().OnClick();
+      OnMouseClicked?.Invoke();
     }
   }
 }

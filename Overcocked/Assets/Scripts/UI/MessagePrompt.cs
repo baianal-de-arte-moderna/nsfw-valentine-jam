@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MessagePrompt : MonoBehaviour, OnClickListener
+public class MessagePrompt : MonoBehaviour
 {
   public delegate void MessageFinishedAction(MessagePrompt messagePrompt);
   public event MessageFinishedAction OnMessageFinished;
@@ -56,6 +56,12 @@ public class MessagePrompt : MonoBehaviour, OnClickListener
       _frameCount = 0;
       _cursor = 0;
     }
+  }
+
+  private void Start()
+  {
+    OnClickHandler onClickHandler = GetComponent<OnClickHandler>();
+    onClickHandler.OnMouseClicked += OnClick;
   }
 
   public void OnClick()
