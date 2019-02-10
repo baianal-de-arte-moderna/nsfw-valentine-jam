@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MessagePrompt : MonoBehaviour
+public class MessagePrompt : MonoBehaviour, OnClickListener
 {
   public delegate void MessageFinishedAction(MessagePrompt messagePrompt);
   public event MessageFinishedAction OnMessageFinished;
