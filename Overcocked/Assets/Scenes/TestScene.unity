@@ -517,6 +517,11 @@ PrefabInstance:
       propertyPath: onClickHandler
       value: 
       objectReference: {fileID: 1856334805}
+    - target: {fileID: 8163742720913956237, guid: 88859e2309399fc6d8ff5f52a156c798,
+        type: 3}
+      propertyPath: initialStory
+      value: 
+      objectReference: {fileID: 4900000, guid: efb2d73ceca4748bfb0ef1dd382ed498, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88859e2309399fc6d8ff5f52a156c798, type: 3}
 --- !u!212 &1467141546 stripped
