@@ -1,4 +1,4 @@
-﻿public static class CommandFactory
+public static class CommandFactory
 {
   public static Command CreateCommand(CommandData commandData)
   {

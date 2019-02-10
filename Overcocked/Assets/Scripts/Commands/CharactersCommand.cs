@@ -1,4 +1,4 @@
-﻿// vim: set ts=2 sts=2 sw=2 expandtab:
+// vim: set ts=2 sts=2 sw=2 expandtab:
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
