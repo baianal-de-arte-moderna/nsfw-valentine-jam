@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿// vim: set ts=2 sts=2 sw=2 expandtab:
+using System.Collections.Generic;
 using UnityEngine;
 
 public class ChoiceCommand : Command
@@ -21,8 +22,9 @@ public class ChoiceCommand : Command
     button1StoryName = parameters["button1StoryName"];
   }
 
-  public override void Execute(StoryInterpreter storyInterpreter, Canvas canvas)
+  public override void Execute(StoryInterpreter storyInterpreter)
   {
+    Canvas canvas = storyInterpreter.GetCanvas();
     ChoicePrompt choicePrompt = canvas.GetComponentInChildren<ChoicePrompt>();
 
     choicePrompt.panel.SetActive(true);
