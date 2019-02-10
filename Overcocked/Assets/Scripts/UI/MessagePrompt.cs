@@ -35,7 +35,8 @@ public class MessagePrompt : MonoBehaviour
       _currentMessage = value;
       if (value != null)
       {
-        if (gameObject != null) {
+        if (gameObject != null)
+        {
           gameObject.SetActive(true);
         }
         if (value.Name != "")
@@ -47,8 +48,11 @@ public class MessagePrompt : MonoBehaviour
         {
           _namePanelContainer.SetActive(false);
         }
-      } else {
-        if (gameObject != null) {
+      }
+      else
+      {
+        if (gameObject != null)
+        {
           gameObject.SetActive(false);
         }
       }
@@ -70,6 +74,11 @@ public class MessagePrompt : MonoBehaviour
     {
       OnMessageFinished?.Invoke(this);
     }
+  }
+
+  public void OnHistoryClick()
+  {
+
   }
 
   void FixedUpdate()
