@@ -1,0 +1,116 @@
+{
+  "commandData": [
+    {
+      "command": "background",
+      "parameters": {
+        "imageName": "blackscreen"
+      }
+    },
+    {
+      "command": "characters",
+      "parameters": {}
+    },
+    {
+      "command": "music",
+      "parameters": {
+        "snapshotName": "Eggman"
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "Eggman"
+      }
+    },
+    {
+      "command": "music",
+      "parameters": {
+        "snapshotName": "Franch"
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "Franch"
+      }
+    },
+    {
+      "command": "music",
+      "parameters": {
+        "snapshotName": "Fuck"
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "Fuck"
+      }
+    },
+    {
+      "command": "music",
+      "parameters": {
+        "snapshotName": "Nurse"
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "Nurse"
+      }
+    },
+    {
+      "command": "music",
+      "parameters": {
+        "snapshotName": "Routine"
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "Routine"
+      }
+    },
+    {
+      "command": "music",
+      "parameters": {
+        "snapshotName": "Scardole"
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "Scardole"
+      }
+    },
+    {
+      "command": "music",
+      "parameters": {
+        "snapshotName": "Theme"
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "Theme"
+      }
+    },
+    {
+      "command": "music",
+      "parameters": {
+        "snapshotName": "Whatever"
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "Whatever"
+      }
+    },
+    {
+      "command": "push_story",
+      "parameters": {
+        "storyName": "Music"
+      }
+    }
+  ]
+}
