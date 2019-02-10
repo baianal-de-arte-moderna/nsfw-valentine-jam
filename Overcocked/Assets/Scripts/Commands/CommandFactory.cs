@@ -16,6 +16,10 @@
         return new HideMessagePromptCommand();
       case "characters":
         return new CharactersCommand(commandData.parameters);
+      case "push_var_story":
+        return new PushVarStoryCommand(commandData.parameters);
+      case "set_variable":
+        return new SetVariableCommand(commandData.parameters);
     }
 
     return new InvalidCommand(commandData);

@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using UnityEngine;
 
 public class StoryInterpreter : MonoBehaviour
@@ -26,6 +27,7 @@ public class StoryInterpreter : MonoBehaviour
   }
 
   private List<Command> commands;
+  private Dictionary<string, string> variables = new Dictionary<string, string>();
 
   void Start()
   {
@@ -48,6 +50,21 @@ public class StoryInterpreter : MonoBehaviour
   public void PushStory(string storyName)
   {
     commands.InsertRange(0, LoadStoryCommands(storyName));
+  }
+
+  public void PushVarStory(string varStoryName)
+  {
+    string storyName = varStoryName;
+    foreach (string key in variables.Keys)
+    {
+      storyName = Regex.Replace(storyName, $"\\[{key}\\]", variables[key]);
+    }
+    PushStory(storyName);
+  }
+
+  public void SetVariable(string key, string value)
+  {
+    variables[key] = value;
   }
 
   private void ExecuteCommand()
