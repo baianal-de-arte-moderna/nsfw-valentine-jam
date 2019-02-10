@@ -1,0 +1,121 @@
+{
+  "commandData": [
+    {
+      "command": "background",
+      "parameters": {
+        "imageName": "blackscreen"
+      }
+    },
+    {
+      "command": "characters",
+      "parameters": {
+        "En": "Idle"
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "1"
+      }
+    },
+    {
+      "command": "characters",
+      "parameters": {
+        "En": "Idle",
+        "Izumi": "Idle"
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "2"
+      }
+    },
+    {
+      "command": "characters",
+      "parameters": {
+        "En": "Idle",
+        "Izumi": "Idle",
+        "Jacques": "Idle"
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "3"
+      }
+    },
+    {
+      "command": "characters",
+      "parameters": {
+        "En": "Idle",
+        "Izumi": "Idle",
+        "Jacques": "Idle",
+        "Keisuke": "Idle"
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "4"
+      }
+    },
+    {
+      "command": "characters",
+      "parameters": {
+        "En": "Idle",
+        "Izumi": "Idle",
+        "Jacques": "Idle",
+        "Keisuke": "Idle",
+        "Orika": "Idle"
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "5"
+      }
+    },
+    {
+      "command": "characters",
+      "parameters": {
+        "En": "Idle",
+        "Izumi": "Idle",
+        "Jacques": "Idle",
+        "Keisuke": "Idle",
+        "Orika": "Idle",
+        "Rokuko": "Idle"
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "6"
+      }
+    },
+    {
+      "command": "characters",
+      "parameters": {
+        "En": "Idle",
+        "Izumi": "Idle",
+        "Jacques": "Idle",
+        "Keisuke": "Idle",
+        "Orika": "Idle",
+        "Rokuko": "Idle",
+        "Scardole": "Idle"
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "7"
+      }
+    },
+    {
+      "command": "push_story",
+      "parameters": {
+        "storyName": "Test"
+      }
+    }
+  ]
+}
