@@ -40,6 +40,8 @@
       "command": "characters",
       "parameters": {
         "Rokuko": "Idle",
+        "Orika": "Idle",
+        "Izumi": "Idle",
         "Keisuke": "Idle"
       }
     },

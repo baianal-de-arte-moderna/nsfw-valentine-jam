@@ -29,14 +29,14 @@ public class CharacterStage : MonoBehaviour
   }
 
   private void RearrangeCharacters() {
-    int vCenter = Screen.height / 2;
-    int hStep = Screen.width / (characterList.Count + 1);
+    float vCenter = 0.5f;
+    float hStep = 1.0f / (float)(characterList.Count + 1);
 
-    int currentPosition = hStep;
+    float currentPosition = hStep;
 
     foreach(var character in this.characterList) {
       Transform characterTransform = character.GetComponent<Transform>();
-      characterTransform.position = new Vector3(currentPosition,vCenter,1);
+      characterTransform.position = Camera.main.ViewportToWorldPoint(new Vector3(currentPosition,vCenter,1));
       currentPosition += hStep;
     }
   }
