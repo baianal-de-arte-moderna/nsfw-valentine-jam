@@ -67,7 +67,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 18
+    m_FontSize: 36
     m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 0
@@ -145,19 +145,20 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_Font: {fileID: 12800000, guid: 35554fd3c4c7c537fa8c6b09fad7d404, type: 3}
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
-    m_Alignment: 0
+    m_MaxSize: 68
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 01234567890123456789012345678901234567890 I don't know what else to write
+    m_LineSpacing: 1.25
+  m_Text: With a hard grip, he grabs my hand and I feel like he is really welcoming
+    me, and not doing this as an obligation of some kind.
 --- !u!1 &3353118917017279654
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,7 +218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -346,6 +347,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1e602d05ac4c599ea67f148e1a24f89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _namePanelContainer: {fileID: 3353118918275639048}
+  _nameTextComponent: {fileID: 3353118916199127584}
+  _messagePanelContainer: {fileID: 3353118917017279654}
+  _messageTextComponent: {fileID: 3353118916951884618}
+  _textSpeed: 1
 --- !u!1 &3353118918275639048
 GameObject:
   m_ObjectHideFlags: 0
