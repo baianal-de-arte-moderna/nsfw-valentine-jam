@@ -1,0 +1,79 @@
+{
+  "commandData": [
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "I just nod my head and pretend I didn't see his hand."
+      }
+    },
+    {
+      "command": "set_variable",
+      "parameters": {
+        "key": "K",
+        "value": "I"
+      }
+    },
+    {
+      "command": "characters",
+      "parameters": {
+        "Keisuke": "Awkward"
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "name": "Keisuke",
+        "messageText": "\"Okay... So... You are?\""
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "\"I am Hameru Tabe. How did you know I'm new around here?\""
+      }
+    },
+    {
+      "command": "characters",
+      "parameters": {
+        "Keisuke": "Showing Off"
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "name": "Keisuke",
+        "messageText": "\"Oh, well. I know everyone around here. And I think everyone knows me!\""
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "\"Cool.\""
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "I'm not really impressed, he is just a jock."
+      }
+    },
+    {
+      "command": "characters",
+      "parameters": {
+        "Keisuke": "Happy"
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "\"So, where should we start?\""
+      }
+    },
+    {
+      "command": "push_story",
+      "parameters": {
+        "storyName": "S1-24"
+      }
+    }
+  ]
+}

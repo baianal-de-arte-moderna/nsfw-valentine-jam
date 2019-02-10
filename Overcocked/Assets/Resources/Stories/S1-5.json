@@ -1,0 +1,43 @@
+{
+  "commandData": [
+    {
+      "command": "set_variable",
+      "parameters": {
+        "key": "K",
+        "value": "L"
+      }
+    },
+    {
+      "command": "characters",
+      "parameters": {
+        "Keisuke": "Embarassed"
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "name": "Keisuke",
+        "messageText": "\"Oh... Okay... I wasn't expecting that. Normally, people don't go with my flow.\""
+      }
+    },
+    {
+      "command": "characters",
+      "parameters": {
+        "Keisuke": "Happy"
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "name": "Keisuke",
+        "messageText": "\"Anyway, let's go in, there is a lot for you to see!\""
+      }
+    },
+    {
+      "command": "push_story",
+      "parameters": {
+        "storyName": "S1-6"
+      }
+    }
+  ]
+}

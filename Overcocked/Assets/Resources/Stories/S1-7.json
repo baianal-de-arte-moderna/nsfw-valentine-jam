@@ -3,50 +3,37 @@
     {
       "command": "message",
       "parameters": {
-        "name": "PLAYER_NAME",
-        "messageText": "I just nod my head and pretend I didn't see his hand."
+        "messageText": "I close my eyes and start thinking about something else. My mom. My family."
       }
     },
     {
       "command": "message",
       "parameters": {
-        "name": "Keisuke",
-        "messageText": "\"Okay... So... You are?\""
+        "messageText": "..."
       }
     },
     {
       "command": "message",
       "parameters": {
-        "name": "PLAYER_NAME",
-        "messageText": "\"I am PLAYER_NAME. How did you know I'm new around here?\""
+        "messageText": "As I open my eyes, I see it:"
+      }
+    },
+    {
+      "command": "background",
+      "parameters": {
+        "imageName": "CG/lasagna-with-dick"
       }
     },
     {
       "command": "message",
       "parameters": {
-        "name": "Keisuke",
-        "messageText": "\"Oh, well. I know everyone around here. And I think everyone knows me!\""
+        "messageText": "My dick is inside the Lasagna. How did that happen? It feels so good."
       }
     },
     {
-      "command": "message",
+      "command": "push_story",
       "parameters": {
-        "name": "PLAYER_NAME",
-        "messageText": "\"Cool.\""
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "name": "PLAYER_NAME",
-        "messageText": "I'm not really impressed, he is just a jock."
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "name": "PLAYER_NAME",
-        "messageText": "\"So, where should we start?\""
+        "storyName": "S1-8"
       }
     }
   ]

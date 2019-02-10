@@ -1,0 +1,34 @@
+{
+  "commandData": [
+    {
+      "command": "background",
+      "parameters": {
+        "imageName": "kitchen"
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "I concentrate deeply and, with a sudden movement, pull myself away from the Lasagna."
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "I slip my dick inside my pants with some difficulties, since my dick is still hard as rock."
+      }
+    },
+    {
+      "command": "message",
+      "parameters": {
+        "messageText": "Everything is a mess of tomato sauce and shame... But it felt so good..."
+      }
+    },
+    {
+      "command": "push_story",
+      "parameters": {
+        "storyName": "S1-11"
+      }
+    }
+  ]
+}
