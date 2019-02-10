@@ -37,7 +37,7 @@ AudioMixerController:
     - 229dea991d7bf42ccb0c173e68e06dc3
     name: View
   m_CurrentViewIndex: 0
-  m_TargetSnapshot: {fileID: 245040394279586030}
+  m_TargetSnapshot: {fileID: 245148297320886556}
 --- !u!243 &24300002
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -102,7 +102,7 @@ AudioMixerGroupController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Franch
+  m_Name: French
   m_AudioMixer: {fileID: 24100000}
   m_GroupID: e50880c7a1ff94c0d8ac285ed41d2750
   m_Children: []
@@ -396,7 +396,7 @@ AudioMixerSnapshotController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Franch
+  m_Name: French
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 23e9194affbd84356bfda5e2d25950ef
   m_FloatValues:

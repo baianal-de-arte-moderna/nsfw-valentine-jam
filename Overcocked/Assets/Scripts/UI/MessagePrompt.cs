@@ -1,9 +1,28 @@
 // vim: set ts=2 sts=2 sw=2 expandtab:
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class MessagePrompt : MonoBehaviour
 {
+  [SerializeField]
+  private HistoryPrompt historyPrompt;
+
+  [SerializeField]
+  private GameObject messagePanelContainer;
+
+  [SerializeField]
+  private Text messageTextComponent;
+
+  [SerializeField]
+  private GameObject namePanelContainer;
+
+  [SerializeField]
+  private Text nameTextComponent;
+
+  [SerializeField]
+  public int textSpeed;
+
   public delegate void MessageFinishedAction(MessagePrompt messagePrompt);
   public event MessageFinishedAction OnMessageFinished;
 
@@ -12,13 +31,6 @@ public class MessagePrompt : MonoBehaviour
     public string Name;
     public string MessageText;
   };
-
-  public GameObject _namePanelContainer;
-  public Text _nameTextComponent;
-  public GameObject _messagePanelContainer;
-  public Text _messageTextComponent;
-
-  public int _textSpeed;
 
   private int _frameCount;
   private int _cursor;
@@ -35,53 +47,70 @@ public class MessagePrompt : MonoBehaviour
       _currentMessage = value;
       if (value != null)
       {
-        if (gameObject != null) {
+        if (gameObject != null)
+        {
           gameObject.SetActive(true);
         }
         if (value.Name != "")
         {
-          _namePanelContainer.SetActive(true);
-          _nameTextComponent.text = value.Name;
+          namePanelContainer.SetActive(true);
+          nameTextComponent.text = value.Name;
         }
         else
         {
-          _namePanelContainer.SetActive(false);
+          namePanelContainer.SetActive(false);
         }
-      } else {
-        if (gameObject != null) {
+      }
+      else
+      {
+        if (gameObject != null)
+        {
           gameObject.SetActive(false);
         }
       }
-      _messageTextComponent.text = "";
+      messageTextComponent.text = "";
       _frameCount = 0;
       _cursor = 0;
     }
   }
 
+  private List<Message> history = new List<Message>();
+
   public void OnClick()
   {
+    if (historyPrompt.IsOpen())
+    {
+      return;
+    }
+
     if (_currentMessage != null &&
         _cursor < _currentMessage.MessageText.Length)
     {
-      _messageTextComponent.text = _currentMessage.MessageText;
+      messageTextComponent.text = _currentMessage.MessageText;
       _cursor = _currentMessage.MessageText.Length;
     }
     else
     {
+      history.Add(_currentMessage);
       OnMessageFinished?.Invoke(this);
     }
+  }
+
+  public void OnHistoryClick()
+  {
+    historyPrompt.Open(history);
   }
 
   void FixedUpdate()
   {
     if (_currentMessage != null
         && _cursor < _currentMessage.MessageText.Length
-        && (_frameCount++ % _textSpeed) == 0)
+        && (_frameCount++ % textSpeed) == 0)
     {
       char nextChar = _currentMessage.MessageText[_cursor];
       do
       {
-        _messageTextComponent.text += nextChar;
+        messageTextComponent.text += nextChar;
         _cursor++;
       } while ((_cursor < _currentMessage.MessageText.Length) &&
           (nextChar = _currentMessage.MessageText[_cursor]) == ' ');
