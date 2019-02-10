@@ -2,7 +2,7 @@
 using UnityEngine;
 
 class HideMessagePromptCommand : Command {
-  public override void Execute(Canvas canvas) {
+  public override void Execute(StoryInterpreter storyInterpreter, Canvas canvas) {
     MessagePrompt messagePrompt = canvas.GetComponentInChildren<MessagePrompt>();
     if (messagePrompt != null) {
       messagePrompt.CurrentMessage = null;

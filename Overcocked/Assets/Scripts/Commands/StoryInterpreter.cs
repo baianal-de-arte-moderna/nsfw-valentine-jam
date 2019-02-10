@@ -6,8 +6,24 @@ using UnityEngine;
 
 public class StoryInterpreter : MonoBehaviour
 {
-  public Canvas canvas;
-  public TextAsset initialStory;
+  [SerializeField]
+  private Canvas canvas;
+
+  [SerializeField]
+  private TextAsset initialStory;
+
+  [SerializeField]
+  private SpriteRenderer background;
+
+  [SerializeField]
+  private CharacterStage characterStage;
+
+  public SpriteRenderer GetBackground() {
+    return this.background;
+  }
+  public CharacterStage GetStage() {
+    return this.characterStage;
+  }
 
   private List<Command> commands;
 
