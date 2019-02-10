@@ -17,7 +17,7 @@ public class MessageCommand : Command
 
   public override void Execute(StoryInterpreter storyInterpreter, Canvas canvas)
   {
-    MessagePrompt messagePrompt = canvas.GetComponentInChildren<MessagePrompt>();
+    MessagePrompt messagePrompt = canvas.GetComponentInChildren<MessagePrompt>(true);
     messagePrompt.CurrentMessage = message;
     messagePrompt.OnMessageFinished += OnMessageFinished;
   }
