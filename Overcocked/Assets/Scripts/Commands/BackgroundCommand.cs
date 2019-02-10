@@ -12,8 +12,17 @@ public class BackgroundCommand : Command
 
   public override void Execute(StoryInterpreter storyInterpreter, Canvas canvas)
   {
-    Background background = canvas.GetComponentInChildren<Background>();
-    background.image.sprite = Resources.Load<Sprite>($"Sprites/Backgrounds/{imageName}");
+    SpriteRenderer background = storyInterpreter.GetBackground();
+    Sprite newBackground = Resources.Load<Sprite>($"Sprites/Backgrounds/{imageName}");
+
+    float vRatio = (float)Screen.height / newBackground.rect.height;
+    float hRatio = (float)Screen.width  / newBackground.rect.width;
+
+    Transform bgTransform = background.GetComponent<Transform>();
+    bgTransform.localScale = new Vector3(hRatio, vRatio, 1);
+
+    background.sprite = newBackground;
+
     NotifyCommandExecuted();
   }
 }
