@@ -1,4 +1,5 @@
 // vim: set ts=2 sts=2 sw=2 expandtab:
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -62,6 +63,8 @@ public class MessagePrompt : MonoBehaviour
     }
   }
 
+  private List<Message> history = new List<Message>();
+
   public void OnClick()
   {
     if (_currentMessage != null &&
@@ -72,6 +75,7 @@ public class MessagePrompt : MonoBehaviour
     }
     else
     {
+      history.Add(_currentMessage);
       OnMessageFinished?.Invoke(this);
     }
   }
