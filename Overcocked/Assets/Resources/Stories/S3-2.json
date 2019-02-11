@@ -1,0 +1,32 @@
+[
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School corridor"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I walk towards... Towards where? I don't know where the maintenance department is.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "In fact, I don't even know if that is a thing... I better check the shared bathroom. Maybe the problem is only on my room...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "S3-3"
+    }
+  }
+]

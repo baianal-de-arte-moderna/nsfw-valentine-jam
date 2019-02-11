@@ -1,0 +1,22 @@
+[
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": ""
+    }
+  }, 
+  {
+    "command": "hide_prompt", 
+    "parameters": {}
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "S4-1"
+    }
+  }
+]

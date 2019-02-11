@@ -1,0 +1,57 @@
+[
+  {
+    "command": "characters", 
+    "parameters": {
+      "Rokuko": "Showing off"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Bathroom"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I would tell you you are in the wrong restroom. Because I've checked this time.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Rokuko": "Suspicious"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Should I leave then?\"", 
+      "name": "Rokuko"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"No!\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I'm leaving. Bye.\"", 
+      "name": "Rokuko"
+    }
+  }, 
+  {
+    "command": "choice", 
+    "parameters": {
+      "button0Text": "\"Don't leave. You're okay!\"", 
+      "button1Text": "Be quiet.", 
+      "button1StoryName": "S3-5", 
+      "button0StoryName": "S3-6"
+    }
+  }
+]

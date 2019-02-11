@@ -1,0 +1,21 @@
+[
+  {
+    "command": "characters", 
+    "parameters": {
+      "": ""
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "ORIKA OPENS UP ABOUT CAVALLO SEXUAL ABUSES", 
+      "name": ""
+    }
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Embarassed"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School corridor"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"No...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "set_variable", 
+    "parameters": {
+      "value": "o", 
+      "key": "set"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Blushing"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I pull her towards me and kiss her.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Her weight falls on my arms.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I think we can stop the act now.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"There's no act for you anymore.\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Aroused"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I kiss her again.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I'll tell you everything.\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "S3-21"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay. I think what you did was right.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "We decide to go back to my room.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "": ""
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "_HEAVY DESCRIPTION OF MAIN CHARACTER FUCKS ORIKA_", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Neutral"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "My room"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "She dresses back up and leave to her room. That was a nice turn of events.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "S3-22"
+    }
+  }
+]

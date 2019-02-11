@@ -94,7 +94,7 @@
   {
     "command": "message", 
     "parameters": {
-      "message": "We leave my room and go towards the kitchen.", 
+      "message": "We leave my room and walk to the kitchen.", 
       "name": ""
     }
   }, 

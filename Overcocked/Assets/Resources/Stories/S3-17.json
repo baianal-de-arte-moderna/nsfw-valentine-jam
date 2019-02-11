@@ -1,0 +1,451 @@
+[
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Neutral", 
+      "Cavallo": "Neutral"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Kitchen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I think it will be good to Orika if she do it.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "set_variable", 
+    "parameters": {
+      "value": "o", 
+      "key": "set"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Angry", 
+      "Cavallo": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "The class starts a commotion again.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I agree.\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Orika looks at me with disappointment as she moves towards sensei's island, and she opens the oven door.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Embarassed", 
+      "Cavallo": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Sensei approaches her.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay, you can do it.\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Grab the pizza shovel with your good hand on the back and your bad hand on the middle.\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "He stands behind her, almost humping her.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Now, put the round part below the pizza and pull it back out.\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "As she is pulling, she rotates in a way that Cavallo is with his back to the opened oven.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Happy", 
+      "Cavallo": "Happy"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I made it!\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "She jumps in joy, and with her movement, she pushes sensei inside the oven.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Whatever"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Scared, she puts her arms on her head, leaning on the shovel as it catapults the pizza into the oven.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "It seems sensei is stuck there, covered in hot pizza and with the pizza shovel blocking his way out.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Spooked"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh Jesus! Sorry! Sorry!\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Orika is on the floor, crying.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "What the fuck has she done?", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Someone call Izumi! Quick!\"", 
+      "name": "Random Student"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Someone get him out!\"", 
+      "name": "Another Student"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Keisuke runs to the oven, to try to help sensei out of the oven.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Black screen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I decide to run to the infirmary to fetch the nurse, while the rest of the class watches.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School corridor"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "As I run, I just think that this may, somehow, be my fault.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "When I'm almost at the infirmary, I see Izumi running towards me.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Izumi": "Suspicious"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"If it's about Cavallo, I'm getting there already! Go outside! There may be a fire starting.\"", 
+      "name": "Izumi"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "A fire alarm starts ringing, and I have no idea of the evacuation route. Shit.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I decide to go outside through the only way I know: Passing through the kitchen.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "CG": "Cavallo Burned Head (Dead)"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "CG - Cavallo Burned Head (Dead)"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "As I run past the kitchen, I see Izumi desperate on the floor, over a disfigured mass of meat over a skinny well dressed body.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "As I run past the kitchen, I see Izumi desperate on the floor, over a disfigured mass of meat over a skinny well dressed body.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School corridor"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I think that is... or was Cavallo...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I feel sick. There's smoke all around.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Gotta get outside quick.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Black screen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School gates"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Finally, I'm outside.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I see some familiar faces.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Rokuko": "Sad"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Rokuko", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Sad"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Keisuke", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "En": "Sad"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "En", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Sad"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Orika", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Jacques": "Sad"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Jacques", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Shit. What the fuck happened?", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "S3-22"
+    }
+  }
+]

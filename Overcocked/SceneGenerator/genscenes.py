@@ -106,6 +106,12 @@ class ActionPushStoryCommand(Command):
             "storyName": story_name
         })
 
+class ActionPushVarStoryCommand(Command):
+    def __init__(self, var_story_name):
+        Command.__init__(self, "push_var_story", {
+            "varStoryName": var_story_name
+        })
+
 class BackgroundCommand(Command):
     def __init__(self, bgname):
         Command.__init__(self, "background", {

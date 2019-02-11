@@ -1,0 +1,188 @@
+[
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Routine"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Neutral"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Kitchen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Later is better for me, if that's okay...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I want to go over some notes\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Sad"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh... Tonight it is then.\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "While Orika goes back to her island, I think about Rokuko.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "What was all that on the restroom about?", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "How could I confuse him with a girl?", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Rokuko": "Showing off"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I see him entering the class. He takes a look at me, and moves his lips.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I think he is saying", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Know...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "About...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "The...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Lasagna...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "WHAT?", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Shit.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Rokuko": "Showing off"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "He winks.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I freeze.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "S3-13"
+    }
+  }
+]

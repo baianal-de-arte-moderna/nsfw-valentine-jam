@@ -91,7 +91,7 @@
   {
     "command": "message", 
     "parameters": {
-      "message": "\"Ahm... what?\"", 
+      "message": "\"Umm... what?\"", 
       "name": "Keisuke"
     }
   }, 
@@ -132,7 +132,7 @@
   {
     "command": "message", 
     "parameters": {
-      "message": "\"Thanks. Can you take me to the dormitories later? I'm not feeling so good.\"", 
+      "message": "\"Thanks. Can you take me to the dorms later? I'm not feeling so good.\"", 
       "name": "Hameru Tabe"
     }
   }, 
@@ -153,7 +153,7 @@
   {
     "command": "message", 
     "parameters": {
-      "message": "\"Okay, I think I may need something to calm me down. Let me just clean myself up a little on the bathroom.\"", 
+      "message": "\"Okay, I think I may need something to calm me down. Let me just clean myself up a little bit on the bathroom.\"", 
       "name": "Hameru Tabe"
     }
   }, 
@@ -204,7 +204,7 @@
   {
     "command": "message", 
     "parameters": {
-      "message": "I quickly grab some paper towels and go inside a stall to clean me up.", 
+      "message": "I quickly grab some paper towels and go inside a stall to clean myself up.", 
       "name": ""
     }
   }, 
@@ -245,14 +245,14 @@
   {
     "command": "message", 
     "parameters": {
-      "message": "As I open the stall door, I see a girl washing her hands on one of the sinks. Shit. Did I enter the women's bathroom?", 
+      "message": "As I open the stall door, I see a girl washing her hands on one of the sinks. Shit. Did I enter the women's toilet?", 
       "name": ""
     }
   }, 
   {
     "command": "message", 
     "parameters": {
-      "message": "She raises her head and stare at me, through the looking glass in front of her.", 
+      "message": "She raises her head and stare at me, through the mirror in front of her.", 
       "name": ""
     }
   }, 
@@ -266,7 +266,7 @@
   {
     "command": "message", 
     "parameters": {
-      "message": "She gives a discreet smile and resumes what she was doing.", 
+      "message": "She gives a discreet smile and gets back to what she was doing.", 
       "name": ""
     }
   }, 
@@ -330,7 +330,7 @@
   {
     "command": "message", 
     "parameters": {
-      "message": "Keisuke starts walking and talking again. I just follow, trying to make a mental map of this place.", 
+      "message": "Keisuke starts walking and talking again. I just follow, trying to make a mind map of this place.", 
       "name": ""
     }
   }, 
@@ -371,7 +371,7 @@
   {
     "command": "message", 
     "parameters": {
-      "message": "\"I think you can leave me now. The dorms are just over there, I won't get lost around here, I guess.\"", 
+      "message": "\"I think I'll be okay now. The dorms are just over there, I won't get lost around here, I guess.\"", 
       "name": "Hameru Tabe"
     }
   }, 
@@ -522,7 +522,7 @@
   {
     "command": "message", 
     "parameters": {
-      "message": "\"Guess, I'm famous around here for being clumsy... I'm always bumping into people or dropping stuff into my dishes.\"", 
+      "message": "\"I guess so, I'm famous around here for being clumsy... I'm always bumping into people or dropping stuff into my dishes.\"", 
       "name": "Orika"
     }
   }, 

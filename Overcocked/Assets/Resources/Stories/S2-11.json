@@ -1,0 +1,138 @@
+[
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Fuck"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "En": "Sexy"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School corridor"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "We move down the corridor and she is gently dragging me by my cock.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "My room"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I guide her to my room, and as we arrive, I open the door, she goes inside and gets naked.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "En": "Naked"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "She has a great body.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "We repeat everything we did before, but naked this time. It doesn't feel as good as any other food I've fucked, but still...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I cum, she cums. And I think the day is over. She is dressing up.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"That was fun. And weird. I don't tell if you don't.\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "En": "Happy"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Bye bye, babe.\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Bye.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "That farewell was weird. But I am so tired that I just want to go to sleep.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "And before I know...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "...zzzz", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "S3-1"
+    }
+  }
+]

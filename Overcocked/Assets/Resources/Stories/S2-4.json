@@ -1,0 +1,372 @@
+[
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "My room"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "That was a refreshing shower.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Let's go to my first day of class!", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "French"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Jacques": "Neutral"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Kitchen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "As I enter the class, I see the professor. According to my schedule, his name is Jacques. He seems uptight.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke, Rokuko, Orika": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I look for my designated cooking island. Looking around the class, I see Keisuke, Rokuko and Orika. They are all focused.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Rokuko": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "The fact that Rokuko is focused is weird, since she said yesterday that she was here only for a degree.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "But I won't let that take place on my mind. The class will start, I should focus as well.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Jacques": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Bonjour, my pupils.\"", 
+      "name": "Jacques"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"A new term begins and, as many of you may already now, I do not tolerate any misbehavior in my class.\"", 
+      "name": "Jacques"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Should you have any questions, save it for after the class. I do not tolerate any interruptions.\"", 
+      "name": "Jacques"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Suggestions and comments DO NOT have place in my class. You all should do as you are told.\"", 
+      "name": "Jacques"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"My methods have been tested already throughout all my career, and they work.\"", 
+      "name": "Jacques"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"You do not talk to me unless I talk to you.\"", 
+      "name": "Jacques"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"So, let's start.\"", 
+      "name": "Jacques"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I'm afraid.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "He starts cooking while describing what he is doing and why he is doing it.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "After some minutes, I notice that, in fact, his method is great.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Nobody has said a word, except for him, but I am absorbing all the knowledge he is sharing.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "50 minutes later...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Jacques": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"So, that's how you do a Baguette.\"", 
+      "name": "Jacques"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "For my surprise, I start feeling my dick getting hard.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"How would I fuck a Baguette?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Jacques": "Suspicious"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Save your questions for.. Wait, what?\"", 
+      "name": "Jacques"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh!\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Did I say that out loud?", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Sorry sensei!\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"You should go to the infirmary right away.\"", 
+      "name": "Jacques"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I look around, everyone is looking at me.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Is my boner so apparent?", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I look down.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "There's blood.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I'm bleeding from my nose.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Sorry.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Jacques": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"You. You seem shy. You are the new class president. Take him to the nurse.\"", 
+      "name": "Jacques"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Jacques is pointing to a shy girl that seems extremly annoyed for being appointed class president.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "En": "Spooked"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"But.. but..\"", 
+      "name": "Shy Girl"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Jacques": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"That was an order. Go on already, I don't want a dead boy on my class.\"", 
+      "name": "Jacques"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "En": "Spooked"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "The girl seems pretty disturbed, and I still have a boner.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "choice", 
+    "parameters": {
+      "button0Text": "Grab girl and goes to infirmary.", 
+      "button1Text": "Go to infirmary by myself", 
+      "button1StoryName": "S2-5", 
+      "button0StoryName": "S2-6"
+    }
+  }
+]

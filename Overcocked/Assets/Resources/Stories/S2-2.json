@@ -1,0 +1,105 @@
+[
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "My room"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Well, let's fuck it then.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Fuck"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I grab the pie and shove my dick into it.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "CG - Pie with dick"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "It feels warm.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "The pie filling embraces my cock.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I start thrusting my cock vigorously into the pie.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "It feels little better than jerking off. In fact, after a while, I get bored and finish up manually.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I guess Rokuko is not the one who prepared the Lasagna.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "At least it was not as messy. I just need to clean the table a little bit.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "And I was going to shower anyway, so no harm done. My class starts soon.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "S2-4"
+    }
+  }
+]

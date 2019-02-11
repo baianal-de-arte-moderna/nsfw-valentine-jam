@@ -1,0 +1,179 @@
+[
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Emarassed"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "My room"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Actually... You told me you're clumsy and forgetful...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "set_variable", 
+    "parameters": {
+      "value": "o", 
+      "key": "set"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"But you walk as if you had full control of your body. You know? Your body seems to have self-awareness.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Suspicious"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"You noticed?\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"And, you said you were forgetful, but you remembered where my room is.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Emarassed"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Hehe.. Oh-oh. Busted.\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "She shows me her wrists, as if she was waiting for handcuffs.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"But why do you do that?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Showing off"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Well... The answer to that will have to wait.\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Why?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Happy"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Because our 20 minutes are up. Let's go back to class.\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Routine"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Damn. Ok.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Black screen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "We begin our journey back to the class.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School corridor"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Tonight then?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Tonight.\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "S3-15"
+    }
+  }
+]

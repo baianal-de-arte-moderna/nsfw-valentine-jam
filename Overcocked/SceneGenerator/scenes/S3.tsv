@@ -1,0 +1,478 @@
+Id	Text	Speaker	Action	OnScreen Characters	Background	Music
+1	Yesterday was crazy. Wonder what will happen today. I don't think it will get as crazy as yesterday...	None		None	Black screen	Mute
+	Besides the Italian cuisine class, I don't have any plans.	None		None	Black screen	
+	In any case, I better be prepared. Who knows if I will find who prepared that Lasagna today during class?	None		None	Black screen	
+	Well, nothing better than a shower to finish my waking up process!	None		None	My room	
+	Uh?	None		None	My room	
+	There's no water?	None		None	My room	
+	Goddammit.	None		None	My room	
+	Are we having a water shortage on the school? It's gonna be hard to cook Italian food without water.	None		None	My room	
+	Which means: NO ONE WILL COOK LASAGNAS TODAY! SHIT!	None		None	My room	Routine
+	I need to find out what's going on!	None		None	My room	
+	[OPT] Go to the maintenance department	None	S3-2	None	My room	
+	[OPT] Go to the school's shared bathroom to check the water there	None	S3-3	None	My room	
+						
+2	I walk towards... Towards where? I don't know where the maintenance department is.	None		None	School corridor	
+	In fact, I don't even know if that is a thing... I better check the shared bathroom. Maybe the problem is only on my room...	None	S3-3	None	School corridor	
+						
+3	I walk towards the shared bathroom. The last time I've been here, I entered the ladies bathroom and found Rokuko.	None		None	School corridor	
+	Weird that she never mentioned that.	None		None	School corridor	
+	Her pie was delicious. If I find her again, I should ask for the recipe...	None		None	School corridor	
+	...	None		None	School corridor	
+	There's the bathroom. Now I'll make sure to enter the right one and...	None		None	School corridor	
+	!!!	None		None	Bathroom	Mute
+	"Rokuko!? What are you doing here?"	Hameru Tabe		None	Bathroom	Theme
+	"What do you mean? I'm washing my face. There's a water shortage on the all boys dorms."	Rokuko		Rokuko - Neutral	Bathroom	
+	"And that affects you?"	Hameru Tabe		Rokuko - Neutral	Bathroom	
+	"How would it not?"	Rokuko		Rokuko - Suspicious	Bathroom	
+	"Well... it only affects the boys dorms... And this is the boys bathroom, I made sure this time."	Hameru Tabe		Rokuko - Suspicious	Bathroom	
+	"I don't follow."	Rokuko		Rokuko - Suspicious	Bathroom	
+	"Well... you are a..."	Hameru Tabe		Rokuko - Suspicious	Bathroom	
+	I stop mid-sentence and take a closer look to Rokuko's.	None		Rokuko - Angry	Bathroom	
+	I think I'm stupid.	None		Rokuko - Angry	Bathroom	
+	"Well, I'm a what?"	Rokuko		Rokuko - Angry	Bathroom	
+	"Well... You are a guy. A dude. You have a penis, right. So you are on the right place. Don't mind me. My brain is still asleep."	Hameru Tabe		Rokuko - Angry	Bathroom	
+	"Oh, I see. You thought I was a girl."	Rokuko		Rokuko - Embarrassed	Bathroom	
+	"Me? Nooooooooooo! Nonono. You are clearly a dude."	Hameru Tabe		Rokuko - Embarrassed	Bathroom	
+	"It's okay. I like looking like a girl."	Rokuko		Rokuko - Embarrassed	Bathroom	
+	"It's okay?"	Hameru Tabe		Rokuko - Embarrassed	Bathroom	
+	"Yeah, I'm even flattered. Thanks."	Rokuko		Rokuko - Happy	Bathroom	
+	"Oh. Yes. I thought you were a girl. A beautiful one, as a matter of fact..."	Hameru Tabe		Rokuko - Happy	Bathroom	
+	"Well, what would you do if I was, in fact, a beautiful girl instead of a dude who looks like a beautiful girl?"	Rokuko		Rokuko - Showing off	Bathroom	
+	[OPT] "I would tell you you are in the wrong restroom. Because I've checked this time."	None	S3-4	Rokuko - Showing off	Bathroom	
+	[OPT] "I would fall in love, probably."	None	S3-7	Rokuko - Showing off	Bathroom	
+						
+4	"I would tell you you are in the wrong restroom. Because I've checked this time."	Hameru Tabe		Rokuko - Showing off	Bathroom	
+	"Should I leave then?"	Rokuko		Rokuko - Suspicious	Bathroom	
+	"No!"	Hameru Tabe		Rokuko - Suspicious	Bathroom	
+	"I'm leaving. Bye."	Rokuko		Rokuko - Suspicious	Bathroom	
+	[OPT] "Don't leave. You're okay!"	None	S3-6	Rokuko - Suspicious	Bathroom	
+	[OPT] Be quiet.	None	S3-5	Rokuko - Suspicious	Bathroom	
+						
+5	"Okay. Bye then."	Rokuko	SET R I	Rokuko - Neutral	Bathroom	
+	...	None		None	Bathroom	
+	Weird.	None		None	Bathroom	
+	Anyway, the Italian class is happening then. I'll wash my face and go get ready to class then!	None	S3-8	None	Bathroom	
+						
+6	"Don't leave. You're okay!"	Hameru Tabe	SET R I	Rokuko - Suspicious	Bathroom	
+	"I don't like okay."	Rokuko		Rokuko - Angry	Bathroom	
+	"You're nice"	Hameru Tabe		Rokuko - Angry	Bathroom	
+	"I don't like nice, nice is mediocre."	Rokuko		Rokuko - Angry	Bathroom	
+	"Oh... Sorry. Can't we be friends?"	Hameru Tabe		Rokuko - Angry	Bathroom	
+	"No, not really. I don't believe in friendship."	Rokuko		Rokuko - Angry	Bathroom	
+	"Why that pie then?"	Hameru Tabe		Rokuko - Angry	Bathroom	
+	"Don't be so dumb."	Rokuko		Rokuko - Neutral	Bathroom	
+	"I think I've already proven today that I am pretty dumb..."	Hameru Tabe		Rokuko - Neutral	Bathroom	
+	"That's no excuse. I'll be off now."	Rokuko		Rokuko - Neutral	Bathroom	
+	"No, please."	Hameru Tabe		Rokuko - Neutral	Bathroom	
+	"What? What do you want?"	Rokuko		Rokuko - Neutral	Bathroom	
+	"For real?"	Hameru Tabe		Rokuko - Neutral	Bathroom	
+	"Please."	Rokuko		Rokuko - Neutral	Bathroom	
+	"I want your pie's recipe..."	Hameru Tabe		Rokuko - Neutral	Bathroom	
+	"Fuck you."	Rokuko		Rokuko - Angry	Bathroom	
+	"Ouch..."	Hameru Tabe		Rokuko - Angry	Bathroom	
+	She... Oh, actually... He left me. That's kinda sad. Did I fuck it up?	None		None	Bathroom	
+	There's no point in stressing over this right now. I need to get my things on my room and go to class.	None	S3-8	None	Bathroom	
+						
+7	"I would fall in love, probably."	Hameru Tabe	SET R L	Rokuko - Showing off	Bathroom	
+	"Probably?"	Rokuko		Rokuko - Showing off	Bathroom	
+	"Probably for sure. I think."	Hameru Tabe		Rokuko - Showing off	Bathroom	
+	"You're not very certain of it then?"	Rokuko		Rokuko - Showing off	Bathroom	
+	"Maybe."	Hameru Tabe		Rokuko - Showing off	Bathroom	
+	"Let me help you then."	Rokuko		Rokuko - Showing off	Bathroom	
+	He pushes me inside one of the stalls.	None		Rokuko - Showing off	Bathroom	
+	"Whaa.."	Hameru Tabe		None	Bathroom	Mute
+	He closes the stall, leaving me alone in there.	None		None	Bathroom	Mute
+	Then, he comes back quickly and starts to suck me.	None		Rokuko - Blushing	Bathroom	Fuck
+	That feels great. That feels... like...	None		Rokuko - Blushing	Bathroom	
+	I don't know.	None		Rokuko - Blushing	Bathroom	
+	"Oh. I'm sure now."	Hameru Tabe		Rokuko - Blushing	Bathroom	
+	He stops.	None		Rokuko - Neutral	Bathroom	Mute
+	"Already? Great."	Rokuko			Bathroom	
+	He goes out of the stall and closes the door.	None		None	Bathroom	
+	I stay there. My hard cock out of my pants, waiting for more.	None		None	Bathroom	
+	...	None		None	Bathroom	
+	I wait.	None		None	Bathroom	
+	And he is not coming back.	None		None	Bathroom	Routine
+	I carefully open the stall and see Keisuke brushing his teeth.	None		None	Bathroom	
+	I close the stall. Keisuke hasn't seen me. I'd knew if he did.	None		None	Bathroom	
+	I try to finish myself up, but it doesn't work.	None		None	Bathroom	
+	Well, it works somehow, because my erection is gone.	None		None	Bathroom	
+	I flush the toilet, just in case Keisuke is paying attention, and leave the stall.	None		None	Bathroom	
+	"Hey Hameru Tabe! What a bummer this water shortage, eh?"	Keisuke		Keisuke - Neutral	Bathroom	
+	"Yes. Such a bummer." - I loved it. I loved Rokuko's revelation.	Hameru Tabe		Keisuke - Neutral	Bathroom	
+	"So, prepared to meet the coolest guy in this school?"	Keisuke		Keisuke - Neutral	Bathroom	
+	"Wasn't that you?"	Hameru Tabe		Keisuke - Neutral	Bathroom	
+	"Haha for sure! But no, I'm talking about Cavallo! The best teacher ever!"	Keisuke		Keisuke - Showing Off	Bathroom	
+	"I already spoke to Cavallo: he should not be so cool, some students take advantage of that."	Keisuke		Keisuke - Showing Off	Bathroom	
+	"Well, maybe he can't help it..."	Hameru Tabe		Keisuke - Showing Off	Bathroom	
+	"Yeah... I know the feeling. Let's go to class then?"	Keisuke		Keisuke - Showing Off	Bathroom	
+	"I just need to get some things on my room."	Hameru Tabe		Keisuke - Neutral	Bathroom	
+	"Okay, see you there!"	Keisuke	S3-8	Keisuke - Neutral	Bathroom	
+						
+8	I must rush to my room to get my cooking apparel. I've spent too much time on the restroom...	None		None	My room	
+	...	None		None	My room	
+	Huh?	None		None	My room	
+	There's a note in my door.	None		None	My room	
+	"Hi. Its Orika. The girl who almost killed twice two days ago. Meet me in the kitchen tonight. If you please."	Orika		None	My room	
+	Oh. I'll try to go.	None		None	My room	
+	Now, where's my case?	None		None	My room	
+	...	None		None	My room	
+	I got everything! Time to go. Hope I don't bump into Orika on the way.	None		None	My room	
+	I mean, LITERALLY bump.	None		None	My room	
+	...	None		None	Black screen	Theme
+	So far, so good.	None		None	School corridor	
+	I can see the kitchen door!	None		None	School corridor	
+	Oh shit! Orika is coming out of the door!	None		Orika - Neutral	School corridor	
+	Everything is in slow motion, but I can't react.	None		Orika - Neutral	School corridor	
+	I see her eyes turning at my direction.	None		Orika - Neutral	School corridor	
+	I see the beginning of a smile.	None		Orika - Neutral	School corridor	
+	I see her arm starting to rise and her hand starting to wave.	None		Orika - Neutral	School corridor	
+	I see her smile becoming a scream.	None		Orika - Spooked	School corridor	
+	I see she trying to protect herself with her arms.	None		Orika - Spooked	School corridor	
+	I see her head turning slightly to the left, probably to avoid the impact with me...	None		Orika - Spooked	School corridor	
+	I see all of this. And the time is coming.	None		Orika - Spooked	School corridor	
+	Disaster.	None		None	School corridor	
+	Hope no one gets hurt. This class is my chance to find who does perfect Lasagnas.	None		None	School corridor	
+	(CRASH)	None		None	Black screen	
+	...	None		None	Black screen	
+	...	None		None	Black screen	
+	...	None		None	Black screen	
+	"Lasagna!"	Hameru Tabe		None	Black screen	
+	"What?" "What?" "Is he okay?"	Orika		Orika - Embarrassed	School corridor	
+	"Oh..."	Hameru Tabe		Orika - Embarrassed 	School corridor	
+	"Guys, guys, give him some air."	Cavallo		Orika - Embarrassed;Cavallo - Neutral	School corridor	
+	"Hameru Tabe, are you okay? I'm sorry. It was my fault..."	Orika		Orika - Embarrassed;Cavallo - Neutral	School corridor	
+	"I..."	Hameru Tabe		Orika - Embarrassed;Cavallo - Neutral	School corridor	
+	"Don't speak, catch your breath. Now, Orika-kun, it was nobody's fault. It was just an accident."	Cavallo		Orika - Embarrassed;Cavallo - Neutral	School corridor	
+	"It's is always my fault..."	Orika		Orika - Embarrassed;Cavallo - Neutral	School corridor	
+	"No, no, it is not. I tell that all the time..."	Cavallo		Orika - Embarrassed;Cavallo - Neutral	School corridor	
+	"Sorry teacher..."	Orika		Orika - Embarrassed;Cavallo - Neutral	School corridor	
+	"Don't be sorry! It's all right!"	Cavallo		Orika - Embarrassed;Cavallo - Neutral	School corridor	Scardole
+	"Okay."	Orika		Orika - Neutral;Cavallo - Neutral	School corridor	
+	"I'm okay, I guess..."	Hameru Tabe		Orika - Neutral;Cavallo - Neutral	School corridor	
+	"Sure?"	Cavallo		Orika - Neutral;Cavallo - Neutral	School corridor	
+	"Yeah. We can start the class now!"	Hameru Tabe		Orika - Neutral;Cavallo - Neutral	School corridor	
+	"Okay. Orika-kun, can you keep an eye on Hameru Tabe?	Cavallo		Orika - Neutral;Cavallo - Neutral	School corridor	
+	"Why? It was not my fault!"	Orika		Orika - Neutral;Cavallo - Neutral	School corridor	
+	"Perfect response."	Cavallo		Orika - Neutral;Cavallo - Neutral	School corridor	
+	"Thanks. But I'll keep an eye on him."	Orika		Orika - Neutral;Cavallo - Neutral	School corridor	
+	"So, let's start!"	Cavallo		Cavallo - Neutral	Black screen	
+	"Today, we are going to learn one of the most classic Italian dish"	Cavallo		Cavallo - Neutral	Kitchen	
+	Lasagna!	None		Cavallo - Neutral	Kitchen	
+	"Pizza! Which flavor, you ask?"	Cavallo		Cavallo - Neutral	Kitchen	
+	Awn...	None		Cavallo - Neutral	Kitchen	
+	"Pepperoni!"	Cavallo		Cavallo - Neutral	Kitchen	
+	"One of the simplest pizzas, yet, one of the most liked all around the globe."	Cavallo		Cavallo - Neutral	Kitchen	
+	"You see, this is a Pepperoni."	Cavallo		Cavallo - Neutral	Kitchen	
+	Wow. That's... a penis.	None		Cavallo - Neutral	Kitchen	
+	Speaking of penis... Mine wants to participate.	None		Cavallo - Neutral	Kitchen	
+	Here we go with the tensioned legs again.	None		Cavallo - Neutral	Kitchen	
+	"But this will not go like this on the pizza."	Cavallo		Cavallo - Neutral	Kitchen	
+	"We need to..."	Cavallo		Cavallo - Neutral	Kitchen	
+	"SLICE IT!"	Cavallo		Cavallo - Neutral	Kitchen	
+	(SLASH)	None		None	CG - Cutting Cock/Pepperoni	
+	"Ouch."	Hameru Tabe		None	Kitchen	
+	"HAHAHAHAHA"	Whole class		None	Kitchen	
+	And my penis learned its lesson. I can relax my legs now.	None		None	Kitchen	
+	At a first glance, Cavallo is a techer as good as Jacques,	None		None	Kitchen	
+	but I think he uses his charisma so well that people think he is better than he really is.	None		None	Kitchen	
+	Still, he is miles away from me. And he is pretty cool. Quite modern. Almost the opposite from Jacques.	None		None	Kitchen	
+	50 minutes later...	None		None	Kitchen	
+	"So, that's the story of how Italy lost the 94' world cup."	Cavallo		Cavallo - Neutral	Kitchen	
+	"Oh, the pizza must be ready by now. Who wants to take it out of the oven?"	Cavallo		Cavallo - Neutral	Kitchen	
+	"I think Hameru Tabe should do it! He felt the pain for that Pepperoni!"	Random student		Cavallo - Neutral	Kitchen	
+	"Yeah!"	Another student		Cavallo - Neutral	Kitchen	
+	I can already see what is going to happen.	None		None	Kitchen	
+	I am going to open the oven.	None		None	Kitchen	
+	The pizza will be handsome.	None		None	Kitchen	
+	My dick will pop out of my pants and hit the pizza.	None		None	Kitchen	
+	The pizza will be catapulted to Cavallo's face. And I'm gonna be expelled. Maybe arrested.	None		Cavallo - Neutral	Kitchen	
+	"Oh, I'm still kinda dizzy from before..."	Hameru Tabe		Cavallo - Neutral	Kitchen	
+	"I can go then!"	Orika		Orika - Happy	Kitchen	
+	A commotion started.	None		Orika - Happy	Kitchen	
+	I can hear some people saying that she will drop it, that she will burn her hair or something.	None		Orika - Neutral	Kitchen	
+	"Calm down guys, calm down!"	Cavallo		Orika - Neutral;Cavallo - Neutral	Kitchen	
+	The commotion stops for a bit.	None		Orika - Neutral;Cavallo - Neutral	Kitchen	
+	"Let's take a break. Go do something you like, then come back here in 20 minutes."	Cavallo		Cavallo - Neutral	Kitchen	
+	The commotion returns and some students start leaving the kitchen.	None		None	Kitchen	
+	This 'break' thing seems to be common in this class.	None		None	Kitchen	
+	What should I do with these 20 minutes?	None		None	Kitchen	Mute
+	"Hey, Hameru Tabe, I know I asked to meet tonight, but maybe we can do it right now."	Orika		Orika - Neutral	Kitchen	Mute
+	[OPT] Later is better for me, if that's okay.	None	S3-9	Orika - Neutral	Kitchen	
+	[OPT] Okay. What is it?	None	S3-10	Orika - Neutral	Kitchen	
+						
+9	"Later is better for me, if that's okay..."	Hameru Tabe		Orika - Neutral	Kitchen	Routine
+	"I want to go over some notes"	Hameru Tabe		Orika - Neutral	Kitchen	
+	"Oh... Tonight it is then."	Orika		Orika - Sad	Kitchen	
+	While Orika goes back to her island, I think about Rokuko.	None		None	Kitchen	
+	What was all that on the restroom about?	None		None	Kitchen	
+	How could I confuse him with a girl?	None		None	Kitchen	
+	I see him entering the class. He takes a look at me, and moves his lips.	None		Rokuko - Showing off	Kitchen	
+	I think he is saying	None		Rokuko - Showing off	Kitchen	
+	I...	None		Rokuko - Showing off	Kitchen	
+	Know...	None		Rokuko - Showing off	Kitchen	
+	About...	None		Rokuko - Showing off	Kitchen	
+	The...	None		Rokuko - Showing off	Kitchen	
+	Lasagna...	None		Rokuko - Showing off	Kitchen	
+	WHAT?	None		None	Kitchen	Mute
+	Shit.	None		None	Kitchen	
+	He winks.	None		Rokuko - Showing off	Kitchen	
+	I freeze.	None		None	Kitchen	
+	...	None	S3-13	None	Kitchen	
+						
+10	"Let's go to somewhere quieter?"	Orika		Orika - Neutral	Kitchen	Routine
+	"Sure. Where?"	Hameru Tabe		Orika - Neutral	Kitchen	
+	"Ahm, I don't know. Your room, maybe?"	Orika		Orika - Neutral	Kitchen	
+	"Okay."	Hameru Tabe		Orika - Neutral	Kitchen	
+	I wonder what she wants with me.	None		None	Black screen	
+	As we walk to my room, I notice that I've never walked with her.	None		None	School corridor	
+	The way she walks... It seems she have a perfect sense of her body, which is not what I expected from a clumsy person.	None		None	School corridor	
+	We don't say much on the way to my room, just random stuff about the weather.	None		None	School corridor	
+	...	None		None	School corridor	
+	"It's here."	Hameru Tabe		Orika - Neutral	School corridor	
+	"Yeah, I remember."	Orika		Orika - Neutral	School corridor	
+	Isn't she forgetful?	None		Orika - Neutral	School corridor	
+	"Can I go in?"	Orika		Orika - Neutral	School corridor	
+	"Yeah, sure."	Hameru Tabe		Orika - Neutral	School corridor	
+	We go in.	None		None	Black screen	
+	...	None		None	My room	
+	She sits on my bad and starts tapping on the mattress.	None		Orika - Neutral	My room	
+	"You don't have much stuff in here..."	Orika		Orika - Embaressed	My room	
+	"You wanted to rob me? Haha"	Hameru Tabe		Orika - Embaressed	My room	
+	"Haha Yes."	Orika		Orika - Embaressed	My room	
+	"Nah, I just haven't unpacked yet. I just stuffed all the boxes with my stuff on the closet over there."	Hameru Tabe		Orika - Embaressed	My room	
+	"Haven't had the time."	Hameru Tabe		Orika - Embaressed	My room	
+	"Oh. You want to do it now? I can help."	Orika		Orika - Happy	My room	
+	"Don't worry."	Hameru Tabe		Orika - Happy	My room	
+	"Is it because I'm clumsy?"	Orika		Orika - Suspicious	My room	
+	"Oh, no. Not at all. I don't have much breakable stuff anyway."	Hameru Tabe		Orika - Suspicious	My room	
+	"Hm. Can I help you somehow?"	Orika		Orika - Neutral	My room	
+	"I don't understand what do you mean..."	Hameru Tabe		Orika - Neutral	My room	
+	"Well, is there something you want to do that you need help?"	Orika		Orika - Neutral	My room	
+	"Erm..."	Hameru Tabe		Orika - Neutral	My room	
+	"Or maybe something that I know that you want to learn?"	Orika		Orika - Neutral	My room	
+	"Maybe. What is your cooking specialty?"	Hameru Tabe		Orika - Neutral	My room	
+	"Ah! I am specialized in Exotic foods."	Orika		Orika - Happy	My room	
+	"That's cool! What is your favorite?"	Hameru Tabe		Orika - Happy	My room	
+	"Blowfish"	Orika		Orika - Happy	My room	
+	"Wow! Isn't it dangerous if you don't know what you're doing?"	Hameru Tabe		Orika - Happy	My room	
+	"Yes, but I know what I'm doing."	Orika		Orika - Happy	My room	
+	"Wow. I'm really surprised. Can you show me how is done?"	Hameru Tabe		Orika - Happy	My room	
+	"Do you trust me?"	Orika		Orika - Emarassed	My room	
+	"I don't have no reason not to."	Hameru Tabe		Orika - Emarassed	My room	
+	"Seriously?"	Orika		Orika - Emarassed	My room	
+	[OPT] Actually... You told me you're clumsy and forgetful... Is that so?	None	S3-12	Orika - Emarassed	My room	
+	[OPT] Yeah.	None	S3-11	Orika - Emarassed	My room	
+						
+11	"Yeah."	Hameru Tabe	SET O I	Orika - Emarassed	My room	
+	"Hm. Okay. Can we meet tonight for the first lesson then?"	Orika		Orika - Happy	My room	
+	"Sure!"	Hameru Tabe		Orika - Happy	My room	
+	"Okay. Shall we go back to class?"	Orika		Orika - Happy	My room	
+	"Let's go!"	Hameru Tabe	S3-13	Orika - Happy	My room	
+						
+12	"Actually... You told me you're clumsy and forgetful..."	Hameru Tabe	SET O F	Orika - Emarassed	My room	
+	"But you walk as if you had full control of your body. You know? Your body seems to have self-awareness."	Hameru Tabe		Orika - Neutral	My room	
+	"You noticed?"	Orika		Orika - Suspicious	My room	
+	"And, you said you were forgetful, but you remembered where my room is."	Hameru Tabe		Orika - Suspicious	My room	
+	"Hehe.. Oh-oh. Busted."	Orika		Orika - Emarassed	My room	Mute
+	She shows me her wrists, as if she was waiting for handcuffs.	None		Orika - Emarassed	My room	
+	"But why do you do that?"	Hameru Tabe		Orika - Emarassed	My room	
+	"Well... The answer to that will have to wait."	Orika		Orika - Showing off	My room	
+	"Why?"	Hameru Tabe		Orika - Showing off	My room	
+	"Because our 20 minutes are up. Let's go back to class."	Orika		Orika - Happy	My room	
+	"Damn. Ok."	Hameru Tabe		Orika - Happy	My room	Routine
+	We begin our journey back to the class.	None		Orika - Happy	Black screen	
+	"Tonight then?"	Hameru Tabe		Orika - Happy	School corridor	
+	"Tonight."	Orika	S3-15	Orika - Happy	School corridor	
+						
+13	"Okay guys, so let's decide now! Who should take the pizza out of the oven?"	Cavallo		Cavallo - Normal	Kitchen	Scardole
+	Nobody suggests anything else.	None		Cavallo - Normal	Kitchen	
+	Cavallo looks at me, with the most friendly eyes I've ever seen, and asks.	None		Cavallo - Normal	Kitchen	
+	"Well, can you do it or not, Hameru Tabe?"	Cavallo		Cavallo - Normal	Kitchen	
+	[OPT] Yes	None	S3-14	Cavallo - Normal	Kitchen	
+	[OPT] No	None	S3-17	Cavallo - Normal	Kitchen	
+						
+14	"I can take it, sensei."	Hameru Tabe		Cavallo - Normal	Kitchen	
+	"Okay. So, Orika, please, stand up."	Cavallo		Cavallo - Normal	Kitchen	
+	The class starts a commotion again.	None		None	Kitchen	
+	"Wh- why?"	Orika		Orika - Embarrassed;Cavallo - Neutral	Kitchen	
+	"You will help Hameru Tabe."	Cavallo		Orika - Embarrassed;Cavallo - Neutral	Kitchen	
+	"Oh... Do you think I can?"	Orika		Orika - Embarrassed;Cavallo - Neutral	Kitchen	
+	"Sure."	Cavallo		Orika - Embarrassed;Cavallo - Neutral	Kitchen	
+	"Let's do this."	Hameru Tabe		Orika - Embarrassed;Cavallo - Neutral	Kitchen	
+	"Ok."	Orika		Orika - Neutral;Cavallo - Neutral	Kitchen	
+	We go towards sensei's island, and she opens the oven door.	None		Orika - Neutral;Cavallo - Neutral	Kitchen	
+	She turns to me whispering so no one else can hear	None		Orika - Neutral	Kitchen	
+	**Do you trust me now?**	Orika		Orika - Neutral	Kitchen	
+	**Yes. I don't know what to believe, but I trust you.**	Hameru Tabe		Orika - Neutral	Kitchen	
+	Sensei comes to us.	None		None	Kitchen	
+	"Okay."	Cavallo		Orika - Neutral;Cavallo - Neutral	Kitchen	
+	"Grab the pizza shovel with your good hand on the back and your bad hand on the middle."	Cavallo		Orika - Neutral;Cavallo - Neutral	Kitchen	
+	"Like this?"	Hameru Tabe		Orika - Neutral;Cavallo - Neutral	Kitchen	
+	"Yeah."	Cavallo		Orika - Neutral;Cavallo - Neutral	Kitchen	
+	"Now, put the round part below the pizza and pull it back out."	Cavallo		Orika - Neutral;Cavallo - Neutral	Kitchen	
+	"Okay..."	Hameru Tabe		Orika - Neutral;Cavallo - Neutral	Kitchen	
+	As I'm pulling, Orika trips on something and pushes Cavallo into the oven.	None		None	Kitchen	Mute
+	He manages to hold most of himself out of the oven, but burns his hands. Badly.	None		None	Kitchen	
+	"FUUUUUUUCK IT BURNS!"	Cavallo		CG - Cavallo Burned hands	Kitchen	Whatever
+		None		CG - Cavallo Burned hands	Kitchen	
+	"Oh Jesus! Sorry! Sorry!"	Orika		Orika - Sad	Kitchen	
+	Orika is on the floor, crying. But she looks at me, behind her, and winks.	None		Orika - Showing off	Kitchen	
+	What the fuck has she done?	None		Orika - Showing off	Kitchen	
+	"Someone calls Izumi! Quick!"	Random Student		None	Kitchen	
+	Keisuke runs to the infirmary to fetch the nurse, while the rest of the class watches, frozen.	None		None	Kitchen	
+	A small commotion begins.	None		None	Kitchen	
+	I hear people saying 'I knew that would happen', 'She always find a way to fuck up', and things like that.	None		None	Kitchen	
+	"Please, I need some water... Can someone go with me? I don't know if I can walk... My legs are failing..."	Orika		Orika - Embarrassed	Kitchen	
+	**Let's go, nobody else will volunteer anyway.**	Orika		Orika - Neutral	Kitchen	
+	"Okay. C'mon, I'll help you."	Hameru Tabe		Orika - Embarrassed	Kitchen	
+	She pretends to be having difficulties getting up, but she is practically getting up on her own.	None		Orika - Embarrassed	Kitchen	
+	*I can't pretend this.* - I whisper	Hameru Tabe		Orika - Embarrassed	Kitchen	
+	She lets her body weight fall on my arms, and now I can actually help her get up.	None		Orika - Embarrassed	Kitchen	
+	"Take me outside."	Orika		Orika - Embarrassed	Kitchen	
+	"Okay."	Hameru Tabe		Orika - Embarrassed	Kitchen	
+	I take her outside, without saying anything, but with quite a noise.	None		Orika - Embarrassed	Kitchen	
+	As we get out, she stands up right.	None		Orika - Neutral	Black screen	Mute
+	"I think I owe you an explanation."	Orika		Orika - Akward	School corridor	
+	"You don't owe me anything, but I'll be lying if I say that I'm not curious."	Hameru Tabe		Orika - Akward	School corridor	
+	"I'll explain everything."	Orika	S3-21	Orika - Neutral	School corridor	
+	"That's it..."	Orika	S3-20	Orika - Neutral	School corridor	
+						
+15	"Okay guys, so let's decide now! Who should take the pizza out of the oven?"	Cavallo		Cavallo - Normal	Kitchen	Scardole
+	Nobody suggests anything else.	None		Cavallo - Normal	Kitchen	
+	Cavallo looks at me, with the most friendly eyes I've ever seen, and asks.	None		Cavallo - Normal	Kitchen	
+	"Well, can you do it or not, Hameru Tabe?"	Cavallo		Cavallo - Normal	Kitchen	
+	[OPT] Yes	None	S3-16	Cavallo - Normal	Kitchen	
+	[OPT] No	None	S3-17	Cavallo - Normal	Kitchen	
+						
+16	"I can take it, sensei."	Hameru Tabe		Cavallo - Normal	Kitchen	
+	"Okay. So, Orika, please, stand up."	Cavallo		Cavallo - Normal	Kitchen	
+	The class starts a commotion again.	None		None	Kitchen	
+	"Wh- why?"	Orika		Orika - Embarrassed;Cavallo - Neutral	Kitchen	
+	"You will help Hameru Tabe."	Cavallo		Orika - Embarrassed;Cavallo - Neutral	Kitchen	
+	"Oh... Do you think I can?"	Orika		Orika - Embarrassed;Cavallo - Neutral	Kitchen	
+	"Sure."	Cavallo		Orika - Embarrassed;Cavallo - Neutral	Kitchen	
+	"Let's do this."	Hameru Tabe		Orika - Embarrassed;Cavallo - Neutral	Kitchen	
+	"Ok."	Orika		Orika - Neutral;Cavallo - Neutral	Kitchen	
+	We go towards sensei's island, and she opens the oven door.	None		Orika - Neutral;Cavallo - Neutral	Kitchen	
+	She turns to me whispering so no one else can hear	None		None	Kitchen	
+	**Do you trust me now?**	Orika		Orika - Neutral	Kitchen	
+	**Yes. I don't know what to believe, but I trust you.**	Hameru Tabe		Orika - Neutral	Kitchen	
+	Sensei comes to us.	None		None	Kitchen	
+	"Okay."	Cavallo		Cavallo - Normal	Kitchen	
+	"Grab the pizza shovel with your good hand on the back and your bad hand on the middle."	Cavallo		Cavallo - Normal	Kitchen	
+	"Like this?"	Hameru Tabe		Cavallo - Normal	Kitchen	
+	"Yeah."	Cavallo		Cavallo - Normal	Kitchen	
+	"Now, put the round part below the pizza and pull it back out."	Cavallo		Cavallo - Normal	Kitchen	
+	"Okay..."	Hameru Tabe		Cavallo - Normal	Kitchen	
+	As I'm pulling, Orika trips on something and pushes Cavallo into the oven.	None		None	Kitchen	Mute
+	He manages to hold most of himself out of the oven, but burns his hands. Badly.	None		None	Kitchen	
+	"FUUUUUUUCK IT BURNS!"	Cavallo		CG - Cavallo Burned hands	Kitchen	Whatever
+			PAUSE	CG - Cavallo Burned hands	Kitchen	
+	"Oh Jesus! Sorry! Sorry!"	Orika		Orika - Sad	Kitchen	
+	Orika is on the floor, crying. But she looks at me, behind her, and winks.	None		Orika - Showing off	Kitchen	
+	What the fuck has she done?	None		Orika - Showing off	Kitchen	
+	"Someone calls Izumi! Quick!"	Random Student		None	Kitchen	
+	Keisuke runs to the infirmary to fetch the nurse, while the rest of the class watches, frozen.	None		None	Kitchen	
+	A small commotion begins.	None		None	Kitchen	
+	I hear people saying 'I knew that would happen', 'She always find a way to fuck up', and things like that.	None		None	Kitchen	
+	"Please, I need some water... Can someone go with me? I don't know if I can walk... My legs are failing..."	Orika		Orika - Embarrassed	Kitchen	
+	**Let's go, nobody else will volunteer anyway.**	Orika		Orika - Neutral	Kitchen	
+	"Okay. C'mon, I'll help you."	Hameru Tabe		Orika - Embarrassed	Kitchen	
+	She pretends to be having difficulties getting up, but she is practically getting up on her own.	None		Orika - Embarrassed	Kitchen	
+	"I can't pretend this." - I whisper	Hameru Tabe		Orika - Embarrassed	Kitchen	
+	She lets her body weight fall on my arms, and now I can actually help her get up.	None		Orika - Embarrassed	Kitchen	
+	"Take me outside."	Orika		Orika - Embarrassed	Kitchen	
+	"Okay."	Hameru Tabe		Orika - Embarrassed	Kitchen	
+	I take her outside, without saying anything, but with quite a noise.	None		Orika - Embarrassed	Kitchen	
+	As we get out, she stands up right.	None		None	Black screen	Mute
+	"I think I owe you an explanation."	Orika		Orika - Akward	School corridor	
+	"You don't owe me anything, but I'll be lying if I say that I'm not curious."	Hameru Tabe		Orika - Akward	School corridor	
+	"I'll explain everything, but first, can I kiss you, senpai?"	Orika		Orika - Embarassed	School corridor	
+	[OPT] Senpai?	None	S3-19	Orika - Embarassed	School corridor	
+	[OPT] Kiss her.	None	S3-18	Orika - Embarassed	School corridor	
+						
+17	"I think it will be good to Orika if she do it."	Hameru Tabe	SET O I	Orika - Neutral;Cavallo - Neutral	Kitchen	
+	The class starts a commotion again.	None		Orika - Angry;Cavallo - Neutral	Kitchen	
+	"I agree."	Cavallo		Orika - Angry;Cavallo - Neutral	Kitchen	
+	Orika looks at me with disappointment as she moves towards sensei's island, and she opens the oven door.	None		Orika - Angry;Cavallo - Neutral	Kitchen	
+	Sensei approaches her.	None		Orika - Embarassed;Cavallo - Neutral	Kitchen	
+	"Okay, you can do it."	Cavallo		Orika - Embarassed;Cavallo - Neutral	Kitchen	
+	"Grab the pizza shovel with your good hand on the back and your bad hand on the middle."	Cavallo		Orika - Embarassed;Cavallo - Neutral	Kitchen	
+	He stands behind her, almost humping her.	None		Orika - Embarassed;Cavallo - Neutral	Kitchen	
+	"Now, put the round part below the pizza and pull it back out."	Cavallo		Orika - Embarassed;Cavallo - Neutral	Kitchen	
+	As she is pulling, she rotates in a way that Cavallo is with his back to the opened oven.	None		Orika - Embarassed;Cavallo - Neutral	Kitchen	
+	"I made it!"	Orika		Orika - Happy;Cavallo - Happy	Kitchen	
+	She jumps in joy, and with her movement, she pushes sensei inside the oven.	None		None	Kitchen	Mute
+	Scared, she puts her arms on her head, leaning on the shovel as it catapults the pizza into the oven.	None		None	Kitchen	Whatever
+	It seems sensei is stuck there, covered in hot pizza and with the pizza shovel blocking his way out.	None		None	Kitchen	
+	"Oh Jesus! Sorry! Sorry!"	Orika		Orika - Spooked	Kitchen	
+	Orika is on the floor, crying.	None		None	Kitchen	
+	What the fuck has she done?	None		None	Kitchen	
+	"Someone call Izumi! Quick!"	Random Student		None	Kitchen	
+	"Someone get him out!"	Another Student		None	Kitchen	
+	Keisuke runs to the oven, to try to help sensei out of the oven.	None		None	Kitchen	
+	I decide to run to the infirmary to fetch the nurse, while the rest of the class watches.	None		None	Black screen	
+	As I run, I just think that this may, somehow, be my fault.	None		None	School corridor	
+	When I'm almost at the infirmary, I see Izumi running towards me.	None		None	School corridor	
+	"If it's about Cavallo, I'm getting there already! Go outside! There may be a fire starting."	Izumi		Izumi - Suspicious	School corridor	
+	A fire alarm starts ringing, and I have no idea of the evacuation route. Shit.	None		None	School corridor	
+	I decide to go outside through the only way I know: Passing through the kitchen.	None		None	School corridor	
+	As I run past the kitchen, I see Izumi desperate on the floor, over a disfigured mass of meat over a skinny well dressed body.	None		CG - Cavallo Burned Head (Dead)	CG - Cavallo Burned Head (Dead)	
+	As I run past the kitchen, I see Izumi desperate on the floor, over a disfigured mass of meat over a skinny well dressed body.	None		CG - Cavallo Burned Head (Dead)	CG - Cavallo Burned Head (Dead)	
+	I think that is... or was Cavallo...	None		None	School corridor	
+	I feel sick. There's smoke all around.	None		None	School corridor	
+	Gotta get outside quick.	None		None	School corridor	
+	...	None		None	Black screen	Mute
+	Finally, I'm outside.	None		None	School gates	
+	I see some familiar faces.	None		None	School gates	
+	Rokuko	None		Rokuko - Sad	School gates	
+	Keisuke	None		Keisuke - Sad	School gates	
+	En	None		En - Sad	School gates	
+	Orika	None		Orika - Sad	School gates	
+	Jacques	None		Jacques - Sad	School gates	
+	Shit. What the fuck happened?	None	S3-22	None	School gates	
+						
+18	"No..."	Hameru Tabe	SET O L	Orika - Embarassed	School corridor	
+	I pull her towards me and kiss her.	None		Orika - Blushing	School corridor	
+	Her weight falls on my arms.	None		Orika - Blushing	School corridor	
+	"I think we can stop the act now."	Hameru Tabe		Orika - Blushing	School corridor	
+	"There's no act for you anymore."	Orika		Orika - Blushing	School corridor	
+	I kiss her again.	None		Orika - Aroused	School corridor	
+	"I'll tell you everything."	Orika	S3-21	Orika - Aroused	School corridor	
+	"Okay. I think what you did was right."	Hameru Tabe		Orika - Neutral	School corridor	
+	We decide to go back to my room.	None		Orika - Neutral	School corridor	
+	_HEAVY DESCRIPTION OF MAIN CHARACTER FUCKS ORIKA_					
+	She dresses back up and leave to her room. That was a nice turn of events.	None	S3-22	Orika - Neutral	My room	
+						
+19	"Senpai?"	Hameru Tabe	SET O F	Orika - Embarassed	School corridor	
+	"You don't want to be my senpai?"	Orika		Orika - Embarassed	School corridor	
+	"I don't know. Never thought about it. Tell me what just happened."	Hameru Tabe		Orika - Embarassed	School corridor	
+	"Don't you trust me?"	Orika		Orika - Embarassed	School corridor	
+	"Tell me, please."	Hameru Tabe		Orika - Embarassed	School corridor	
+	"Okay."	Orika	S3-21	Orika - Embarassed	School corridor	
+	"Well..."	Hameru Tabe	S3-20	Orika - Neutral	School corridor	
+						
+20	"Okay, I think what you did was self-defense. But I think I would've done it differently."	Hameru Tabe		Orika - Neutral	School corridor	
+	"Oh, believe me, I wanted to do it differently. He was supposed to die."	Orika		Orika - Angry	School corridor	
+	"You are giving me the creeps. But it's okay."	Hameru Tabe		Orika - Angry	School corridor	
+	"Okay how?"	Orika		Orika - Angry	School corridor	
+	"We have to accept the people we like not as who they are, but as whoever they become."	Hameru Tabe		Orika - Angry	School corridor	
+	"You like me?"	Orika		Orika - Angry	School corridor	
+	"Yes, I think so. You're cool."	Hameru Tabe		Orika - Angry	School corridor	
+	"But which one of me?"	Orika		Orika - Angry	School corridor	
+	"I'm okay with either version: clumsy or killer ninja."	Hameru Tabe		Orika - Angry	School corridor	
+	"Don't anyone or I will kill you."	Orika		Orika - Angry	School corridor	
+	She stares at me with a serious face.	None		Orika - Angry	School corridor	
+	I tense up.	None		Orika - Angry	School corridor	
+	"Hahahaha I SHOULD'VE TAKEN A PICTURE OF YOUR FACE JUST NOW"	Orika		Orika - Happy	School corridor	
+	"Oh! Dumbass!"	Hameru Tabe		Orika - Happy	School corridor	
+	"So, are you going to teach me to cook the Blowfish or not?"	Hameru Tabe		Orika - Happy	School corridor	
+	"Yes, eventually. I think the kitchen will be closed for a while because of the accident..."	Orika		Orika - Happy	School corridor	
+	"Yeah, makes sense."	Hameru Tabe		Orika - Happy	School corridor	
+	We talked for some time, then each of us went for our rooms.	None	S3-22	None	Black screen	
+						
+21	ORIKA OPENS UP ABOUT CAVALLO SEXUAL ABUSES					
+						
+22		None	S4-1	None		

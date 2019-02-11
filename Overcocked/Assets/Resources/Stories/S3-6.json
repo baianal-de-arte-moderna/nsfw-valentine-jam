@@ -1,0 +1,182 @@
+[
+  {
+    "command": "characters", 
+    "parameters": {
+      "Rokuko": "Suspicious"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Bathroom"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Don't leave. You're okay!\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "set_variable", 
+    "parameters": {
+      "value": "r", 
+      "key": "set"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Rokuko": "Angry"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I don't like okay.\"", 
+      "name": "Rokuko"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"You're nice\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I don't like nice, nice is mediocre.\"", 
+      "name": "Rokuko"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh... Sorry. Can't we be friends?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"No, not really. I don't believe in friendship.\"", 
+      "name": "Rokuko"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Why that pie then?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Rokuko": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Don't be so dumb.\"", 
+      "name": "Rokuko"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I think I've already proven today that I am pretty dumb...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"That's no excuse. I'll be off now.\"", 
+      "name": "Rokuko"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"No, please.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"What? What do you want?\"", 
+      "name": "Rokuko"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"For real?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Please.\"", 
+      "name": "Rokuko"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I want your pie's recipe...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Rokuko": "Angry"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Fuck you.\"", 
+      "name": "Rokuko"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Ouch...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "She... Oh, actually... He left me. That's kinda sad. Did I fuck it up?", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "There's no point in stressing over this right now. I need to get my things on my room and go to class.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "S3-8"
+    }
+  }
+]

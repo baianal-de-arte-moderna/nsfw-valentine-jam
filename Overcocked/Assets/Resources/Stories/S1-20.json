@@ -20,7 +20,7 @@
   {
     "command": "message", 
     "parameters": {
-      "message": "\"Hey man! I'm back! I'm feeling better now! HEY! Are you eating my burguer?\"", 
+      "message": "\"Hey man! I'm back! I'm feeling better now! HEY! Are you eating my burger?\"", 
       "name": "Keisuke"
     }
   }, 
@@ -217,55 +217,553 @@
     }
   }, 
   {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Shirtless"
+    }
+  }, 
+  {
     "command": "message", 
     "parameters": {
-      "message": "He he he he...", 
+      "message": "\"He he he he...\"", 
       "name": "Keisuke"
     }
   }, 
   {
-    "command": "hide_prompt", 
-    "parameters": {}
+    "command": "message", 
+    "parameters": {
+      "message": "\"What the...?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "": ""
+    }
   }, 
   {
     "command": "message", 
     "parameters": {
-      "message": "WASH DISHES", 
+      "message": "He immediately proceeds to splash water at me again.", 
       "name": ""
     }
   }, 
   {
     "command": "message", 
     "parameters": {
-      "message": "WATER FIGHT", 
+      "message": "\"WHY YOU...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "And he does it again.", 
       "name": ""
     }
   }, 
   {
     "command": "message", 
     "parameters": {
-      "message": "DRIPPING WET", 
+      "message": "...", 
       "name": ""
     }
   }, 
   {
     "command": "message", 
     "parameters": {
-      "message": "BOTH NAKED", 
+      "message": "I rush and grab the kitchen tap head and spray water all over him. ", 
       "name": ""
     }
   }, 
   {
     "command": "message", 
     "parameters": {
-      "message": "\"WHOSE FAULT\" FIGHT", 
+      "message": "He tries to take it from my hand and we end up just making it rain all over ourselves for a good minute or two.", 
       "name": ""
     }
   }, 
   {
     "command": "message", 
     "parameters": {
-      "message": "SEX", 
+      "message": "\"What are we doing hahaha.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Shirtless"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I'm just trying to loosen you up... Gosh you're so stiff!.\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I guess he does have a point... I'm still having a hard time relaxing since I got here.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "...Specially after all of the mess I managed to create on my first day.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Well... The kitchen is clean... Except for this huge mess we just made on the floor.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"And we are soaking wet now... THANKS TO YOU!\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Shirtless"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Me??? I wouldn't have to do this if I didn't need to help my friend relaaax...\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "What??? What are you even saying? You are SO drunk...", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Suddenly he grabs me by my sides and starts shaking me.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"STOP. BEING. SO. SERIOUS.\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"...\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Shirtless"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I'm so sorry dude! Are you okay?\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Keisuke is still holding me. We are both wet and his hands feel so nice against my skin.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Yeah, yeah... I mean... I really need to take care of these wet clothes now.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Raise your arms.\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"What? No! I can't...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"There's no one around, everyone is asleep. Plus, you're gonna get sick if you keep wearing this shirt.\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"You absolutely can't be sick on your first day of term!\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "...", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I embarrasingly put my hands up.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Keisuke proceeds to pull my shirt up and and remove it. He does the same to my t-shirt.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Shirtless"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Heh... You really got a nice bod afterall!\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Why is he saying those things? I'm so embarrased.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Thank you...", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Shirtless"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "... (unzips) ...", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "He pulls down his pants and takes them off. He quickly does the same to his underwear.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": ".... .... ....", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Keisuke-senpai...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "He hesitantly grabs both my hands and gently presses them against his abs.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I feel his tight muscles under the thin coat of wet fur on his stomach. It's so hard. ", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "He slowly pushes me closer. I end up resting my cheeks against his chest fluff.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "GOD it smells good. I can feel his heart beating really fast... Is he as nervous as I am? Why am I shaking so much...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Shirtless"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Hameru Tabe... Is this okay for you? Does it feel good?\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh... Yeah... Yes it is... How did you know?", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Keisuke starts rubbing his face against my ears, breathing on them, nibbling on them...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "His breath feels so warm. ", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "He runs his right hand down my side, carresses my lower tummy, which gives me goosebumps.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "He then places his hand against my crotch. I'm rock hard. I realize my dick even hurts from the constriction. ", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "He unzips my pants and rubs my dick over my underwear. ", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "His cock is now throbling uncontrollably on my stomach, leaking precum like a faucet. It's huge.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I grab it.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Shirtless"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Ohhh...\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I start masturbating him and he lets out a big moan. He stuffs his hand inside my underwear and starts playing with my cock.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "He pulls my chin up and kisses me, pressing his lips against mine. ", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I grab the back of his head with my free hand and forcibly put my tongue inside his mouth.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "We kiss until I can no longer hold it...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I'm gonna...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Me too...\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I let out a spurt on his hand and leg. He shoots a big load on my stomach, covering it with cum.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "We start panting heavily.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Thank you Hameru Tabe... I... That was awesome, man.\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"You're awesome Keisuke-senpai... Best tour guide!\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "We both laugh.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "After that I quickly go back to my bedroom to take a nice shower and get some sleep before my first day.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "We say good bye at my door.", 
       "name": ""
     }
   }, 

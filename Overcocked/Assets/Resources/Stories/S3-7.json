@@ -1,0 +1,346 @@
+[
+  {
+    "command": "characters", 
+    "parameters": {
+      "Rokuko": "Showing off"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Bathroom"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I would fall in love, probably.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "set_variable", 
+    "parameters": {
+      "value": "r", 
+      "key": "set"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Probably?\"", 
+      "name": "Rokuko"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Probably for sure. I think.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"You're not very certain of it then?\"", 
+      "name": "Rokuko"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Maybe.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Let me help you then.\"", 
+      "name": "Rokuko"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "He pushes me inside one of the stalls.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Whaa..\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "He closes the stall, leaving me alone in there.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Fuck"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Rokuko": "Blushing"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Then, he comes back quickly and starts to suck me.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "That feels great. That feels... like...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I don't know.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh. I'm sure now.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Rokuko": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "He stops.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Already? Great.\"", 
+      "name": "Rokuko"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "He goes out of the stall and closes the door.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I stay there. My hard cock out of my pants, waiting for more.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I wait.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Routine"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "And he is not coming back.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I carefully open the stall and see Keisuke brushing his teeth.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I close the stall. Keisuke hasn't seen me. I'd knew if he did.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I try to finish myself up, but it doesn't work.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Well, it works somehow, because my erection is gone.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I flush the toilet, just in case Keisuke is paying attention, and leave the stall.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Hey Hameru Tabe! What a bummer this water shortage, eh?\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Yes. Such a bummer.\" - I loved it. I loved Rokuko's revelation.", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"So, prepared to meet the coolest guy in this school?\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Wasn't that you?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Showing Off"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Haha for sure! But no, I'm talking about Cavallo! The best teacher ever!\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I already spoke to Cavallo: he should not be so cool, some students take advantage of that.\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Well, maybe he can't help it...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Yeah... I know the feeling. Let's go to class then?\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I just need to get some things on my room.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay, see you there!\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "S3-8"
+    }
+  }
+]

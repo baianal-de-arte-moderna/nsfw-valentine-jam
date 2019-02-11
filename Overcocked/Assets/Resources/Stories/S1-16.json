@@ -155,7 +155,7 @@
   {
     "command": "message", 
     "parameters": {
-      "message": "\"That's not the sick I meant...\"", 
+      "message": "\"That's not the kind of sick I meant...\"", 
       "name": "Hameru Tabe"
     }
   }, 

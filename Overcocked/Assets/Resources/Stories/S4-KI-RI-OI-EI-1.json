@@ -1,0 +1,204 @@
+[
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Whatever"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "My room"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I wake up with the fire alarm. I still don't know the evacuation route, so I just run with the flow.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School corridor"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "A lot of students are running, some are crying, there is smoke everywhere.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "When I get near the kitchen, I see the fire. It's huge. I can't go through.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I see teachers trying to put out the fire, untill one of them catches fire.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Rokuko": "Angry"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Rokuko is trying to break a window.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I hear sirens outside.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Sad"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Keisuke is on a corner, crying.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "En": "Spooked"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I see En's lifeless body under a piece of the ceiling that fell.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Shit.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Orika is sitting calmy, watching the chaos. I think she is smiling.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Orika, what happened?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I finished it. I finished it all. We are all going to die.\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Black screen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "The building collapses, I don't feel a thing.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Where am I?", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Who cooked the Lasagna?", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "hide_prompt", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Worst Ending - Orika blew the school with gas. Everyone that was inside is dead.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "": ""
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": ""
+    }
+  }, 
+  {
+    "command": "hide_prompt", 
+    "parameters": {}
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "END"
+    }
+  }
+]

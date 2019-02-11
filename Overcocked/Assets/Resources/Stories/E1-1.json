@@ -1,0 +1,158 @@
+[
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Izumi": "Neutral"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Infirmary"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Well... this may sound weird... but I've been feeling sexually attracted to food.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh, so that was you...\"", 
+      "name": "Izumi"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Izumi": "Happy"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Can you wait here a little bit?\"", 
+      "name": "Izumi"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Eggman"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Black screen"
+    }
+  }, 
+  {
+    "command": "hide_prompt", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "CG - Arrested ending"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "The school staff has been finding fucked food for a while now.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "They may have found the fucked Lasagna, but no more than that.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "So who has been fucking food besides me? Maybe I sleepwalked and fucked more than I remember.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Maybe...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "But now I am arrested...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I am disgraced...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "My dream is over...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Besides, this food they serve here is terrible to fuck.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "": ""
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": ""
+    }
+  }, 
+  {
+    "command": "hide_prompt", 
+    "parameters": {}
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "END"
+    }
+  }
+]

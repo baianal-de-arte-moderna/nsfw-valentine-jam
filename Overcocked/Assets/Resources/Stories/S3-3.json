@@ -1,0 +1,243 @@
+[
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School corridor"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I walk towards the shared bathroom. The last time I've been here, I entered the ladies bathroom and found Rokuko.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Weird that she never mentioned that.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Her pie was delicious. If I find her again, I should ask for the recipe...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "There's the bathroom. Now I'll make sure to enter the right one and...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Bathroom"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "!!!", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Theme"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Rokuko!? What are you doing here?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Rokuko": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"What do you mean? I'm washing my face. There's a water shortage on the all boys dorms.\"", 
+      "name": "Rokuko"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"And that affects you?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Rokuko": "Suspicious"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"How would it not?\"", 
+      "name": "Rokuko"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Well... it only affects the boys dorms... And this is the boys bathroom, I made sure this time.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I don't follow.\"", 
+      "name": "Rokuko"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Well... you are a...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Rokuko": "Angry"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I stop mid-sentence and take a closer look to Rokuko's.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I think I'm stupid.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Well, I'm a what?\"", 
+      "name": "Rokuko"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Well... You are a guy. A dude. You have a penis, right. So you are on the right place. Don't mind me. My brain is still asleep.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Rokuko": "Embarrassed"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh, I see. You thought I was a girl.\"", 
+      "name": "Rokuko"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Me? Nooooooooooo! Nonono. You are clearly a dude.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"It's okay. I like looking like a girl.\"", 
+      "name": "Rokuko"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"It's okay?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Rokuko": "Happy"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Yeah, I'm even flattered. Thanks.\"", 
+      "name": "Rokuko"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh. Yes. I thought you were a girl. A beautiful one, as a matter of fact...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Rokuko": "Showing off"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Well, what would you do if I was, in fact, a beautiful girl instead of a dude who looks like a beautiful girl?\"", 
+      "name": "Rokuko"
+    }
+  }, 
+  {
+    "command": "choice", 
+    "parameters": {
+      "button0Text": "\"I would tell you you are in the wrong restroom. Because I've checked this time.\"", 
+      "button1Text": "\"I would fall in love, probably.\"", 
+      "button1StoryName": "S3-7", 
+      "button0StoryName": "S3-4"
+    }
+  }
+]

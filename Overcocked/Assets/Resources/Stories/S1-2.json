@@ -27,7 +27,7 @@
   {
     "command": "message", 
     "parameters": {
-      "message": "\"Okay... So... You are?\"", 
+      "message": "\"Okay... So... You are?...\"", 
       "name": "Keisuke"
     }
   }, 

@@ -1,0 +1,538 @@
+[
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "En": "Sexy"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Kitchen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I tense up my legs. I cannot let my cock be hard for her. I don't care how drunk she is, this is wrong.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "set_variable", 
+    "parameters": {
+      "value": "e", 
+      "key": "set"
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Theme"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "En": "Happy"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"What's wrong? You seem tense.\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"You seem drunk.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I am! That's how I deal with being so boring. I am not boring now, right?\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"You were not boring before.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Awn... That's cute.\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Don't mock me.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I mean it.\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Shall we resume the cooking?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay.\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "She turns her attention to the sauce while I go fetch the pans we'll need.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "After around half an hour, the steak is ready.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I feel my cock getting hard again, and, again, tense up my legs.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "It doesn't work.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "It seems my blood flow right now is enough for my tensioned legs and my hardened cock. At least, I'm not nosebleeding.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Are you okay?\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Yeah, yeah, just a little tired. Do you mind if I go eat on my room?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Can I go?\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I don't think that is a good idea.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Are you sure?\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Yeah.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "En": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay... Go on then, I'll go to my room as well. It's kinda late anyway.\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I agree. Talk to you later then?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "En": "Happy"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Yeah, and I'll talk to you too unless I'm sober haha\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Haha I'll talk to you anyway.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School corridor"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "My dick is rock hard. It's weird the fact that I could resist a girl but could not resist food.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "What am I thinking about? I am resisting the food.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I mean, it's not like I'm going to fuck the steak here in the middle of the corridor....", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Fuck"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "CG - Steak rolled on cock"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"What???\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I am jerking off with the steak rolled around my penis.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "WHEN DID THIS HAPPEN?", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "But even being surprised of my own actions, I don't stop.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "This feels great.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "The fibers of the steak create a delicious friction on my cock.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "The sauce works as a perfect lubricant.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I can't decide how much this is close to the pleasure I felt with the Lasagna, but...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "En": "Sexy"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"So... You don't fuck me, but fucks my steak?\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School corridor"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "OH SHIT.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "FUCK.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"This is not what you are thinking!\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh no? What it is then?\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"It is... It is... Erm...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Go on.\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "CG - Steak rolled on cock"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I... You made me aroused, and my... my willy started hurting. I decided to use the steak as a thermal bag.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School corridor"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"That ALMOST makes sense, except that warmth would make your pain worse. You are fucking the steak.\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh... The warmth... No... Shit...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Well, now, you'll have to fuck me.\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Fuck"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "En": "Watering Mouth"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"What?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Yeah. I know your cock must be tasting pretty good right now.\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "CG - En sucking"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "She drops down on her knees in front of me and grabs my cock.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "She is sucking it.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Hmph... feels good, right?\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh... This is wrong... Oh...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Yeah, it is.\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School corridor"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"We're on the corridor!\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Hmph... let's go back to your room then.\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay... but... keep masturbating me with the steak...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "S2-11"
+    }
+  }
+]

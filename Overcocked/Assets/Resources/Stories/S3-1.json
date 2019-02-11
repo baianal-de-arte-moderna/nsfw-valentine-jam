@@ -1,0 +1,109 @@
+[
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Black screen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Yesterday was crazy. Wonder what will happen today. I don't think it will get as crazy as yesterday...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Besides the Italian cuisine class, I don't have any plans.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "In any case, I better be prepared. Who knows if I will find who prepared that Lasagna today during class?", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "My room"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Well, nothing better than a shower to finish my waking up process!", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Uh?", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "There's no water?", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Goddammit.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Are we having a water shortage on the school? It's gonna be hard to cook Italian food without water.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Routine"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Which means: NO ONE WILL COOK LASAGNAS TODAY! SHIT!", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I need to find out what's going on!", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "choice", 
+    "parameters": {
+      "button0Text": "Go to the maintenance department", 
+      "button1Text": "Go to the school's shared bathroom to check the water there", 
+      "button1StoryName": "S3-3", 
+      "button0StoryName": "S3-2"
+    }
+  }
+]

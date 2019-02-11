@@ -1,0 +1,292 @@
+[
+  {
+    "command": "characters", 
+    "parameters": {
+      "En": "Spooked"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Kitchen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Let's go before he eats us alive. You'll be okay.\" - I whisper to her", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "En": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay...\"", 
+      "name": "Shy Girl"
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Theme"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School corridor"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "We go outside the class and towards the infirmary.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"So... I am Kaneko En...\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "She seems to be putting a lot of effort to start a conversation.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I am Hameru Tabe. Sorry we have to meet like this.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh... It's okay... Are you feeling okay?\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Yes, yes. I think the pressure on that class is too high, that's all.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "En": "Spooked"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Yes, it is... That teacher is a monster.\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "En": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"But he is a genius.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I guess...\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"His cooking skills are beyond amazing. That Baguette...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I feel my cock getting harder. Shit.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "En": "Blushing"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh... your... ahm... your... down there...\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"What? Oh, it's my cellphone.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Ahm... okay.\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I don't think she bought that... Damn.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "En": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"It's pretty big, huh?\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"WHAT?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I look at her, she is looking up and to the end of the corridor.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"This place...\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh, yes. I thought I would never be able to find my way around here, but everything seems familiar already.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "En": "Sad"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I don't know how that feels. I don't think I've ever felt comfortable anywhere... Unless... nevermind.\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Not even on the kitchen, by yourself?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "En": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh, yes. I thought I would never be able to find my way around here, but everything seems familiar already.\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"What do you love cooking the most?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "En": "Watering Mouth"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Steak. In any way possible. I love steak.\"", 
+      "name": "En"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "En": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Her face seemed to light up.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I wonder how a beautifully grilled steak would fuck... Should I ask her to cook for me so I can fuck her steak?", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "choice", 
+    "parameters": {
+      "button0Text": "\"Can you cook something for me?\"", 
+      "button1Text": "\"I'm vegan. But I respect you. There's a huge market for chefs that are specialized in meat.\"", 
+      "button1StoryName": "S2-7", 
+      "button0StoryName": "S2-8"
+    }
+  }
+]

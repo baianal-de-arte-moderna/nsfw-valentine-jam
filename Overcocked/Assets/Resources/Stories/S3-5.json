@@ -1,0 +1,59 @@
+[
+  {
+    "command": "characters", 
+    "parameters": {
+      "Rokuko": "Neutral"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Bathroom"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay. Bye then.\"", 
+      "name": "Rokuko"
+    }
+  }, 
+  {
+    "command": "set_variable", 
+    "parameters": {
+      "value": "r", 
+      "key": "set"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Weird.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Anyway, the Italian class is happening then. I'll wash my face and go get ready to class then!", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "S3-8"
+    }
+  }
+]

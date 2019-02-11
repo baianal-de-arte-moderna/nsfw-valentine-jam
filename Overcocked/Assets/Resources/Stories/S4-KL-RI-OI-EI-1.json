@@ -1,0 +1,233 @@
+[
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Routine"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "My room"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "(knock knock knock)", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"What? I'm awake! What? Oh, the door. Who can it be?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I open the door, ", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Happy"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Good morning man! Can I come in?\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Sure!\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "He enters, I stand by the open door. He sits on my bed.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"So... I was thinking about us...\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"What about it?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I think I like you more than I should...\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I don't think you need to put a limit on how much you are allowed to like me.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Embarrassed"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay, okay. You want me to say it, eh?\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I LOVE YOU.\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "He gets up from my bed and walk towards me.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay?\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "He is getting closer.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"You little...\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Closer", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Stiff...\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Almost at my reach.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Son of a...\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Happy"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I interrupt him with a kiss.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Black screen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I close the door.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "hide_prompt", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Bros Before Hoes - You and Keisuke are officialy a couple.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "": ""
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": ""
+    }
+  }, 
+  {
+    "command": "hide_prompt", 
+    "parameters": {}
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "END"
+    }
+  }
+]

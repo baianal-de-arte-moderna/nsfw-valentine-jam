@@ -1,0 +1,819 @@
+[
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "My room"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I must rush to my room to get my cooking apparel. I've spent too much time on the restroom...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Huh?", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "There's a note in my door.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Hi. Its Orika. The girl who almost killed twice two days ago. Meet me in the kitchen tonight. If you please.\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Oh. I'll try to go.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Now, where's my case?", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I got everything! Time to go. Hope I don't bump into Orika on the way.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I mean, LITERALLY bump.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Theme"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Black screen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School corridor"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "So far, so good.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I can see the kitchen door!", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Oh shit! Orika is coming out of the door!", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Everything is in slow motion, but I can't react.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I see her eyes turning at my direction.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I see the beginning of a smile.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I see her arm starting to rise and her hand starting to wave.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Spooked"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I see her smile becoming a scream.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I see she trying to protect herself with her arms.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I see her head turning slightly to the left, probably to avoid the impact with me...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I see all of this. And the time is coming.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Disaster.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Hope no one gets hurt. This class is my chance to find who does perfect Lasagnas.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Black screen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "(CRASH)", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Lasagna!\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Embarrassed"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School corridor"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"What?\" \"What?\" \"Is he okay?\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Embarrassed "
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Embarrassed", 
+      "Cavallo": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Guys, guys, give him some air.\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Hameru Tabe, are you okay? I'm sorry. It was my fault...\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Don't speak, catch your breath. Now, Orika-kun, it was nobody's fault. It was just an accident.\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"It's is always my fault...\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"No, no, it is not. I tell that all the time...\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Sorry teacher...\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Scardole"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Don't be sorry! It's all right!\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Neutral", 
+      "Cavallo": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay.\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I'm okay, I guess...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Sure?\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Yeah. We can start the class now!\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay. Orika-kun, can you keep an eye on Hameru Tabe?", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Why? It was not my fault!\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Perfect response.\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Thanks. But I'll keep an eye on him.\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Cavallo": "Neutral"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Black screen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"So, let's start!\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Kitchen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Today, we are going to learn one of the most classic Italian dish\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Lasagna!", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Pizza! Which flavor, you ask?\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Awn...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Pepperoni!\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"One of the simplest pizzas, yet, one of the most liked all around the globe.\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"You see, this is a Pepperoni.\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Wow. That's... a penis.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Speaking of penis... Mine wants to participate.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Here we go with the tensioned legs again.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"But this will not go like this on the pizza.\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"We need to...\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"SLICE IT!\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "CG - Cutting Cock/Pepperoni"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "(SLASH)", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Kitchen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Ouch.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"HAHAHAHAHA\"", 
+      "name": "Whole class"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "And my penis learned its lesson. I can relax my legs now.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "At a first glance, Cavallo is a techer as good as Jacques,", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "but I think he uses his charisma so well that people think he is better than he really is.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Still, he is miles away from me. And he is pretty cool. Quite modern. Almost the opposite from Jacques.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "50 minutes later...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Cavallo": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"So, that's the story of how Italy lost the 94' world cup.\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh, the pizza must be ready by now. Who wants to take it out of the oven?\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I think Hameru Tabe should do it! He felt the pain for that Pepperoni!\"", 
+      "name": "Random student"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Yeah!\"", 
+      "name": "Another student"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I can already see what is going to happen.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I am going to open the oven.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "The pizza will be handsome.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "My dick will pop out of my pants and hit the pizza.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Cavallo": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "The pizza will be catapulted to Cavallo's face. And I'm gonna be expelled. Maybe arrested.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh, I'm still kinda dizzy from before...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Happy"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I can go then!\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "A commotion started.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I can hear some people saying that she will drop it, that she will burn her hair or something.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Neutral", 
+      "Cavallo": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Calm down guys, calm down!\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "The commotion stops for a bit.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Cavallo": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Let's take a break. Go do something you like, then come back here in 20 minutes.\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "The commotion returns and some students start leaving the kitchen.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "This 'break' thing seems to be common in this class.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "What should I do with these 20 minutes?", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Hey, Hameru Tabe, I know I asked to meet tonight, but maybe we can do it right now.\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "choice", 
+    "parameters": {
+      "button0Text": "Later is better for me, if that's okay.", 
+      "button1Text": "Okay. What is it?", 
+      "button1StoryName": "S3-10", 
+      "button0StoryName": "S3-9"
+    }
+  }
+]

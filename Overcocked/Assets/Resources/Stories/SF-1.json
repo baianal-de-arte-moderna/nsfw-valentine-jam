@@ -1,21 +1,43 @@
 [
   {
-    "command": "background",
+    "command": "music", 
     "parameters": {
-      "imageName": "Black screen"
+      "snapshotName": "Theme"
     }
-  },
+  }, 
   {
-    "command": "characters",
+    "command": "characters", 
+    "parameters": {
+      "": ""
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "CG - Title screen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "To be released...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": ""
+    }
+  }, 
+  {
+    "command": "hide_prompt", 
     "parameters": {}
-  },
+  }, 
   {
-    "command": "message",
+    "command": "push_story", 
     "parameters": {
-      "message": "Coming soon!"
+      "storyName": "END"
     }
-  },
-  {
-    "command": "ending"
   }
 ]

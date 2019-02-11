@@ -1,0 +1,68 @@
+[
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Emarassed"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "My room"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Yeah.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "set_variable", 
+    "parameters": {
+      "value": "o", 
+      "key": "set"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Happy"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Hm. Okay. Can we meet tonight for the first lesson then?\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Sure!\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay. Shall we go back to class?\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Let's go!\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "S3-13"
+    }
+  }
+]

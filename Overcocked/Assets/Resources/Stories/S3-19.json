@@ -1,0 +1,88 @@
+[
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Embarassed"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School corridor"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Senpai?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "set_variable", 
+    "parameters": {
+      "value": "o", 
+      "key": "set"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"You don't want to be my senpai?\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I don't know. Never thought about it. Tell me what just happened.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Don't you trust me?\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Tell me, please.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay.\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "S3-21"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Well...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "S3-20"
+    }
+  }
+]

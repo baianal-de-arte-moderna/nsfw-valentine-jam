@@ -69,7 +69,7 @@
   {
     "command": "message", 
     "parameters": {
-      "message": "\"Oh... We can go to the kitchen grab some scotch and do a welcome party!\"", 
+      "message": "\"Oh... We can go to the kitchen grab some scotch and throw you a welcome party!\"", 
       "name": "Keisuke"
     }
   }, 
@@ -128,7 +128,7 @@
   {
     "command": "message", 
     "parameters": {
-      "message": "He comes back with some vomit on his shirt.", 
+      "message": "He comes back with some of it on his shirt.", 
       "name": ""
     }
   }, 

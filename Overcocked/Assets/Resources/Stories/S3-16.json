@@ -1,0 +1,460 @@
+[
+  {
+    "command": "characters", 
+    "parameters": {
+      "Cavallo": "Normal"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Kitchen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I can take it, sensei.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay. So, Orika, please, stand up.\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "The class starts a commotion again.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Embarrassed", 
+      "Cavallo": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Wh- why?\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"You will help Hameru Tabe.\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh... Do you think I can?\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Sure.\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Let's do this.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Neutral", 
+      "Cavallo": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Ok.\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "We go towards sensei's island, and she opens the oven door.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "She turns to me whispering so no one else can hear", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "**Do you trust me now?**", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "**Yes. I don't know what to believe, but I trust you.**", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Sensei comes to us.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Cavallo": "Normal"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay.\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Grab the pizza shovel with your good hand on the back and your bad hand on the middle.\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Like this?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Yeah.\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Now, put the round part below the pizza and pull it back out.\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "As I'm pulling, Orika trips on something and pushes Cavallo into the oven.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "He manages to hold most of himself out of the oven, but burns his hands. Badly.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Whatever"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "CG": "Cavallo Burned hands"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"FUUUUUUUCK IT BURNS!\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "hide_prompt", 
+    "parameters": {}
+  }, 
+  {
+    "command": "pause", 
+    "parameters": {}
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Sad"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh Jesus! Sorry! Sorry!\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Showing off"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Orika is on the floor, crying. But she looks at me, behind her, and winks.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "What the fuck has she done?", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Someone calls Izumi! Quick!\"", 
+      "name": "Random Student"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Keisuke runs to the infirmary to fetch the nurse, while the rest of the class watches, frozen.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "A small commotion begins.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I hear people saying 'I knew that would happen', 'She always find a way to fuck up', and things like that.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Embarrassed"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Please, I need some water... Can someone go with me? I don't know if I can walk... My legs are failing...\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "**Let's go, nobody else will volunteer anyway.**", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Embarrassed"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay. C'mon, I'll help you.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "She pretends to be having difficulties getting up, but she is practically getting up on her own.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I can't pretend this.\" - I whisper", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "She lets her body weight fall on my arms, and now I can actually help her get up.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Take me outside.\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I take her outside, without saying anything, but with quite a noise.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Black screen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "As we get out, she stands up right.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Akward"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School corridor"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I think I owe you an explanation.\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"You don't owe me anything, but I'll be lying if I say that I'm not curious.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Orika": "Embarassed"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I'll explain everything, but first, can I kiss you, senpai?\"", 
+      "name": "Orika"
+    }
+  }, 
+  {
+    "command": "choice", 
+    "parameters": {
+      "button0Text": "Senpai?", 
+      "button1Text": "Kiss her.", 
+      "button1StoryName": "S3-18", 
+      "button0StoryName": "S3-19"
+    }
+  }
+]

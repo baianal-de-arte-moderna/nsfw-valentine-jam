@@ -1,0 +1,49 @@
+[
+  {
+    "command": "characters", 
+    "parameters": {
+      "Izumi": "Neutral"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Infirmary"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Not really. I'm not feeling much like myself these days...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh well, ok then. You can stay here as long as you want, but you are also free to go.\"", 
+      "name": "Izumi"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"And if you need any help, medical or not, feel free to come by!\"", 
+      "name": "Izumi"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Thanks. I'll be leaving, just give some moments, please.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Sure.\"", 
+      "name": "Izumi"
+    }
+  }
+]

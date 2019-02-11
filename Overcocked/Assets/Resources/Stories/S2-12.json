@@ -1,0 +1,228 @@
+[
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School corridor"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I remember the nurse office from yesterday. I arrive there quite quickly.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "The nurse's name is on the door: Tsuda Izumi", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I knock on the door and a beautiful nurse appears.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Izumi": "Blushing"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Hello, how can I help? Oh!\"", 
+      "name": "Izumi"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Please, come inside. Lie down.\"", 
+      "name": "Izumi"
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Nurse"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Infirmary"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "She directs me to a bed on the side, then she closes a curtain around the bed.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I can see what happened. I see that a lot on high schoolers, but not so much on college.\"", 
+      "name": "Izumi"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"First, let me clean you up.\"", 
+      "name": "Izumi"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Izumi": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "She grabs a tissue and starts cleaning my nose.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Izumi": "Blushing"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Now, let's take care of what caused this mess.\"", 
+      "name": "Izumi"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Izumi": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "She goes around the bed, next to my feet and grabs my legs.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I need you to tense up your legs. Make them as rigid as your cock.\"", 
+      "name": "Izumi"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"What?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Go on, make them as rigid as you can!\"", 
+      "name": "Izumi"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I could swear she said \"as rigid as your cock\"...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay...\"", 
+      "name": "Izumi"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I tense up my legs.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Izumi": "Blushing"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"What will happen is that the blood flow will move to your legs. That will solve your... erm... embarrassment.\"", 
+      "name": "Izumi"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Izumi": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "After 20 seconds or so, my dick starts going down. That 'tense legs' stuff really works!", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Izumi": "Happy"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"So, it seems you're going back to your socially accepted self.\"", 
+      "name": "Izumi"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Izumi": "Neutral"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Wanna talk about what happened before?\"", 
+      "name": "Izumi"
+    }
+  }, 
+  {
+    "command": "choice", 
+    "parameters": {
+      "button0Text": "\"Well... this may sound weird... but I've been feeling sexually attracted to food.\"", 
+      "button1Text": "\"Not really. I'm not feeling much like myself these days...\"", 
+      "button1StoryName": "S2-13", 
+      "button0StoryName": "E1-1"
+    }
+  }
+]

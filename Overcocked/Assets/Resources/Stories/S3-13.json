@@ -1,0 +1,57 @@
+[
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Scardole"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Cavallo": "Normal"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Kitchen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay guys, so let's decide now! Who should take the pizza out of the oven?\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Nobody suggests anything else.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Cavallo looks at me, with the most friendly eyes I've ever seen, and asks.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Well, can you do it or not, Hameru Tabe?\"", 
+      "name": "Cavallo"
+    }
+  }, 
+  {
+    "command": "choice", 
+    "parameters": {
+      "button0Text": "Yes", 
+      "button1Text": "No", 
+      "button1StoryName": "S3-17", 
+      "button0StoryName": "S3-14"
+    }
+  }
+]

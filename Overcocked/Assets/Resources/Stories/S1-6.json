@@ -84,7 +84,7 @@
   {
     "command": "message", 
     "parameters": {
-      "message": "I decide to enter the kitchen to see everything from a closer distance.", 
+      "message": "I decide to enter the kitchen to see everything from up close.", 
       "name": ""
     }
   }, 
@@ -97,7 +97,7 @@
   {
     "command": "message", 
     "parameters": {
-      "message": "I enter and there is a smell of Italian food. I look around and on one of the corners of the kitchen...", 
+      "message": "I enter and there it smells of Italian food. I look around and on one of the corners of the kitchen...", 
       "name": ""
     }
   }, 

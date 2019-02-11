@@ -45,7 +45,7 @@
   {
     "command": "message", 
     "parameters": {
-      "message": "He extends his hand to me, as if he knew me forever.", 
+      "message": "He extends his hand to me, as if he'd known me forever.", 
       "name": ""
     }
   }, 

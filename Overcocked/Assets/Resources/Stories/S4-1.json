@@ -1,0 +1,24 @@
+[
+  {
+    "command": "characters", 
+    "parameters": {
+      "": ""
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": ""
+    }
+  }, 
+  {
+    "command": "hide_prompt", 
+    "parameters": {}
+  }, 
+  {
+    "command": "push_var_story", 
+    "parameters": {
+      "varStoryName": "S4-K[K]-R[R]-O[O]-E[E]"
+    }
+  }
+]
