@@ -1,116 +1,114 @@
-{
-  "commandData": [
-    {
-      "command": "background",
-      "parameters": {
-        "imageName": "Black screen"
-      }
-    },
-    {
-      "command": "characters",
-      "parameters": {}
-    },
-    {
-      "command": "music",
-      "parameters": {
-        "snapshotName": "Eggman"
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "Eggman"
-      }
-    },
-    {
-      "command": "music",
-      "parameters": {
-        "snapshotName": "French"
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "French"
-      }
-    },
-    {
-      "command": "music",
-      "parameters": {
-        "snapshotName": "Fuck"
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "Fuck"
-      }
-    },
-    {
-      "command": "music",
-      "parameters": {
-        "snapshotName": "Nurse"
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "Nurse"
-      }
-    },
-    {
-      "command": "music",
-      "parameters": {
-        "snapshotName": "Routine"
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "Routine"
-      }
-    },
-    {
-      "command": "music",
-      "parameters": {
-        "snapshotName": "Scardole"
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "Scardole"
-      }
-    },
-    {
-      "command": "music",
-      "parameters": {
-        "snapshotName": "Theme"
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "Theme"
-      }
-    },
-    {
-      "command": "music",
-      "parameters": {
-        "snapshotName": "Whatever"
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "Whatever"
-      }
-    },
-    {
-      "command": "push_story",
-      "parameters": {
-        "storyName": "Music"
-      }
+[
+  {
+    "command": "background",
+    "parameters": {
+      "imageName": "Black screen"
     }
-  ]
-}
+  },
+  {
+    "command": "characters",
+    "parameters": {}
+  },
+  {
+    "command": "music",
+    "parameters": {
+      "snapshotName": "Eggman"
+    }
+  },
+  {
+    "command": "message",
+    "parameters": {
+      "message": "Eggman"
+    }
+  },
+  {
+    "command": "music",
+    "parameters": {
+      "snapshotName": "French"
+    }
+  },
+  {
+    "command": "message",
+    "parameters": {
+      "message": "French"
+    }
+  },
+  {
+    "command": "music",
+    "parameters": {
+      "snapshotName": "Fuck"
+    }
+  },
+  {
+    "command": "message",
+    "parameters": {
+      "message": "Fuck"
+    }
+  },
+  {
+    "command": "music",
+    "parameters": {
+      "snapshotName": "Nurse"
+    }
+  },
+  {
+    "command": "message",
+    "parameters": {
+      "message": "Nurse"
+    }
+  },
+  {
+    "command": "music",
+    "parameters": {
+      "snapshotName": "Routine"
+    }
+  },
+  {
+    "command": "message",
+    "parameters": {
+      "message": "Routine"
+    }
+  },
+  {
+    "command": "music",
+    "parameters": {
+      "snapshotName": "Scardole"
+    }
+  },
+  {
+    "command": "message",
+    "parameters": {
+      "message": "Scardole"
+    }
+  },
+  {
+    "command": "music",
+    "parameters": {
+      "snapshotName": "Theme"
+    }
+  },
+  {
+    "command": "message",
+    "parameters": {
+      "message": "Theme"
+    }
+  },
+  {
+    "command": "music",
+    "parameters": {
+      "snapshotName": "Whatever"
+    }
+  },
+  {
+    "command": "message",
+    "parameters": {
+      "message": "Whatever"
+    }
+  },
+  {
+    "command": "push_story",
+    "parameters": {
+      "storyName": "Music"
+    }
+  }
+]

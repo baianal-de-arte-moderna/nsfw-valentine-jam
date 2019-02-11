@@ -53,13 +53,13 @@ public class StoryInterpreter : MonoBehaviour
   private List<Command> commands;
   private Dictionary<string, string> variables = new Dictionary<string, string>();
 
-  void Start()
+  private void Start()
   {
     MessagePrompt messagePrompt = canvas.GetComponentInChildren<MessagePrompt>();
     onClickHandler.OnMouseClicked += messagePrompt.OnClick;
 
     commands = LoadStoryCommands(initialStory);
-    ExecuteCommand();
+    Invoke("ExecuteCommand", 0.1f);
   }
 
   private List<Command> LoadStoryCommands(string storyName)
