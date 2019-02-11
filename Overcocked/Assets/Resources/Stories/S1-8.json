@@ -40,8 +40,8 @@
   {
     "command": "choice", 
     "parameters": {
-      "button0Text": "[OPT] Stop", 
-      "button1Text": "[OPT] Continue", 
+      "button0Text": "Stop", 
+      "button1Text": "Continue", 
       "button1StoryName": "S1-10", 
       "button0StoryName": "S1-9"
     }
