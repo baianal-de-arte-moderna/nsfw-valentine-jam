@@ -1,0 +1,52 @@
+[
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Routine"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School gates"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "When I arrived, a Beefy Dude was waiting at the gates.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Happy"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Hey! You must be the new guy!\"", 
+      "name": "Beefy Dude"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I am Urayama Keisuke! You can call me Keisuke-kun.\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "He extends his hand to me, as if he knew me forever.", 
+      "name": ""
+    }
+  }
+]

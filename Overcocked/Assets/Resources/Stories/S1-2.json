@@ -1,79 +1,87 @@
-{
-  "commandData": [
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "I just nod my head and pretend I didn't see his hand."
-      }
-    },
-    {
-      "command": "set_variable",
-      "parameters": {
-        "key": "K",
-        "value": "I"
-      }
-    },
-    {
-      "command": "characters",
-      "parameters": {
-        "Keisuke": "Awkward"
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "name": "Keisuke",
-        "messageText": "\"Okay... So... You are?\""
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "\"I am Hameru Tabe. How did you know I'm new around here?\""
-      }
-    },
-    {
-      "command": "characters",
-      "parameters": {
-        "Keisuke": "Showing Off"
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "name": "Keisuke",
-        "messageText": "\"Oh, well. I know everyone around here. And I think everyone knows me!\""
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "\"Cool.\""
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "I'm not really impressed, he is just a jock."
-      }
-    },
-    {
-      "command": "characters",
-      "parameters": {
-        "Keisuke": "Happy"
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "\"So, where should we start?\""
-      }
-    },
-    {
-      "command": "push_story",
-      "parameters": {
-        "storyName": "S1-4"
-      }
+[
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Happy"
     }
-  ]
-}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School gates"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I just nod my head and pretend I didn't see his hand.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Awkward"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Okay... So... You are?\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I am Hameru Tabe. How did you know I'm new around here?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Showing Off"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh, well. I know everyone around here. And I think everyone knows me!\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Cool.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I'm not really impressed, he is just a jock.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Happy"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"So, where should we start?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "S1-4"
+    }
+  }
+]

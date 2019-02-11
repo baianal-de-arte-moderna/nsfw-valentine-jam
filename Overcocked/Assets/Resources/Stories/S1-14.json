@@ -1,0 +1,65 @@
+[
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Puked"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "My room"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Nah, I better go to bed. We have classes tomorrow...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "set_variable", 
+    "parameters": {
+      "value": "k", 
+      "key": "set"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"You know what man? You are right. Sorry for annoying you! Good night!", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Good night! Be well!\" - I say this and close the door. I just want to sleep.", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "As soon as my head touches my pillow, I fall asleep.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "S1-21"
+    }
+  }
+]

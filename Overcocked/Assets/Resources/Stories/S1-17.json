@@ -1,0 +1,66 @@
+[
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Fuck"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Kitchen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I look at his burguer. It sure looks good.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "set_variable", 
+    "parameters": {
+      "value": "k", 
+      "key": "set"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I think all the puking has turned me down...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I can't get a hard on.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I try to smell the burguer. It smells fine.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I grab the burguer. It is firm and well structured, despite the drunkenness of the chef who prepared it.", 
+      "name": ""
+    }
+  }
+]
