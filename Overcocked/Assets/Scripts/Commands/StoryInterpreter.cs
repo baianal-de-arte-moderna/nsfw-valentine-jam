@@ -11,6 +11,9 @@ public class StoryInterpreter : MonoBehaviour
   private Canvas canvas;
 
   [SerializeField]
+  private TextAsset defaultEndingStory;
+
+  [SerializeField]
   private TextAsset initialStory;
 
   [SerializeField]
@@ -65,6 +68,10 @@ public class StoryInterpreter : MonoBehaviour
   private List<Command> LoadStoryCommands(string storyName)
   {
     TextAsset story = Resources.Load<TextAsset>($"Stories/{storyName}");
+    if (story == null)
+    {
+      story = defaultEndingStory;
+    }
     return LoadStoryCommands(story);
   }
 
