@@ -18,7 +18,7 @@ public class BackgroundCommand : Command
     Sprite newBackground = Resources.Load<Sprite>($"Sprites/Backgrounds/{imageName}");
     if (newBackground == null)
     {
-      newBackground = Resources.Load<Sprite>("Sprites/Backgrounds/blackscreen");
+      newBackground = Resources.Load<Sprite>("Sprites/Backgrounds/Black screen");
     }
 
     float vRatio = Screen.height / newBackground.rect.height;

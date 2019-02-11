@@ -3,7 +3,7 @@
     {
       "command": "background",
       "parameters": {
-        "imageName": "kitchen"
+        "imageName": "Kitchen"
       }
 		},
 		{
@@ -25,7 +25,7 @@
     {
       "command": "background",
       "parameters": {
-        "imageName": "corridor"
+        "imageName": "School corridor"
       }
     },
 		{
@@ -168,7 +168,7 @@
 		{
       "command": "background",
       "parameters": {
-        "imageName": "restroom"
+        "imageName": "Bathroom"
       }
     },
 		{
@@ -241,7 +241,7 @@
     {
       "command": "background",
       "parameters": {
-        "imageName": "corridor"
+        "imageName": "School corridor"
       }
     },
 		{
@@ -365,7 +365,7 @@
 		{
       "command": "background",
       "parameters": {
-        "imageName": "CG/orika-opens-the-door-on-me"
+        "imageName": "CG - Orika opens the door on me"
       }
     },
 		{
@@ -378,7 +378,7 @@
 		{
       "command": "background",
       "parameters": {
-        "imageName": "corridor"
+        "imageName": "School corridor"
       }
     },
 		{
@@ -749,7 +749,7 @@
 		{
       "command": "background",
       "parameters": {
-        "imageName": "CG/orika-falls-over-me"
+        "imageName": "CG - Orika falls over me"
       }
     },
 		{
@@ -789,7 +789,7 @@
 		{
       "command": "background",
       "parameters": {
-        "imageName": "room"
+        "imageName": "My room"
       }
     },
 		{
@@ -891,7 +891,7 @@
 		{
       "command": "background",
       "parameters": {
-        "imageName": "CG/day-1-completed"
+        "imageName": "CG - Day 1 Completed!"
       }
     },
 		{
