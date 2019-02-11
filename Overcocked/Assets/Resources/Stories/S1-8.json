@@ -36,5 +36,14 @@
       "message": "The tomato sauce spills all over my clothes, but I don't stop. It feels delicious. I can't stop. I should stop.", 
       "name": ""
     }
+  }, 
+  {
+    "command": "choice", 
+    "parameters": {
+      "button0Text": "[OPT] Stop", 
+      "button1Text": "[OPT] Continue", 
+      "button1StoryName": "S1-10", 
+      "button0StoryName": "S1-9"
+    }
   }
 ]

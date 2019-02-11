@@ -138,5 +138,14 @@
       "message": "\"HAHAHA oh man, you're funny. No, another drink! Let's go, follow me!\"", 
       "name": "Keisuke"
     }
+  }, 
+  {
+    "command": "choice", 
+    "parameters": {
+      "button0Text": "[OPT] Follow him", 
+      "button1Text": "[OPT] Don't follow him", 
+      "button1StoryName": "S1-14", 
+      "button0StoryName": "S1-15"
+    }
   }
 ]
