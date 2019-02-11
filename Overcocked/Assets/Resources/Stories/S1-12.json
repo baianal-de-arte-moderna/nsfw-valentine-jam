@@ -26,8 +26,8 @@
   {
     "command": "choice", 
     "parameters": {
-      "button0Text": "[OPT] Open", 
-      "button1Text": "[OPT] Don't open", 
+      "button0Text": "Open", 
+      "button1Text": "Don't open", 
       "button1StoryName": "S1-12", 
       "button0StoryName": "S1-13"
     }

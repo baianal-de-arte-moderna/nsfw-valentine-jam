@@ -414,8 +414,8 @@
   {
     "command": "choice", 
     "parameters": {
-      "button0Text": "[OPT] Check Burguer", 
-      "button1Text": "[OPT] Wait for Keisuke", 
+      "button0Text": "Check Burguer", 
+      "button1Text": "Wait for Keisuke", 
       "button1StoryName": "S1-16", 
       "button0StoryName": "S1-17"
     }

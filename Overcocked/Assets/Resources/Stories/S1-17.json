@@ -66,8 +66,8 @@
   {
     "command": "choice", 
     "parameters": {
-      "button0Text": "[OPT] Eat burger", 
-      "button1Text": "[OPT] Fuck burguer", 
+      "button0Text": "Eat burger", 
+      "button1Text": "Fuck burguer", 
       "button1StoryName": "S1-18", 
       "button0StoryName": "S1-19"
     }

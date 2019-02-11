@@ -48,8 +48,8 @@
   {
     "command": "choice", 
     "parameters": {
-      "button0Text": "[OPT] \"Oh, we'll see about that. So, where should we start?\"", 
-      "button1Text": "[OPT] \"Okay, Keisuke-senpai. What will you show me first?\"", 
+      "button0Text": "\"Oh, we'll see about that. So, where should we start?\"", 
+      "button1Text": "\"Okay, Keisuke-senpai. What will you show me first?\"", 
       "button1StoryName": "S1-5", 
       "button0StoryName": "S1-4"
     }
