@@ -4,7 +4,6 @@ using UnityEngine.UI;
 public class ChoicePrompt : MonoBehaviour
 {
   public GameObject panel;
-  public Text panelText;
   public Text button0Text;
   public Text button1Text;
 

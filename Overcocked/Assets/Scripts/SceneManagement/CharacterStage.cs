@@ -20,7 +20,7 @@ public class CharacterStage : MonoBehaviour
     CharacterScript characterScript = Resources.Load<CharacterScript>("Characters/" + characterName);
     if (characterScript != null)
     {
-      CharacterScript character = Instantiate(characterScript);
+      CharacterScript character = Instantiate(characterScript, transform);
       characterList.Add(character);
 
       if (Enum.TryParse(characterState, out CharacterScript.CharacterState state))
@@ -37,18 +37,21 @@ public class CharacterStage : MonoBehaviour
 
   private void RearrangeCharacters()
   {
-    float vCenter = 0.5f;
-    float hStep = 1.0f / (characterList.Count + 1);
-
-    float currentPosition = hStep;
-
-    foreach (var character in characterList)
+    if (characterList.Count > 0)
     {
-      Transform characterTransform = character.GetComponent<Transform>();
-      characterTransform.position = Camera.main.ViewportToWorldPoint(new Vector3(currentPosition, vCenter, 1));
-      currentPosition += hStep;
+      float width = Screen.width;
+      float hStep = width / (characterList.Count + 1);
+
+      float currentPosition = hStep;
+
+      foreach (var character in characterList)
+      {
+        Transform characterTransform = character.GetComponent<Transform>();
+        Vector3 oldPosition = Camera.main.WorldToScreenPoint(characterTransform.position);
+        Vector3 newPosition = new Vector3(currentPosition, oldPosition.y, oldPosition.z);
+        characterTransform.position = Camera.main.ScreenToWorldPoint(newPosition);
+        currentPosition += hStep;
+      }
     }
   }
-
-  void Update() { }
 }
