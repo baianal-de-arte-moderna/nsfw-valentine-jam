@@ -3,7 +3,7 @@
     {
       "command": "background",
       "parameters": {
-        "imageName": "corridor"
+        "imageName": "School corridor"
       }
     },
     {
@@ -39,7 +39,7 @@
     {
       "command": "background",
       "parameters": {
-        "imageName": "kitchen"
+        "imageName": "Kitchen"
       }
     },
     {
