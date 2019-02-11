@@ -1,34 +1,32 @@
 [
   {
     "command": "characters", 
-    "parameters": {
-      "Keisuke": "Happy"
-    }
+    "parameters": {}
   }, 
   {
     "command": "background", 
     "parameters": {
-      "imageName": "School gates"
+      "imageName": "Kitchen"
     }
   }, 
   {
     "command": "message", 
     "parameters": {
-      "message": "\"Well, we can start by going in.\"", 
-      "name": "Keisuke"
+      "message": "What if he puked on the Burguer?", 
+      "name": ""
     }
   }, 
   {
     "command": "message", 
     "parameters": {
-      "message": "\"Let's go!\"", 
-      "name": "Hameru Tabe"
+      "message": "Oh, it is so well built...", 
+      "name": ""
     }
   }, 
   {
     "command": "push_story", 
     "parameters": {
-      "storyName": "S1-6"
+      "storyName": "S1-20"
     }
   }
 ]

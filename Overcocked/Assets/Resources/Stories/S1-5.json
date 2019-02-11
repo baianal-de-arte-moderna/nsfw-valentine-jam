@@ -1,43 +1,66 @@
-{
-  "commandData": [
-    {
-      "command": "set_variable",
-      "parameters": {
-        "key": "K",
-        "value": "L"
-      }
-    },
-    {
-      "command": "characters",
-      "parameters": {
-        "Keisuke": "Embarassed"
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "name": "Keisuke",
-        "messageText": "\"Oh... Okay... I wasn't expecting that. Normally, people don't go with my flow.\""
-      }
-    },
-    {
-      "command": "characters",
-      "parameters": {
-        "Keisuke": "Happy"
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "name": "Keisuke",
-        "messageText": "\"Anyway, let's go in, there is a lot for you to see!\""
-      }
-    },
-    {
-      "command": "push_story",
-      "parameters": {
-        "storyName": "S1-6"
-      }
+[
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Embarrassed"
     }
-  ]
-}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School gates"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh... Okay... I wasn't expecting that. Normally, people don't go with my flow.\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Well, you seem cool.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Thanks! You seem cool too.\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Happy"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School gates"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Anyway, let's go in, there is a lot for you to see!\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "S1-6"
+    }
+  }
+]
