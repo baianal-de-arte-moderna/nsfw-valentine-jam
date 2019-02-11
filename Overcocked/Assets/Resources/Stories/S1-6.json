@@ -160,5 +160,14 @@
       "message": "Should I... ?", 
       "name": ""
     }
+  }, 
+  {
+    "command": "choice", 
+    "parameters": {
+      "button0Text": "[OPT] I will stick my dick into it.", 
+      "button1Text": "[OPT] I will resist this weird urge.", 
+      "button1StoryName": "S1-7", 
+      "button0StoryName": "S1-8"
+    }
   }
 ]

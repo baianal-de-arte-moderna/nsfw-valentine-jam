@@ -62,5 +62,14 @@
       "message": "I grab the burguer. It is firm and well structured, despite the drunkenness of the chef who prepared it.", 
       "name": ""
     }
+  }, 
+  {
+    "command": "choice", 
+    "parameters": {
+      "button0Text": "[OPT] Eat burger", 
+      "button1Text": "[OPT] Fuck burguer", 
+      "button1StoryName": "S1-18", 
+      "button0StoryName": "S1-19"
+    }
   }
 ]

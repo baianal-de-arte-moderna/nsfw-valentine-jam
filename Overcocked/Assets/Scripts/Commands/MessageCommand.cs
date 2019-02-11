@@ -11,7 +11,7 @@ public class MessageCommand : Command
     message = new MessagePrompt.Message
     {
       Name = parameters.ContainsKey("name") ? parameters["name"] : "",
-      MessageText = parameters["messageText"]
+      MessageText = parameters["message"]
     };
   }
 

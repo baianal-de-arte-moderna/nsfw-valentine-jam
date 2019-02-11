@@ -70,8 +70,8 @@ public class StoryInterpreter : MonoBehaviour
 
   private List<Command> LoadStoryCommands(TextAsset story)
   {
-    StoryData storyData = JsonConvert.DeserializeObject<StoryData>(story.text);
-    return storyData.commandData.Select(CommandFactory.CreateCommand).ToList();
+    List<CommandData> storyData = JsonConvert.DeserializeObject<List<CommandData>>(story.text);
+    return storyData.Select(CommandFactory.CreateCommand).ToList();
   }
 
   public void PushStory(string storyName)

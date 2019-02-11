@@ -118,7 +118,10 @@ class Scene:
         self._current_characters = None
         self._current_background = None
         self._current_options = None
-        return
+
+    def flush_choice(self):
+        if (self._current_options != None):
+            self._steps.append(ChoiceCommand(self._current_options))
 
     def push_step(self, step):
         bgmusic = step[K_BGMUSIC]
@@ -148,8 +151,7 @@ class Scene:
 
         else:
             if (message != None and message != ''):
-                if (self._current_options != None):
-                    self._steps.append(ChoiceCommand(self._current_options))
+                self.flush_choice()
 
                 self._current_options = None
                 speaker = desc[K_SPEAKER]
@@ -174,11 +176,14 @@ class SceneMap:
     def __init__(self, name):
         self._scenes = {}
         self._name = name
+        self._current_scene = None
         return
 
     def parse(self,desc):
         scene_id = desc[K_ID]
         if (scene_id != ''):
+            if (self._current_scene != None):
+                self._current_scene.flush_choice()
             new_scene = Scene()
             self._scenes[scene_id] = new_scene
             self._current_scene = new_scene
@@ -206,4 +211,7 @@ if __name__ == '__main__':
         for desc in reader:
             #print(desc)
             scene_map.parse(desc)
-    scene_map.dump('out/' + scene_name)
+    out_path = 'out/'
+    if (len(sys.argv) == 3):
+        out_path = sys.argv[2] + '/'
+    scene_map.dump(out_path + scene_name)

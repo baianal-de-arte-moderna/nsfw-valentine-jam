@@ -48,5 +48,14 @@
       "message": "He extends his hand to me, as if he knew me forever.", 
       "name": ""
     }
+  }, 
+  {
+    "command": "choice", 
+    "parameters": {
+      "button0Text": "[OPT] Shake his hand", 
+      "button1Text": "[OPT] Don't shake his hand", 
+      "button1StoryName": "S1-2", 
+      "button0StoryName": "S1-3"
+    }
   }
 ]
