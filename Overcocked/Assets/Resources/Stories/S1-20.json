@@ -1,0 +1,295 @@
+[
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Routine"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Shirtless"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Kitchen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Hey man! I'm back! I'm feeling better now! HEY! Are you eating my burguer?\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh! Yes!\" - I take a big bite just to make sure he believes me. - \"It's delicious!\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "In fact, it is really delicious. Puke or no puke, this Burger is awesome.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Really? Nobody ever tries my dishes...\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Why?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Dunno. Maybe they think that because I take care of my body, I am a terrible cook.\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Well, you are not.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Thanks!\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"And your body is, indeed, very nice. I wish I could maintain a body like that.\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Th-Thanks man! Hahaha\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Keisuke seems a little nervous.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Yours isn't half as bad actually. I like slim built guys.\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "What? Did he just say he likes... guys? Guys like me...?", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "It's probably just the alcohol speaking.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Still... A guy like him... Into me...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I notice we just made a huge mess in the kitchen and we need to clean this up SOON.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Umm... Keisuke... we really can't leave all this mess behind\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Shirtless"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh, right!  I gotta take care of the dishes.\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Hey man, whaddya say you help me with this and we'll get it over with before you can say \"GUACUM MOLE\"! Hahahaha!\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Hahahahaha!\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "We both laugh.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "We quickly get to the cleaning. Keisuke does the dishes and I dry them off and put them away.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "As I walked to the cabinet I feel a splash on my back...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "He he he he...", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "hide_prompt", 
+    "parameters": {}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "WASH DISHES", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "WATER FIGHT", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "DRIPPING WET", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "BOTH NAKED", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"WHOSE FAULT\" FIGHT", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "SEX", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "My room"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Gosh, that was crazy. I need some sleep...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "S1-21"
+    }
+  }
+]

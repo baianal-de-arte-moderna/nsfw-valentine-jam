@@ -1,45 +1,40 @@
-{
-  "commandData": [
-    {
-      "command": "background",
-      "parameters": {
-        "imageName": "CG/lasagna-with-dick"
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "name": "Hameru Tabe",
-        "messageText": "\"Oh my...\""
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "I haven't felt this good in a long time."
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "I decide to go all the way. I start pounding the Lasagna."
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "The tomato sauce spills all over my clothes, but I don't stop. It feels delicious. I can't stop. I should stop."
-      }
-    },
-    {
-      "command": "choice",
-      "parameters": {
-        "panelText": "What do I do?",
-        "button0Text": "Stop",
-        "button0StoryName": "S1-9",
-        "button1Text": "Continue",
-        "button1StoryName": "S1-10"
-      }
+[
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "CG - Lasagna with dick"
     }
-  ]
-}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh my...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I haven't felt this good in a long time.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I decide to go all the way. I start pounding the Lasagna.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "The tomato sauce spills all over my clothes, but I don't stop. It feels delicious. I can't stop. I should stop.", 
+      "name": ""
+    }
+  }
+]

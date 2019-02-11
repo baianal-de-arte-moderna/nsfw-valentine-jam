@@ -26,8 +26,28 @@ class Characters:
 
 class ActionCommandFactory:
     @staticmethod
-    def create(string):
-        pass
+    def create(action):
+
+        if (action == 'pause'):
+            return ActionPauseCommand()
+        elif (action.startswith('set ')):
+            action.replace('set ', '')
+            setvar = action.split(' ')
+            return ActionSetVariableCommand(setvar[0], setvar[1])
+        elif (action.find('[') != -1):
+            return ActionPushVarStoryCommand(action.upper())
+        else:
+            return ActionPushStoryCommand(action.upper())
+
+        return Command(action, {})
+
+    @staticmethod
+    def parse_commands(string):
+        commands = []
+        actions = string.split(',')
+        for action in actions:
+            commands.append(ActionCommandFactory.create(action.lower()))
+        return commands
 
 class Command:
     def __init__(self, command, parameters):
@@ -65,15 +85,44 @@ class MessageCommand(Command):
         })
         return
 
+class HidePromptCommand(Command):
+    def __init__(self):
+        Command.__init__(self, "hide_prompt", {})
+
+class ActionPauseCommand(Command):
+    def __init__(self):
+        Command.__init__(self, "pause", {})
+
+class ActionSetVariableCommand(Command):
+    def __init__(self, var, value):
+        Command.__init__(self, "set_variable", {
+            "key": var,
+            "value": value
+        })
+
+class ActionPushStoryCommand(Command):
+    def __init__(self, story_name):
+        Command.__init__(self, "push_story", {
+            "storyName": story_name
+        })
+
+class BackgroundCommand(Command):
+    def __init__(self, bgname):
+        Command.__init__(self, "background", {
+            "imageName": bgname
+        })
+
 class Scene:
     def __init__(self):
         self._steps = []
         self._current_characters = None
+        self._current_background = None
         self._current_options = None
         return
 
     def push_step(self, step):
         bgmusic = step[K_BGMUSIC]
+        bgimage = step[K_BGIMAGE]
         characters = Characters.from_desc(step[K_CHARACTERS])
 
         if (bgmusic != None and bgmusic != ''):
@@ -83,8 +132,13 @@ class Scene:
             self._steps.append(CharactersCommand(characters))
             self._current_characters = characters
 
+        if (bgimage != self._current_background):
+            self._steps.append(BackgroundCommand(bgimage))
+            self._current_background = bgimage
+
         message = desc[K_MESSAGE]
         action = desc[K_ACTIONS]
+
         if (message.startswith(OPT_MARKER)):
             if (self._current_options == None):
                 self._current_options = []
@@ -93,16 +147,21 @@ class Scene:
             self._current_options.append([ message, action ])
 
         else:
-            if (self._current_options != None):
-                self._steps.append(ChoiceCommand(self._current_options))
-            self._current_options = None
-            speaker = desc[K_SPEAKER]
-            self._steps.append(MessageCommand(message, speaker))
-            if (action != None and action != ''):
-                action_command = ActionCommandFactory.create(action)
-                if (action_command != None):
-                    self._steps.append(action_command)
+            if (message != None and message != ''):
+                if (self._current_options != None):
+                    self._steps.append(ChoiceCommand(self._current_options))
 
+                self._current_options = None
+                speaker = desc[K_SPEAKER]
+                self._steps.append(MessageCommand(message, speaker))
+
+            else:
+                self._steps.append(HidePromptCommand())
+
+            if (action != None and action != ''):
+                action_commands = ActionCommandFactory.parse_commands(action)
+                if (action_commands != None and action_commands != []):
+                    self._steps.extend(action_commands)
 
         return
 
@@ -143,7 +202,8 @@ if __name__ == '__main__':
     print("Parsing scene: {0}".format(scene_name))
     scene_map = SceneMap(scene_name)
     with open(filename) as scene:
-        reader = csv.DictReader(scene, dialect='excel-tab',quoting=csv.QUOTE_NONE)
+        reader = csv.DictReader([line for line in scene if not line.isspace()], dialect='excel-tab',quoting=csv.QUOTE_NONE)
         for desc in reader:
+            #print(desc)
             scene_map.parse(desc)
     scene_map.dump('out/' + scene_name)

@@ -1,40 +1,52 @@
-{
-  "commandData": [
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "I close my eyes and start thinking about something else. My mom. My family."
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "..."
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "As I open my eyes, I see it:"
-      }
-    },
-    {
-      "command": "background",
-      "parameters": {
-        "imageName": "CG/lasagna-with-dick"
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "My dick is inside the Lasagna. How did that happen? It feels so good."
-      }
-    },
-    {
-      "command": "push_story",
-      "parameters": {
-        "storyName": "S1-8"
-      }
+[
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Kitchen"
     }
-  ]
-}
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I close my eyes and start thinking about something else. My mom. My family.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "As I open my eyes, I see it:", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "CG - Lasagna with dick"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "My dick is inside the Lasagna. How did that happen? It feels so good.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "S1-8"
+    }
+  }
+]

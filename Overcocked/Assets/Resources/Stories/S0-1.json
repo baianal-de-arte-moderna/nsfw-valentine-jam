@@ -1,0 +1,66 @@
+[
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Routine"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Black screen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Since I was 13 I already knew what I wanted to be when I grew up: A chef.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "As I got older, I found that dream hard to achieve, but I never gave up.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "After some years of dedication, I've got accepted at one of the most prestigious culinary institutes in Japan: The Blue Cordon.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "This is the story of how that school changed me forever.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "CG - Title screen"
+    }
+  }, 
+  {
+    "command": "hide_prompt", 
+    "parameters": {}
+  }, 
+  {
+    "command": "pause", 
+    "parameters": {}
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "S1-1"
+    }
+  }
+]

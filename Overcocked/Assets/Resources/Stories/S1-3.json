@@ -1,46 +1,48 @@
-{
-  "commandData": [
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "With a hard grip, he grabs my hand and I feel like he is really welcoming me, and not doing this as an obligation of some kind."
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "\"I am Hameru Tabe. How did you know I'm new around here?\""
-      }
-    },
-    {
-      "command": "characters",
-      "parameters": {
-        "Keisuke": "Showing Off"
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "name": "Keisuke",
-        "messageText": "\"Oh, well. I know everyone around here. And I think everyone knows me!\""
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "name": "Keisuke",
-        "messageText": "\"I am your designated tour guide. Maybe you should call me Keisuke-senpai haha\""
-      }
-    },
-    {
-      "command": "choice",
-      "parameters": {
-        "panelText": "How do I react?",
-        "button0Text": "\"Oh, we'll see about that. So, where should we start?\"",
-        "button0StoryName": "S1-4",
-        "button1Text": "\"Okay, Keisuke-senpai. What will you show me first?\"",
-        "button1StoryName": "S1-5"
-      }
+[
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Happy"
     }
-  ]
-}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "School gates"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "With a hard grip, he grabs my hand and I feel like he is really welcoming me, and not doing this as an obligation of some kind.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I am Hameru Tabe. How did you know I'm new around here?\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {
+      "Keisuke": "Showing Off"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Oh, well. I know everyone around here. And I think everyone knows me!\"", 
+      "name": "Keisuke"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"I am your designated tour guide. Maybe you should call me Keisuke-senpai haha\"", 
+      "name": "Keisuke"
+    }
+  }
+]

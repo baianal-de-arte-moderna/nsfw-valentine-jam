@@ -3,8 +3,8 @@ Id	Text	Speaker	Action	OnScreen Characters	Background	Music
 	"Hey! You must be the new guy!"	Beefy Dude		Keisuke - Happy	School gates	
 	"I am Urayama Keisuke! You can call me Keisuke-kun."	Keisuke		Keisuke - Happy	School gates	
 	He extends his hand to me, as if he knew me forever.	None		Keisuke - Happy	School gates	
-	[OPT] Shake his hand	None	3	Keisuke - Happy	School gates	
-	[OPT] Don't shake his hand	None	2	Keisuke - Happy	School gates	
+	[OPT] Shake his hand	None	S1-3	Keisuke - Happy	School gates	
+	[OPT] Don't shake his hand	None	S1-2	Keisuke - Happy	School gates	
 						
 2	I just nod my head and pretend I didn't see his hand.	None		Keisuke - Happy	School gates	
 	"Okay... So... You are?"	Keisuke		Keisuke - Awkward	School gates	
@@ -12,64 +12,65 @@ Id	Text	Speaker	Action	OnScreen Characters	Background	Music
 	"Oh, well. I know everyone around here. And I think everyone knows me!"	Keisuke		Keisuke - Showing Off	School gates	
 	"Cool."	Hameru Tabe		Keisuke - Showing Off	School gates	
 	I'm not really impressed, he is just a jock.	None		Keisuke - Showing Off	School gates	
-	"So, where should we start?"	Hameru Tabe	4	Keisuke - Happy	School gates	
+	"So, where should we start?"	Hameru Tabe	S1-4	Keisuke - Happy	School gates	
 						
 3	With a hard grip, he grabs my hand and I feel like he is really welcoming me, and not doing this as an obligation of some kind.	None		Keisuke - Happy	School gates	
 	"I am Hameru Tabe. How did you know I'm new around here?"	Hameru Tabe		Keisuke - Happy	School gates	
 	"Oh, well. I know everyone around here. And I think everyone knows me!"	Keisuke		Keisuke - Showing Off	School gates	
 	"I am your designated tour guide. Maybe you should call me Keisuke-senpai haha"	Keisuke		Keisuke - Showing Off	School gates	
-	[OPT] "Oh, we'll see about that. So, where should we start?"	None	4	Keisuke - Showing Off	School gates	
-	[OPT] "Okay, Keisuke-senpai. What will you show me first?"	None	5	Keisuke - Showing Off	School gates	
+	[OPT] "Oh, we'll see about that. So, where should we start?"	None	S1-4	Keisuke - Showing Off	School gates	
+	[OPT] "Okay, Keisuke-senpai. What will you show me first?"	None	S1-5	Keisuke - Showing Off	School gates	
 						
 4	"Well, we can start by going in."	Keisuke		Keisuke - Happy	School gates	
-	"Let's go!"	Hameru Tabe	6	Keisuke - Happy	School gates	
+	"Let's go!"	Hameru Tabe	S1-6	Keisuke - Happy	School gates	
 						
-5	"Oh... Okay... I wasn't expecting that. Normally, people don't go with my flow."	Keisuke		Keisuke - Embarassed	School gates	
-	"Well, you seem cool."	Hameru Tabe		Keisuke - Embarassed		
-	"Thanks! You seem cool too."	Keisuke		Keisuke - Embarassed		
-	"Anyway, let's go in, there is a lot for you to see!"	Keisuke	6	Keisuke - Happy	School gates	
+5	"Oh... Okay... I wasn't expecting that. Normally, people don't go with my flow."	Keisuke		Keisuke - Embarrassed	School gates	
+	"Well, you seem cool."	Hameru Tabe		Keisuke - Embarrassed		
+	"Thanks! You seem cool too."	Keisuke		Keisuke - Embarrassed		
+	"Anyway, let's go in, there is a lot for you to see!"	Keisuke	S1-6	Keisuke - Happy	School gates	
 						
 6	We start walking through corridors and more corridors.	None		None	School corridor	Theme
 	"This school feels like a maze."	Hameru Tabe		None	School corridor	
 	"You'll get used to it. Look, there are the kitchens that we use on most classes."	Keisuke		Keisuke - Happy	School corridor	
 	From the corridor that we are now, I can see a beautiful kitchen with long islands, each with a counter top stove.	None		None	School corridor	
-	Everything is so clean and shiny, so different than where I used to cook at home.	None		None	School corridor	
+	Everything is so clean and shiny, so much better than what I had at home.	None		None	School corridor	
 	All the appliances and cooking utensils are like new, and I wonder how often they change everything there.	None		None	School corridor	
-	Sudenly, I realize Keisuke is not around anymore.	None		None	School corridor	
+	Suddenly, I realize Keisuke is not around anymore.	None		None	School corridor	
 	I think he was so focused on showing everything at the school that he didn't notice I stopped to admire this beautiful kitchen.	None		None	School corridor	
 	I decide to enter the kitchen to see everything from a closer distance.	None		None	School corridor	
 	I enter and there is a smell of Italian food. I look around and on one of the corners of the kitchen...	None		None	Kitchen	
 	"Oh my... what is that?"	Hameru Tabe		None	Kitchen	
 	The most beautiful Lasagna I've ever seen. No. It's the most beautiful dish I've ever seen.	None		None	Kitchen	
-	I never though a italian dish could look so beautiful.	None		None	Kitchen	
+	I never thought a italian dish could look so beautiful.	None		None	Kitchen	
 	I feel a weird sensation in my pants. It's been a while since I felt aroused about anything.	None		None	Kitchen	Mute
 	I start to wonder...	None		None	Kitchen	Mute
 	Should I... ?	None		None	Kitchen	Fuck
-	[OPT] I will stick my dick into it.	None	8	None	Kitchen	
-	[OPT] I will resist this weird urge.	None	7	None	Kitchen	
+	[OPT] I will stick my dick into it.	None	S1-8	None	Kitchen	
+	[OPT] I will resist this weird urge.	None	S1-7	None	Kitchen	
 						
 7	I close my eyes and start thinking about something else. My mom. My family.	None		None	Kitchen	
 	...	None		None	Kitchen	
 	As I open my eyes, I see it:	None		None	Kitchen	
-	My dick is inside the Lasagna. How did that happen? It feels so good.	None	8	None	CG - Lasagna with dick	
+	My dick is inside the Lasagna. How did that happen? It feels so good.	None	S1-8	None	CG - Lasagna with dick	
 						
 8	"Oh my..."	Hameru Tabe		None	CG - Lasagna with dick	
 	I haven't felt this good in a long time.	None		None	CG - Lasagna with dick	
 	I decide to go all the way. I start pounding the Lasagna.	None		None	CG - Lasagna with dick	
 	The tomato sauce spills all over my clothes, but I don't stop. It feels delicious. I can't stop. I should stop.	None		None	CG - Lasagna with dick	
-	[OPT] Stop	None	9	None	CG - Lasagna with dick	
-	[OPT] Continue	None	10	None	CG - Lasagna with dick	
+	[OPT] Stop	None	S1-9	None	CG - Lasagna with dick	
+	[OPT] Continue	None	S1-10	None	CG - Lasagna with dick	
 						
 9	I concentrate deeply and, with a sudden movement, pull myself away from the Lasagna.	None		None	Kitchen	
 	I slip my dick inside my pants with some difficulties, since my dick is still hard as rock.	None		None	Kitchen	Mute
-	Everything is a mess of tomato sauce and shame... But it felt so good...	None	11	None	Kitchen	
+	Everything is a mess of tomato sauce and shame... But it felt so good...	None	S1-11	None	Kitchen	
 						
-10	I continue thrusting the Lasagna. This feels so wrong and so good at the same time.	None		None	Kitchen	
-	...	None		None	Kitchen	
-	"Ughn..."	Hameru Tabe		None	Kitchen	
+10	I continue thrusting the Lasagna. This feels so wrong and so good at the same time.	None		None	CG - Lasagna with dick	Fuck
+	...	None		None	CG - Lasagna with dick	
+	"Ughn..."	Hameru Tabe		None	CG - Lasagna with dick	
+		None	PAUSE	None	CG - Lasagna with dick	
 	I came. Inside. The Lasagna.	None		None	Kitchen	
 	Shit.	None		None	Kitchen	Mute
-	Everything is a mess of tomato sauce, cum and shame... But it felt so good...	None	11	None	Kitchen	
+	Everything is a mess of tomato sauce, cum and shame... But it felt so good...	None	S1-11	None	Kitchen	
 						
 11	I try to clean everything up as good as I can, and then I decide to look for a bathroom to try to recompose...	None		None	Kitchen	Routine
 	...And maybe clean myself better....	None		None	Kitchen	
@@ -77,7 +78,7 @@ Id	Text	Speaker	Action	OnScreen Characters	Background	Music
 	"There you are!"	Keisuke		Keisuke - Happy	School corridor	
 	"Gah!"	Hameru Tabe		Keisuke - Spooked	School corridor	
 	"Oh shit! Is that blood? Are you okay?"	Keisuke		Keisuke - Spooked	School corridor	
-	"Yeah, yeah, I'm fine. This is not my blood. I mean, this is not blood. It is tomato sauce. I accidentaly fell into a Lasagna..."	Hameru Tabe		Keisuke - Spooked	School corridor	
+	"Yeah, yeah, I'm fine. This is not my blood. I mean, this is not blood. It is tomato sauce. I accidentally fell into a Lasagna..."	Hameru Tabe		Keisuke - Spooked	School corridor	
 	"Ahm... what?"	Keisuke		Keisuke - Suspicious	School corridor	
 	"Where is the nearest bathroom?"	Hameru Tabe		Keisuke - Suspicious	School corridor	
 	"You fell... over a Lasagna? Are you Orika-chan?"	Keisuke		Keisuke - Suspicious	School corridor	
@@ -85,12 +86,12 @@ Id	Text	Speaker	Action	OnScreen Characters	Background	Music
 	"Nevermind, you'll eventually meet her. There's a bathroom just over there."	Keisuke		Keisuke - Neutral	School corridor	
 	"Thanks. Can you take me to the dormitories later? I'm not feeling so good."	Hameru Tabe		Keisuke - Neutral	School corridor	
 	"Sure! I'll be waiting right here! If you want, we can go to the infirmary."	Keisuke		Keisuke - Neutral	School corridor	
-	That actually sound like a good idea. I am really not well.	None		Keisuke - Neutral	School corridor	
+	Actually that sounds like a good idea. I am not feeling well.	None		Keisuke - Neutral	School corridor	
 	"Okay, I think I may need something to calm me down. Let me just clean myself up a little on the bathroom."	Hameru Tabe		Keisuke - Neutral	School corridor	
 	"Sure."	Keisuke		Keisuke - Neutral	School corridor	
 	I go to the bathroom as fast as I can, while feeling the tomato sauce running down my legs, inside my pants.	None		None	School corridor	
 	The bathroom seems cleaner than the kitchen. This sterile ambient calms me a little.	None		None	Bathroom	Routine
-	There is someone on one of the sinks, but I just decide to ignore him.	None		None	Bathroom	
+	There is someone using one of the sinks, but I just decide to ignore him.	None		None	Bathroom	
 	I quickly grab some paper towels and go inside a stall to clean me up.	None		None	Bathroom	
 	...	None		None	Bathroom	
 	I sit a little bit on the toilet to try to set my mind straight.	None		None	Bathroom	
@@ -107,7 +108,7 @@ Id	Text	Speaker	Action	OnScreen Characters	Background	Music
 	"Yes, please."	Hameru Tabe		Keisuke - Neutral	School corridor	
 	Keisuke starts walking and talking again. I just follow, trying to make a mental map of this place.	None		Keisuke - Neutral	School corridor	
 	"I'll never be able to find anything here."	Hameru Tabe		Keisuke - Neutral	School corridor	
-	"Of course you will. Look, that corridor over ther are the dorms. And the infirmary is just ahead."	Keisuke		Keisuke - Happy	School corridor	
+	"Of course you will. Look, that corridor over there are the dorms. And the infirmary is just ahead."	Keisuke		Keisuke - Happy	School corridor	
 	"Ok, I'll try to remember this."	Hameru Tabe		Keisuke - Happy	School corridor	
 	We arrive at the infirmary.	None		Keisuke - Happy	School corridor	
 	"I think you can leave me now. The dorms are just over there, I won't get lost around here, I guess."	Hameru Tabe		Keisuke - Happy	School corridor	
@@ -130,25 +131,25 @@ Id	Text	Speaker	Action	OnScreen Characters	Background	Music
 	I notice she looking at my waist. I should've changed clothes before coming here...	None		Orika - Spooked	School corridor	
 	"Oh, what happened to your pants? Is that tomato sauce?"	Orika		Orika - Spooked	School corridor	
 	"No, it's not bloo... wait. IT IS tomato sauce! How did you know?"	Hameru Tabe		Orika - Neutral	School corridor	
-	"Hahaha that happens to me at almost every class from Cavallo-sensei."	Orika		Orika - Embarassed	School corridor	
+	"Hahaha that happens to me at almost every class from Cavallo-sensei."	Orika		Orika - Embarrassed	School corridor	
 	"Let me guess. That's our italian cuisine teacher?"	Hameru Tabe		Orika - Neutral	School corridor	
 	Wonder if he cooked that Lasagna... NO. I need to forget that happened.	None		Orika - Happy	School corridor	
 	"Yes! I've spoken to Cavallo-sensei already: Tomato sauce is one of the worst kinds of stains."	Orika		Orika - Happy	School corridor	
 	"It sticks to your clothing like cheese to a hot pan."	Orika		Orika - Happy	School corridor	
 	"You have to clean it with lemon juice or vinegar. Did you know that?"	Orika		Orika - Happy	School corridor	
 	"Oh, no, I didn't! That's a very good tip! Thanks!"	Hameru Tabe		Orika - Happy	School corridor	
-	"No problem! I know a lot about removing stains because I'm always dropping stuff on my clothes..."	Orika		Orika - Embarassed	School corridor	
-	"That happens, as you can see."	Hameru Tabe		Orika - Embarassed	School corridor	
+	"No problem! I know a lot about removing stains because I'm always dropping stuff on my clothes..."	Orika		Orika - Embarrassed	School corridor	
+	"That happens, as you can see."	Hameru Tabe		Orika - Embarrassed	School corridor	
 	"Yeah, but even I, being as clumsy as I am, never did THAT to any of my pants. There's too much tomato sauce there..."	Orika		Orika - Suspicious	School corridor	
 	"Oh, bet you never fell into a Lasagna then."	Hameru Tabe		Orika - Suspicious	School corridor	
-	"I did, yes. But not with my... privates... I landed with my face..."	Orika		Orika - Embarassed	School corridor	
-	"Oh... sorry about that..."	Hameru Tabe		Orika - Embarassed	School corridor	
+	"I did, yes. But not with my... privates... I landed with my face..."	Orika		Orika - Embarrassed	School corridor	
+	"Oh... sorry about that..."	Hameru Tabe		Orika - Embarrassed	School corridor	
 	"It's okay, I think I grew used to that... Anyway, what was you doing here again?"	Orika		Orika - Neutral	School corridor	
 	I completely forgot about what I actually did to the Lasagna.	None		Orika - Neutral	School corridor	
 	This girl made me feel a little better. Or was it the door slamming on my head and putting everything in its right place?	None		Orika - Neutral	School corridor	
 	"Well, I was feeling a little uneasy, but I think I'm better now. It seems all needed was a door slammed on my face."	Hameru Tabe		Orika - Neutral	School corridor	
-	"Oh... Stop mentioning that..."	Orika		Orika - Embarassed	School corridor	
-	"Sorry. Well, I gotta go, clean up this mess and take a shower."	Hameru Tabe		Orika - Embarassed	School corridor	
+	"Oh... Stop mentioning that..."	Orika		Orika - Embarrassed	School corridor	
+	"Sorry. Well, I gotta go, clean up this mess and take a shower."	Hameru Tabe		Orika - Embarrassed	School corridor	
 	"Sure. Go on then."	Orika		Orika - Happy	School corridor	
 	"Okay, see you around!"	Hameru Tabe		Orika - Happy	School corridor	
 	"Cya!"	Orika		Orika - Happy	School corridor	
@@ -163,11 +164,11 @@ Id	Text	Speaker	Action	OnScreen Characters	Background	Music
 	"It's okay, but can you please get up?"	Hameru Tabe		None	CG - Orika falls over me	
 	"Sorry..."	Orika		Orika - Sad	My room	
 	"Calm down, stop saying 'sorry'"	Hameru Tabe		Orika - Sad	My room	
-	"Oh, sorry.... I mean... Okay... Sorry... Oh shoot..."	Orika		Orika - Embarassed	My room	
-	"What happened?"	Hameru Tabe		Orika - Embarassed	My room	
-	"I forgot to ask your name... I'm always forgetting stuff..."	Orika		Orika - Embarassed	My room	
-	"That's it? I'm Hameru Tabe. Nice to meet you, despite all this fuss haha"	Hameru Tabe		Orika - Embarassed	My room	
-	I try to laugh to lighten things up.	None		Orika - Embarassed	My room	
+	"Oh, sorry.... I mean... Okay... Sorry... Oh shoot..."	Orika		Orika - Embarrassed	My room	
+	"What happened?"	Hameru Tabe		Orika - Embarrassed	My room	
+	"I forgot to ask your name... I'm always forgetting stuff..."	Orika		Orika - Embarrassed	My room	
+	"That's it? I'm Hameru Tabe. Nice to meet you, despite all this fuss haha"	Hameru Tabe		Orika - Embarrassed	My room	
+	I try to laugh to lighten things up.	None		Orika - Embarrassed	My room	
 	"Hahaha, Hameru Tabe! You are funny! Nice to meet you! Bye!"	Orika		Orika - Happy	My room	
 	"Ahm..."	Hameru Tabe		None	My room	
 	As fast as she came, she is gone.	None		None	My room	
@@ -198,7 +199,7 @@ Id	Text	Speaker	Action	OnScreen Characters	Background	Music
 	"Yeah. I was just taking a walk."	Bathroom Girl		Rokuko - Neutral	School corridor	
 	"Me too. I'm Hameru Tabe by the way."	Hameru Tabe		Rokuko - Neutral	School corridor	
 	"Yeah, I know."	Bathroom Girl		Rokuko - Neutral	School corridor	
-	"Wha.. how?" - How come everyone already knows me?	Hameru Tabe		Rokuko - Neutral	School corridor	
+	"What.. how?" - How come everyone already knows me?	Hameru Tabe		Rokuko - Neutral	School corridor	
 	"I just know stuff around here. Don't bother with it."	Bathroom Girl		Rokuko - Showing off	School corridor	
 	"Okay I guess... Well, I should go back to bed."	Hameru Tabe		Rokuko - Showing off	School corridor	
 	"Why?"	Bathroom Girl		Rokuko - Neutral	School corridor	
@@ -209,25 +210,25 @@ Id	Text	Speaker	Action	OnScreen Characters	Background	Music
 	"Oh, it makes sense. So you cook well enough already?"	Hameru Tabe		Rokuko - Showing off	School corridor	
 	"You can bet on it."	Bathroom Girl		Rokuko - Showing off	School corridor	
 	"I'd like to try you food."	Hameru Tabe		Rokuko - Showing off	School corridor	
-	"Oh. For reals?"	Bathroom Girl		Rokuko - Embarassed	School corridor	
-	"Yeah, why not?"	Hameru Tabe		Rokuko - Embarassed	School corridor	
+	"Oh. For reals?"	Bathroom Girl		Rokuko - Embarrassed	School corridor	
+	"Yeah, why not?"	Hameru Tabe		Rokuko - Embarrassed	School corridor	
 	"Okay. I'll prepare you something when I have the time."	Bathroom Girl		Rokuko - Neutral	School corridor	
 	"I'd like that. Thanks. What's your name again?"	Hameru Tabe		Rokuko - Neutral	School corridor	
 	"Aoki Rokuko."	Rokuko		Rokuko - Neutral	School corridor	
 	"Nice meeting you. Can't wait to try your dish."	Hameru Tabe		Rokuko - Neutral	School corridor	
-	"You won' regret it."	Rokuko		Rokuko - Neutral	School corridor	
+	"You won't' regret it."	Rokuko		Rokuko - Neutral	School corridor	
 	"I'll be going now, see ya soon?"	Hameru Tabe		Rokuko - Neutral	School corridor	
 	"Sure. Bye."	Rokuko		Rokuko - Neutral	School corridor	
 	I return to my room, and there is not much left to do, except to sleep.	None		None	My room	Mute
 	I lie down on my bed and can't stop thinking about the Lasagna.	None		None	My room	Mute
 	My cock starts to get hard again.	None		None	CG - Lasagna with dick	Fuck
 	(rattles rattles) (bump)	None		None	My room	
-	What? Is someone trying to open my door?	None	12	None	My room	Mute
+	What? Is someone trying to open my door?	None	S1-12	None	My room	Mute
 						
 12	(knock knock knock)	None		None	My room	
 	Open it?	None		None	My room	
-	[OPT] Open	None	13	None	My room	
-	[OPT] Don't open	None	12	None	My room	
+	[OPT] Open	None	S1-13	None	My room	
+	[OPT] Don't open	None	S1-12	None	My room	
 						
 13	"Keisuke???"	Hameru Tabe		Keisuke - Wasted	My room	Routine
 	"Oh! Hey Hameru Tabe! I think I got confused. Isn't this the infirmary?"	Keisuke		Keisuke - Wasted	My room	
@@ -245,14 +246,13 @@ Id	Text	Speaker	Action	OnScreen Characters	Background	Music
 	"Another vomiting?"	Hameru Tabe		None	My room	
 	He comes back with some vomit on his shirt.	None		Keisuke - Puked	My room	
 	"HAHAHA oh man, you're funny. No, another drink! Let's go, follow me!"	Keisuke		Keisuke - Puked	My room	
-	[OPT] Follow him	None	13	Keisuke - Puked	My room	
-	[OPT] Don't follow him	None	14	Keisuke - Puked	My room	
+	[OPT] Follow him	None	S1-15	Keisuke - Puked	My room	
+	[OPT] Don't follow him	None	S1-14	Keisuke - Puked	My room	
 						
 14	"Nah, I better go to bed. We have classes tomorrow..."	Hameru Tabe	SET K I	Keisuke - Puked	My room	
 	"You know what man? You are right. Sorry for annoying you! Good night!	Keisuke		Keisuke - Puked	My room	
 	"Good night! Be well!" - I say this and close the door. I just want to sleep.	Hameru Tabe		Keisuke - Puked	My room	
-	As soon as my head touches my pillow, I fall sleep.	None		None	My room	Mute
-		None	PUSH S2	None	CG - Day 1 Completed!	
+	As soon as my head touches my pillow, I fall asleep.	None	S1-21	None	My room	Mute
 						
 15	"Okay, why not. But we should change your shirt."	Hameru Tabe		Keisuke - Puked	My room	
 	"Oh... This?"	Keisuke		Keisuke - Puked	My room	
@@ -261,7 +261,7 @@ Id	Text	Speaker	Action	OnScreen Characters	Background	Music
 	His chest is awesome. Wish I had the discipline to build a body like that.	None		Keisuke - Shirtless	My room	
 	"So, I need to eat something. You know what they say about drinking on an empty stomach!"	Keisuke		Keisuke - Shirtless	My room	
 	"But... Okay, you just puked, so your stomach must be empty. I don't know if that's how it works, but okay."	Hameru Tabe		Keisuke - Shirtless	My room	
-	"Let's go alredy!"	Keisuke		Keisuke - Shirtless	My room	
+	"Let's go already!"	Keisuke		Keisuke - Shirtless	My room	
 	We leave my room and go towards the kitchen.	None		Keisuke - Shirtless	School corridor	
 	Keisuke trips along the way, but we eventually arrive.	None		Keisuke - Shirtless	School corridor	
 	"Okay, so what should I cook for you?"	Hameru Tabe		Keisuke - Shirtless	Kitchen	
@@ -279,33 +279,33 @@ Id	Text	Speaker	Action	OnScreen Characters	Background	Music
 	"Hey man, get me some shrooms as well!"	Keisuke		Keisuke - Shirtless	Kitchen	
 	"Okay!"	Hameru Tabe		Keisuke - Shirtless	Kitchen	
 	I come back with the ingredients, and he starts mixing everything as it should.	None		Keisuke - Shirtless	Kitchen	
-	As he starts form the patties, I notice he is making four burguers.	None		Keisuke - Shirtless	Kitchen	
+	As he starts form the patties, I notice he is making four burgers.	None		Keisuke - Shirtless	Kitchen	
 	"I'm not eating, remember?"	Hameru Tabe		Keisuke - Shirtless	Kitchen	
 	"Oh shoot! I forgot. Well, I can eat four, no problem!"	Keisuke		Keisuke - Shirtless	Kitchen	
-	His burguers are coming up quite pretty, I might as well eat one.	None		Keisuke - Shirtless	Kitchen	
+	His burgers are coming up quite pretty, I might as well eat one.	None		Keisuke - Shirtless	Kitchen	
 	"Time to fire it up!"	Keisuke		Keisuke - Shirtless	Kitchen	
-	He starts grilling the burguers. They smell fine. Not great, but I mean, it's very hard to fuck up a burguer.	None		None	Kitchen	
+	He starts grilling the burgers. They smell fine. Not great, but I mean, it's very hard to fuck up a burger.	None		None	Kitchen	
 	Unless you overcook it or...	None		None	Kitchen	
 	"Blaaargh..."	Keisuke		None	Kitchen	
 	"What? I was not looking! What happened?"	Hameru Tabe		Keisuke - Shirtless	Kitchen	
 	"Cof... cof... oh, nothing, everything is fine."	Keisuke		Keisuke - Shirtless	Kitchen	
 	Did he... puked on the grill?	None		Keisuke - Shirtless	Kitchen	
 	"Okay, ready for consumption! You sure you don't want one?"	Keisuke		Keisuke - Shirtless	Kitchen	
-	"Yup." - I was considering eating one, untill that 'blaargh'.	Hameru Tabe		Keisuke - Shirtless	Kitchen	
+	"Yup." - I was considering eating one, until that 'blaargh'.	Hameru Tabe		Keisuke - Shirtless	Kitchen	
 	"Your loss!"	Keisuke		Keisuke - Shirtless	Kitchen	
 	He starts eating savagely.	None		Keisuke - Shirtless	Kitchen	
-	The first burguer is gone.	None		Keisuke - Shirtless	Kitchen	
+	The first burger is gone.	None		Keisuke - Shirtless	Kitchen	
 	The second one as well.	None		Keisuke - Shirtless	Kitchen	
 	The third one.. oh wat?	None		Keisuke - Shirtless	Kitchen	
-	He starts running towards the door with a burguer on his hand.	None		Keisuke - Shirtless	Kitchen	
+	He starts running towards the door with a burger on his hand.	None		Keisuke - Shirtless	Kitchen	
 	"Gosh... I'll be right back."	Keisuke		Keisuke - Shirtless	Kitchen	
 	Maybe he went to puke? Hope he finds his way to the bathroom this time...	None		None	Kitchen	
 	Anyway, let me take a look at his burguer.	None		None	Kitchen	
 	Hm.	None		None	Kitchen	Mute
 	Wonder if Keisuke cooked the Lasagna...	None		None	Kitchen	
-	Maybe if I... Test his burguer with my dick...	None		None	Kitchen	
-	[OPT] Check Burguer	None	17	None	Kitchen	
-	[OPT] Wait for Keisuke	None	16	None	Kitchen	
+	Maybe if I... Test his burger with my dick...	None		None	Kitchen	
+	[OPT] Check Burguer	None	S1-17	None	Kitchen	
+	[OPT] Wait for Keisuke	None	S1-16	None	Kitchen	
 						
 16	...	None	SET K F	None	Kitchen	
 	...	None		None	Kitchen	
@@ -346,48 +346,57 @@ Id	Text	Speaker	Action	OnScreen Characters	Background	Music
 	I would try (and fail) to carry him, but he is managing to drag himself, I think I just need to steer him on the right directions.	None		Keisuke - Puked	School corridor	
 	...	None		None	School corridor	
 	That was tiring, but he is safe and sound inside his room. And I am on mine.	None		None	My room	
-	Time to sleep, finally. It's almost morning already...	None	21	None	My room	
+	Time to sleep, finally. It's almost morning already...	None	S1-21	None	My room	
 						
 17	I look at his burguer. It sure looks good.	None	SET K L	None	Kitchen	Fuck
 	I think all the puking has turned me down...	None		None	Kitchen	
 	I can't get a hard on.	None		None	Kitchen	Mute
 	I try to smell the burguer. It smells fine.	None		None	Kitchen	
 	I grab the burguer. It is firm and well structured, despite the drunkenness of the chef who prepared it.	None		None	Kitchen	
-	[OPT] Eat burguer	None	19	None	Kitchen	
-	[OPT] Fuck burguer	None	18	None	Kitchen	
+	[OPT] Eat burger	None	S1-19	None	Kitchen	
+	[OPT] Fuck burguer	None	S1-18	None	Kitchen	
 						
 18	I don't think Keisuke is the one who did the Lasagna... He said himself, he knows only junk food.	None		None	Kitchen	
 	But it will not hurt to try, I guess.	None		None	Kitchen	Fuck
-	I start caressing my dick over my pants.	None	20	None	Kitchen	
+	I start caressing my dick over my pants.	None	S1-20	None	Kitchen	
 						
 19	What if he puked on the Burguer?	None		None	Kitchen	
-	Oh, it is so well built...	None	20	None	Kitchen	
+	Oh, it is so well built...	None	S1-20	None	Kitchen	
 						
 20	"Hey man! I'm back! I'm feeling better now! HEY! Are you eating my burguer?"	Keisuke		Keisuke - Shirtless	Kitchen	Routine
 	"Oh! Yes!" - I take a big bite just to make sure he believes me. - "It's delicious!"	Hameru Tabe		Keisuke - Shirtless	Kitchen	
-	In fact, it is really delicious. Puke or no puke, this Burguer is awesome.	None		Keisuke - Shirtless	Kitchen	
-	"Really? Nobody never tastes my dishes..."	Keisuke		Keisuke - Shirtless	Kitchen	
+	In fact, it is really delicious. Puke or no puke, this Burger is awesome.	None		Keisuke - Shirtless	Kitchen	
+	"Really? Nobody ever tries my dishes..."	Keisuke		Keisuke - Shirtless	Kitchen	
 	"Why?"	Hameru Tabe		Keisuke - Shirtless	Kitchen	
 	"Dunno. Maybe they think that because I take care of my body, I am a terrible cook."	Keisuke		Keisuke - Shirtless	Kitchen	
 	"Well, you are not."	Hameru Tabe		Keisuke - Shirtless	Kitchen	
 	"Thanks!"	Keisuke		Keisuke - Shirtless	Kitchen	
-	"And your body is, indeed, very nice. I wish I could mantain a body like that."	Hameru Tabe		Keisuke - Shirtless	Kitchen	
+	"And your body is, indeed, very nice. I wish I could maintain a body like that."	Hameru Tabe		Keisuke - Shirtless	Kitchen	
+	"Th-Thanks man! Hahaha"	Keisuke		Keisuke - Shirtless		
+	Keisuke seems a little nervous.	None		Keisuke - Shirtless		
+	"Yours isn't half as bad actually. I like slim built guys."	Keisuke		Keisuke - Shirtless		
+	What? Did he just say he likes... guys? Guys like me...?	None				
+	It's probably just the alcohol speaking.	None				
+	Still... A guy like him... Into me...	None				
+	...	None				
+	I notice we just made a huge mess in the kitchen and we need to clean this up SOON.	None				
+	"Umm... Keisuke... we really can't leave all this mess behind"	Hameru Tabe				
+	"Oh, right!  I gotta take care of the dishes."	Keisuke		Keisuke - Shirtless		
+	"Hey man, whaddya say you help me with this and we'll get it over with before you can say "GUACUM MOLE"! Hahahaha!"	Keisuke		Keisuke - Shirtless		
+	"Hahahahaha!"	Hameru Tabe		Keisuke - Shirtless		
+	We both laugh.	None				
+	...	None				
+	We quickly get to the cleaning. Keisuke does the dishes and I dry them off and put them away.	None				
+	As I walked to the cabinet I feel a splash on my back...	None				
+	He he he he...	Keisuke				
+		Hameru Tabe				
 						
 	WASH DISHES					
-						
 	WATER FIGHT					
 	DRIPPING WET					
 	BOTH NAKED					
 	"WHOSE FAULT" FIGHT					
 	SEX					
+	Gosh, that was crazy. I need some sleep...	None	S1-21	None	My room	
 						
-						
-						
-						
-						
-						
-						
-	Gosh, that was crazy. I need some sleep...	None	21	None	My room	
-						
-21	...zzz	None		None	My room	
-		None	PUSH S2	None	CG - Day 1 Completed!	
+21	...zzz	None	S2-1	None	My room	

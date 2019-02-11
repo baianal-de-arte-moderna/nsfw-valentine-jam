@@ -1,47 +1,86 @@
-{
-  "commandData": [
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "I continue thrusting the Lasagna. This feels so wrong and so good at the same time."
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "..."
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "name": "Hameru Tabe",
-        "messageText": "\"Ughn...\""
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "I came. Inside. The Lasagna."
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "Shit."
-      }
-    },
-    {
-      "command": "message",
-      "parameters": {
-        "messageText": "Everything is a mess of tomato sauce, cum and shame... But it felt so good..."
-      }
-    },
-    {
-      "command": "push_story",
-      "parameters": {
-        "storyName": "S1-11"
-      }
+[
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Fuck"
     }
-  ]
-}
+  }, 
+  {
+    "command": "characters", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "CG - Lasagna with dick"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I continue thrusting the Lasagna. This feels so wrong and so good at the same time.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "\"Ughn...\"", 
+      "name": "Hameru Tabe"
+    }
+  }, 
+  {
+    "command": "hide_prompt", 
+    "parameters": {}
+  }, 
+  {
+    "command": "pause", 
+    "parameters": {}
+  }, 
+  {
+    "command": "background", 
+    "parameters": {
+      "imageName": "Kitchen"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "I came. Inside. The Lasagna.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "music", 
+    "parameters": {
+      "snapshotName": "Mute"
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Shit.", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "message", 
+    "parameters": {
+      "message": "Everything is a mess of tomato sauce, cum and shame... But it felt so good...", 
+      "name": ""
+    }
+  }, 
+  {
+    "command": "push_story", 
+    "parameters": {
+      "storyName": "S1-11"
+    }
+  }
+]
