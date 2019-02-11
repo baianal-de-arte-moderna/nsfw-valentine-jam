@@ -3,7 +3,7 @@
     {
       "command": "background",
       "parameters": {
-        "imageName": "blackscreen"
+        "imageName": "Black screen"
       }
     },
     {
@@ -17,9 +17,6 @@
       "parameters": {
         "messageText": "1"
       }
-    },
-    {
-      "command": "ending"
     },
     {
       "command": "characters",
