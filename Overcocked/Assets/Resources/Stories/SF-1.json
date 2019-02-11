@@ -1,0 +1,21 @@
+[
+  {
+    "command": "background",
+    "parameters": {
+      "imageName": "Black screen"
+    }
+  },
+  {
+    "command": "characters",
+    "parameters": {}
+  },
+  {
+    "command": "message",
+    "parameters": {
+      "message": "Coming soon!"
+    }
+  },
+  {
+    "command": "ending"
+  }
+]
