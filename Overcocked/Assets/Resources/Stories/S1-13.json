@@ -142,8 +142,8 @@
   {
     "command": "choice", 
     "parameters": {
-      "button0Text": "[OPT] Follow him", 
-      "button1Text": "[OPT] Don't follow him", 
+      "button0Text": "Follow him", 
+      "button1Text": "Don't follow him", 
       "button1StoryName": "S1-14", 
       "button0StoryName": "S1-15"
     }

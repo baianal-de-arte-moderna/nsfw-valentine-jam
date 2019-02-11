@@ -146,7 +146,7 @@ class Scene:
             if (self._current_options == None):
                 self._current_options = []
 
-            message.replace(OPT_MARKER, '')
+            message = message.replace(OPT_MARKER, '')
             self._current_options.append([ message, action ])
 
         else:
