@@ -1,5 +1,5 @@
 // vim: set ts=2 sts=2 sw=2 expandtab:
-using Newtonsoft.Json;
+using MiniJSON;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -77,7 +77,26 @@ public class StoryInterpreter : MonoBehaviour
 
   private List<Command> LoadStoryCommands(TextAsset story)
   {
-    List<CommandData> storyData = JsonConvert.DeserializeObject<List<CommandData>>(story.text);
+    List<CommandData> storyData = new List<CommandData>();
+
+    List<object> storyJson = (List<object>)Json.Deserialize(story.text);
+    foreach (Dictionary<string, object> commandJson in storyJson)
+    {
+      CommandData commandData = new CommandData
+      {
+        command = (string)commandJson["command"],
+        parameters = new Dictionary<string, string>()
+      };
+
+      Dictionary<string, object> parameterJson = (Dictionary<string, object>)commandJson["parameters"];
+      foreach (string parameterName in parameterJson.Keys)
+      {
+        commandData.parameters[parameterName] = (string)parameterJson[parameterName];
+      }
+
+      storyData.Add(commandData);
+    }
+
     return storyData.Select(CommandFactory.CreateCommand).ToList();
   }
 
